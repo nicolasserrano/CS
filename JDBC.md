@@ -129,7 +129,7 @@ url:  jdbc:derby://localhost:1527/d:/folderpath//Java/ClientDB;create=true
 - Using Dygraph library [run](https://nicolasserrano.github.io/CS/JavaScript/graphics/newton.html) [source](JavaScript/graphics/newton.html)
 - [Google charts](https://developers.google.com/chart/interactive/docs/gallery) [example in SMR](http://smr-project-test.appspot.com/UserPage?PageKey=5677751478517760)
 - [Raphael JS](http://dmitrybaranovskiy.github.io/raphael/) [Basic example](https://nicolasserrano.github.io/CS/JavaScript/graphics/basicRaphael.html)
-- [D3.js](https://d3js.org/) [Tutorial](https://www.dashingd3js.com/table-of-contents) [Book: Interactive Data Visualization for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345) [online](http://chimera.labs.oreilly.com/books/1230000000345/index.html) [(en castellano)](http://gcoch.github.io/D3-tutorial/)
+- [D3.js](https://d3js.org/) [Tutorial](https://www.dashingd3js.com/table-of-contents) [Book: Interactive Data Visualization for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345) [online](http://chimera.labs.oreilly.com/books/1230000000345/index.html) [index in pdf](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449339739_sampler.pdf)
 - [Other libraries](https://www.slant.co/versus/10577/140/~d3-js_vs_raphael)
 
 ### SOA (Service Oriented Architecture)
