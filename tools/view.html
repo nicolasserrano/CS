@@ -23,7 +23,7 @@
           if (xmlhttp.readyState==4 && xmlhttp.status==200) {
             str =  xmlhttp.responseText;
             str = str.replace(/^#/gm, "---\n#");
-            document.getElementById("source").innerHTML = "class: center, middle" + str;
+            document.getElementById("source").innerHTML = "class: center, middle\n\n" + str;
           }
           slideshow = remark.create();
           var links = document.getElementsByTagName('a');
