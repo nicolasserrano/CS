@@ -24,13 +24,13 @@
             str =  xmlhttp.responseText;
             str = str.replace(/^#/gm, "---\n#");
             document.getElementById("source").innerHTML = "class: center, middle\n\n" + str;
-          }
-          slideshow = remark.create();
-          var links = document.getElementsByTagName('a');
-          var len = links.length;
+            slideshow = remark.create();
+            var links = document.getElementsByTagName('a');
+            var len = links.length;
 
-          for(var i=0; i<len; i++) {
-             links[i].target = "_blank";
+            for(var i=0; i<len; i++) {
+               links[i].target = "_blank";
+            }
           }
       }
       var urlSearch = window.location.search.substring(1);
