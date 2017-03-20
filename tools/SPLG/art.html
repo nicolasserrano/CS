@@ -61,10 +61,11 @@ function soporte_articulado(P) {
 <button onclick="clearInterval(myVar)">Stop time</button>
 
 <script>
-var myVar = setInterval(myTimer ,10);
+var myVar = setTimeout(myTimer ,0);
 function myTimer() {
     alpha += .01;
     d1()
+    myVar = setTimeout(myTimer ,0);
 }
 </script>
 
