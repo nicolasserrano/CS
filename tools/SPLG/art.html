@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='https://nicolasserrano.github.io/CS/tools/SPLG/splg.js'></script>
+</head>
+<body>
+
+<canvas id="myCanvas" width="400" height="300" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+</body>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+var alpha = .4;
+function d1() {
+ctx.setTransform(1, 0, 0, 1, 0, 0);
+ctx.clearRect(0, 0, c.width, c.height);
+ctx.translate(100,200);  // 100 more
+pa1 = point(0,0)
+pa3 = point(160,00)
+r=80;
+pa4 =point(Math.sin(alpha)*r,Math.cos(alpha)*r)
+pa5 =point(160 + Math.sin(alpha)*r,0 + Math.cos(alpha)*r)
+soporte_articulado(pa1);
+soporte_articulado(pa3);
+dline(pa1,pa4);
+dline(pa4,pa5);
+dline(pa5,pa3);
+darc(pa4,10,Math.PI*2);
+darc(pa5,10,Math.PI*2);
+}
+
+function soporte_articulado(P) {
+  ctx.translate(P.x, P.y)
+  P0 = point(0,0)
+  P1 = point(0,-20)
+  darc(P0,1,Math.PI*2)
+  darc(P0,10,Math.PI*2)
+  darc(P0,20,Math.PI)
+  line1 = line(P0,P1)
+  //drawline(line1);
+  translate(line1,  20, 0)
+  translate(line1, -20, 0)
+  P2 = point(-30,-20)
+  P3 = point(30,-20)
+  P4 = point(-3,-4)
+  P5 = point(3,-4)
+  dline(P2,P3)
+  //pattern(line45,P2,P3,P4,P5)
+  ctx.translate(-P.x, -P.y)
+}
+
+
+</script>
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+<script>
+var myVar = setInterval(myTimer ,10);
+function myTimer() {
+    alpha += .01;
+    d1()
+}
+</script>
+
+</html>
