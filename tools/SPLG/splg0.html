@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,9 +28,21 @@ dtext(point1, "P1")
 dtext(point2, "P2")
 dtext(point3, "P3")
 
-soporte_articulado(point(0,0));
-soporte_articulado(point(100,0));
-soporte_articulado(point(160,30));
+ctx.translate(00,100);  // 100 more
+
+pa1 = point(0,0)
+pa2 = point(100,0)
+pa3 = point(160,30)
+pa4 =point(60,80)
+pa5 =point(120,60)
+soporte_articulado(pa1);
+soporte_articulado(pa2);
+soporte_articulado(pa3);
+dline(pa1,pa4);
+dline(pa4,pa5);
+dline(pa5,pa3);
+darc(pa4,10,Math.PI*2);
+darc(pa5,10,Math.PI*2);
 
 function soporte_articulado(P) {
   ctx.translate(P.x, P.y)
