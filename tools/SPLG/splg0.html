@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='https://nicolasserrano.github.io/CS/tools/SPLG/splg.js'></script>
+</head>
+<body>
+
+<canvas id="myCanvas" width="400" height="300" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+</body>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.translate(100,120);
+
+// triangle
+point1 = point(50,50);
+point2 = point(150,80);
+point3 = point(25,90);
+dline(point1, point2)
+dline(point2, point3)
+dline(point3, point1)
+dtext(point1, "P1")
+dtext(point2, "P2")
+dtext(point3, "P3")
+
+soporte_articulado(point(0,0));
+soporte_articulado(point(100,0));
+soporte_articulado(point(160,30));
+
+function soporte_articulado(P) {
+  ctx.translate(P.x, P.y)
+  P0 = point(0,0)
+  P1 = point(0,-20)
+  darc(P0,1,Math.PI*2)
+  darc(P0,10,Math.PI*2)
+  darc(P0,20,Math.PI)
+  line1 = line(P0,P1)
+  //drawline(line1);
+  translate(line1,  20, 0)
+  translate(line1, -20, 0)
+  P2 = point(-30,-20)
+  P3 = point(30,-20)
+  P4 = point(-3,-4)
+  P5 = point(3,-4)
+  dline(P2,P3)
+  //pattern(line45,P2,P3,P4,P5)
+  ctx.translate(-P.x, -P.y)
+}
+
+</script>
+</html>
