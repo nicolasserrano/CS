@@ -79,7 +79,12 @@ ODBC driver in JDBC:
 java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo
 
 ### PreparedStatement  
-[PreparedStatement](http://svn.apache.org/repos/asf/db/derby/code/trunk/java/demo/toursdb/insertMaps.java)
+[PreparedStatement](http://svn.apache.org/repos/asf/db/derby/code/trunk/java/demo/toursdb/insertMaps.java)  
+```
+    ServletContext context = getServletConfig( ).getServletContext();
+    String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("`Libros.mdb"));
+
+```
 
 ### Derby  
 ```
