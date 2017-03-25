@@ -76,15 +76,14 @@ Lab: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica
 
 ###   jdbc:odbc without DSN
 ODBC driver in JDBC:
-java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo
+java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
+```
+    ServletContext context = getServletConfig( ).getServletContext();
+    String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
+```
 
 ### PreparedStatement  
 [PreparedStatement](http://svn.apache.org/repos/asf/db/derby/code/trunk/java/demo/toursdb/insertMaps.java)  
-```
-    ServletContext context = getServletConfig( ).getServletContext();
-    String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("`Libros.mdb"));
-
-```
 
 ### Derby  
 ```
