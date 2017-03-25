@@ -78,8 +78,8 @@ Lab: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica
 ODBC driver in JDBC:
 java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
 ```
-    ServletContext context = getServletConfig( ).getServletContext();
-    String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
+ServletContext context = getServletConfig( ).getServletContext();
+String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
 
 ### PreparedStatement  
