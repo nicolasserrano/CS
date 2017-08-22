@@ -1,4 +1,4 @@
-# CS
+# CS [https://nicolasserrano.github.io/CS](https://nicolasserrano.github.io/CS)
 Computer Science
 
 - [El ordenador](https://nicolasserrano.github.io/c5i/Notas)
