@@ -88,7 +88,7 @@ document.body.innerHTML
 - [Reference from mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
 ## Resouces
-- [JavaScript in One Page](JavaScript/JavascriptOnePage.pdf)
+- [JavaScript in One Page (http://tiny.cc/javascript)](JavaScript/JavascriptOnePage.pdf)
 - [Beginner tutorials](http://elijahmanor.com/beginner-html5-javascript-jquery-backbone-and-css3-resources/)
 - [Add target](http://stackoverflow.com/questions/6822945/add-target-blank-to-link-with-javascript)
 - [Read a local file](https://www.html5rocks.com/en/tutorials/file/dndfiles/)
