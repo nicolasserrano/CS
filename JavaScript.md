@@ -92,7 +92,7 @@ document.body.innerHTML
 - [Beginner tutorials](http://elijahmanor.com/beginner-html5-javascript-jquery-backbone-and-css3-resources/)
 - [Add target](http://stackoverflow.com/questions/6822945/add-target-blank-to-link-with-javascript)
 - [Read a local file](https://www.html5rocks.com/en/tutorials/file/dndfiles/)
-- [Read a local file2](https://www.html5rocks.com/en/tutorials/file/dndfiles/)
+- [Read a local file2](JavaScript/graphics/canvas.html)
 - [Drawing of sin function with Canvas] (JavaScript/graphics/canvas.html)
 - [Drawing with Raphael JavaScript library] (http://dmitrybaranovskiy.github.io/raphael/)
 - [Charts with Dygraph](http://dygraphs.com/gallery/#g/plotter)
