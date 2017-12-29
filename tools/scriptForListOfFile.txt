@@ -1,0 +1,11 @@
+It doesn't work in github.com page
+
+<script>
+
+t=document.getElementsByClassName("files")[0]
+links=t.tBodies[1].getElementsByClassName("js-navigation-open")
+a0.href=a0.href.replace('github.com/nicolasserrano','nicolasserrano.github.io').replace('blob/master/','')
+for (var i=0; i < links.length; i++) {
+  document.createElement('a');
+}
+</script>
