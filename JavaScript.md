@@ -79,6 +79,8 @@ Clear screen:
 ```
 document.body.innerHTML
 ```
+API examples:
+- [it books](http://it-ebooks-api.info/)
 
 ## DOM Manipulation
 - [Basic tutorial](http://callmenick.com/post/basics-javascript-dom-manipulation)
