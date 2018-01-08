@@ -86,7 +86,7 @@ javac HelloWorld.java
    startup
    ```
 
-7. Start the browser and write the address:
+7. Start the browser and write the address:  
 [http://localhost:8080/Servlet1/start](http://localhost:8080/Servlet1/start)
 
 ## Run from pendrive 
