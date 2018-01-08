@@ -10,7 +10,7 @@
    SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
    SET CATALINA_HOME=P:\apache-tomcat-8.5.24
    SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-   SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;.
+   SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;%CATALINA_HOME%\common\lib\Jama-1.0.2.jar;.
    ```  
    It's recommended to save the previous statements in a bat file (example: sv.bat) 
     
@@ -94,3 +94,21 @@ javac HelloWorld.java
    ```
    http://localhost:8080/Servlet1/start
    ```
+
+## Run from pendrive 
+To execute the Java progrmas from a pendrive follow the next steps:
+1. Copy the Q:\Java folder to your pendrive
+2. Inserte the pendrive into your computer.
+3. See the letter asigned to your pendrive. Example: F
+4. Change to that drive: >F:
+5. Execute the .bat file with the definition of the variables
+
+The content of the .bat file, for example s.bat, can be:  
+
+```
+SET DRIVE=%cd:~0,3%
+SET JAVA_HOME=%DRIVE%Java\jdk1.7.0_51
+SET CATALINA_HOME=%DRIVE%Java\apache-tomcat-8.5.24
+SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
+SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;%CATALINA_HOME%\common\lib\Jama-1.0.2.jar;.
+```
