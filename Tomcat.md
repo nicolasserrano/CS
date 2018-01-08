@@ -26,12 +26,11 @@ http://localhost:8080
 
 **Create a Servlet**
 
-0. Steps 0 of Start Tomcat
+0. Steps 0 of Start Tomcat  
 
-1. Steps 1 of Start Tomcat
+1. Steps 1 of Start Tomcat  
 
-2. Create the folder structure of  "Servlet1" application in the Tomcat installation
-
+2. Create the folder structure of  "Servlet1" application in the Tomcat installation  
 - Create folder "Servlet1" in webapps folder of Tomcat  
 - Create folder WEB-INF in webapps\Servlet1\ folder  
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
@@ -53,8 +52,9 @@ public class HelloWorld extends HttpServlet{
 ```
 
 4. Compile with the command javac:
-
+```
 javac HelloWorld.java
+```
 
 5. Create the **web.xml** file in P:\apache-tomcat-5.5.12\webapps\Servlet1\WEB-INF folder:
 
@@ -76,9 +76,11 @@ javac HelloWorld.java
 ```
 
 6. Start the Tomcat server as in step 3 of Start Tomcat:
-
+```
 startup
+```
 
 7. Start the browser and write the address:
-
+```
 http://localhost:8080/Servlet1/start
+```
