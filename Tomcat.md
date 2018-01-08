@@ -6,6 +6,7 @@
 
 1.Define the environment variables en the MS-DOS console:
 
+```batch
 set JAVA_HOME=Q:\JAVA\jdk1.6.0_04
 
 set CATALINA_HOME=P:\apache-tomcat-5.5.12
@@ -13,6 +14,7 @@ set CATALINA_HOME=P:\apache-tomcat-5.5.12
 SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
 
 SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;.
+```
 
 2. Start the Tomcat server with the command:
 
