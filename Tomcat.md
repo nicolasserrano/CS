@@ -66,30 +66,30 @@ javac HelloWorld.java
 
 5. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
 
-```xml
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<web-app>
+   ```xml
+   <?xml version="1.0" encoding="ISO-8859-1"?>
+   <web-app>
 
-<servlet>
-  <servlet-name>primer</servlet-name>
-  <servlet-class>HelloWorld</servlet-class>
-</servlet>
+   <servlet>
+     <servlet-name>primer</servlet-name>
+     <servlet-class>HelloWorld</servlet-class>
+   </servlet>
 
-<servlet-mapping>
-  <servlet-name>primer</servlet-name>
-  <url-pattern>/start</url-pattern>
-</servlet-mapping>
-</web-app>
-```
+   <servlet-mapping>
+     <servlet-name>primer</servlet-name>
+     <url-pattern>/start</url-pattern>
+   </servlet-mapping>
+   </web-app>
+   ```
 
 6. Start the Tomcat server as in step 3 of Start Tomcat:  
 
-```
-startup
-```
+   ```
+   startup
+   ```
 
 7. Start the browser and write the address:
 
-```
-http://localhost:8080/Servlet1/start
-```
+   ```
+   http://localhost:8080/Servlet1/start
+   ```
