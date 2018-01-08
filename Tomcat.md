@@ -4,7 +4,7 @@
 
 0. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
 
-1. Define the environment variables en the MS-DOS console:3
+1. Define the environment variables en the MS-DOS console:4
 
   ```batch  
   SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
@@ -35,12 +35,12 @@ http://localhost:8080
 - Create folder WEB-INF in webapps\Servlet1\ folder  
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
 
-```
-└── Servlet1
-│   └── WEF-INF
-│       └── web.xml
-│       └── classes
-```
+  ```
+  └── Servlet1
+  │   └── WEF-INF
+  │       └── web.xml
+  │       └── classes
+  ```
 
 3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
 HelloWorld.java
