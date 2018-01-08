@@ -2,11 +2,11 @@
 
 **Start Tomcat**
 
-0. Copy the folder Q:\Java\apache-tomcat-5.5.12 to folder P:\
+0. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
 
 1. Define the environment variables en the MS-DOS console:
 
-```batch
+````batch
 SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
 SET CATALINA_HOME=P:\apache-tomcat-8.5.24
 SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
@@ -56,7 +56,7 @@ public class HelloWorld extends HttpServlet{
 javac HelloWorld.java
 ```  
 
-5. Create the **web.xml** file in P:\apache-tomcat-5.5.12\webapps\Servlet1\WEB-INF folder:  
+5. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
