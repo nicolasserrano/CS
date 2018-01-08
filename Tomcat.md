@@ -4,7 +4,7 @@
 
 0. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
 
-1. Define the environment variables en the MS-DOS console:5
+1. Define the environment variables en the MS-DOS console:
 
    ```batch  
    SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
@@ -12,6 +12,7 @@
    SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
    SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;.
    ```  
+   It's recommended to save the previous statements in a bat file (example: sv.bat) 
     
 2. Start the Tomcat server with the command:
 ```
