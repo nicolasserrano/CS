@@ -54,9 +54,10 @@ public class HelloWorld extends HttpServlet{
 4. Compile with the command javac:  
 ```
 javac HelloWorld.java
-```
+```  
 
 5. Create the **web.xml** file in P:\apache-tomcat-5.5.12\webapps\Servlet1\WEB-INF folder:  
+
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app>
