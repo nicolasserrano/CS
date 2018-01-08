@@ -34,9 +34,7 @@ http://localhost:8080
 - Create folder "Servlet1" in webapps folder of Tomcat  
 - Create folder WEB-INF in webapps\Servlet1\ folder  
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
-
 ```
-.
 └── Servlet1
 │   └── WEF-INF
 │       └── web.xml
