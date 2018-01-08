@@ -19,10 +19,10 @@
 startup
 ```
 
-3. Start the browser and write the address:
+3. Start the browser and write the address:  
 [http://localhost:8080(]http://localhost:8080)  
 
-**Create a Servlet**
+**Create a Servlet**f
 
 0. Steps 0 of Start Tomcat  
 
