@@ -75,11 +75,13 @@ javac HelloWorld.java
 ```
 
 6. Start the Tomcat server as in step 3 of Start Tomcat:  
+
 ```
 startup
 ```
 
 7. Start the browser and write the address:
+
 ```
 http://localhost:8080/Servlet1/start
 ```
