@@ -20,9 +20,7 @@ startup
 ```
 
 3. Start the browser and write the address:2
-```
-[http://localhost:8080(]http://localhost:8080)
-```
+   [http://localhost:8080(]http://localhost:8080)
   
 
 **Create a Servlet**
