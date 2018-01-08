@@ -22,7 +22,7 @@ startup
 3. Start the browser and write the address:  
 [http://localhost:8080](http://localhost:8080)  
 
-**Create a Servlet**f
+**Create a Servlet**
 
 0. Steps 0 of Start Tomcat  
 
@@ -43,19 +43,19 @@ startup
 3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
 HelloWorld.java
 
-    ```java
-    import java.io.*;
-    import javax.servlet.*;
-    import javax.servlet.http.*;
+   ```java
+   import java.io.*;
+   import javax.servlet.*;
+   import javax.servlet.http.*;
 
-    public class HelloWorld extends HttpServlet{
-        public void doGet(HttpServletRequest request, HttpServletResponse response)
-          throws ServletException, IOException {
-            PrintWriter out = response.getWriter();
-            out.println("Hello World");
-        }
-    }
-    ```  
+   public class HelloWorld extends HttpServlet{
+       public void doGet(HttpServletRequest request, HttpServletResponse response)
+         throws ServletException, IOException {
+           PrintWriter out = response.getWriter();
+           out.println("Hello World");
+       }
+   }
+   ```  
 
 4. Compile with the command javac:  
 ```
@@ -87,10 +87,7 @@ javac HelloWorld.java
    ```
 
 7. Start the browser and write the address:
-
-   ```
-   http://localhost:8080/Servlet1/start
-   ```
+[http://localhost:8080/Servlet1/start](http://localhost:8080/Servlet1/start)
 
 ## Run from pendrive 
 To execute the Java progrmas from a pendrive follow the next steps:
