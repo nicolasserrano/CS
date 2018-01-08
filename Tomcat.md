@@ -4,7 +4,7 @@
 
 0. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
 
-1. Define the environment variables en the MS-DOS console:
+1. Define the environment variables in the MS-DOS console:
 
    ```batch  
    SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
@@ -93,7 +93,7 @@ javac HelloWorld.java
 ## Run from pendrive 
 To execute the Java progrmas from a pendrive follow the next steps:
 1. Copy the Q:\Java folder to your pendrive
-2. Inserte the pendrive into your computer.
+2. Insert the pendrive into your computer.
 3. See the letter asigned to your pendrive. Example: F
 4. Change to that drive: >F:
 5. Execute the .bat file with the definition of the variables
