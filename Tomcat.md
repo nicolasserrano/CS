@@ -37,10 +37,10 @@ http://localhost:8080
 
 ```
 .
-+-- Servlet1
-|   +-- WEF-INF
-|       +-- web.xml
-|       +-- classes
+└── Servlet1
+│   └── WEF-INF
+│       └── web.xml
+│       └── classes
 ```
 
 3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
