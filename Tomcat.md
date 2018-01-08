@@ -14,26 +14,27 @@ SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;.
 ```
 
 2. Start the Tomcat server with the command:
-
+```
 startup
+```
 
 3. Start the browser and write the address:
-
+```
 http://localhost:8080
-
+```
   
 
 **Create a Servlet**
 
-Steps 0 and 1 of Start Tomcat
+0. Steps 0 of Start Tomcat
+
+1. Steps 1 of Start Tomcat
 
 2. Create the folder structure of  "Servlet1" application in the Tomcat installation
 
-Create folder "Servlet1" in webapps folder of Tomcat
-
-Create folder WEB-INF in webapps\Servlet1\ folder
-
-Create folder classes in webapps\Servlet1\WEB-INF folder
+- Create folder "Servlet1" in webapps folder of Tomcat  
+- Create folder WEB-INF in webapps\Servlet1\ folder  
+- Create folder classes in webapps\Servlet1\WEB-INF folder  
 
 3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder. HelloWorld.java
 
