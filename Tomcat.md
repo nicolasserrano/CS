@@ -34,10 +34,11 @@ startup
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
 
    ```
-   └── Servlet1
-   │   └── WEF-INF
-   │       └── web.xml
-   │       └── classes
+   └── webapps
+       └── Servlet1
+           └── WEF-INF
+               └── web.xml
+               └── classes
    ```
 
 3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
