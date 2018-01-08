@@ -4,15 +4,12 @@
 
 0. Copy the folder Q:\Java\apache-tomcat-5.5.12 to folder P:\
 
-1.Define the environment variables en the MS-DOS console:
+1. Define the environment variables en the MS-DOS console:
 
 ```batch
-set JAVA_HOME=Q:\JAVA\jdk1.6.0_04
-
-set CATALINA_HOME=P:\apache-tomcat-5.5.12
-
+set JAVA_HOME=Q:\JAVA\jdk1.7.0_51
+set CATALINA_HOME=P:\apache-tomcat-8.5.24
 SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-
 SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;.
 ```
 
@@ -60,6 +57,7 @@ javac HelloWorld.java
 
 5. Create the **web.xml** file in P:\apache-tomcat-5.5.12\webapps\Servlet1\WEB-INF folder:
 
+```xml
 &lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
 
 &lt;web-app&gt;
@@ -81,6 +79,7 @@ javac HelloWorld.java
 &lt;/servlet-mapping&gt;
 
 &lt;/web-app&gt;
+```
 
 6. Start the Tomcat server as in step 3 of Start Tomcat:
 
