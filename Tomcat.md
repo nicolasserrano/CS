@@ -22,6 +22,11 @@ startup
 4. Start the browser and write the address:  
 [http://localhost:8080](http://localhost:8080)  
 
+5. Close the Tomcat server with the command:
+```
+shutdown
+```
+
 **Create a Servlet**
 
 1. Step 1 of Start Tomcat  
