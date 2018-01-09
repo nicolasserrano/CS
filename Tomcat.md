@@ -2,9 +2,9 @@
 
 **Start Tomcat**
 
-0. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
+1. Copy the folder Q:\Java\apache-tomcat-8.5.24 to folder P:\
 
-1. Define the environment variables in the MS-DOS console:
+2. Define the environment variables in the MS-DOS console:
 
    ```batch  
    SET JAVA_HOME=Q:\JAVA\jdk1.7.0_51
@@ -14,21 +14,21 @@
    ```  
    It's recommended to save the previous statements in a bat file (example: sv.bat) 
     
-2. Start the Tomcat server with the command:
+3. Start the Tomcat server with the command:
 ```
 startup
 ```
 
-3. Start the browser and write the address:  
+4. Start the browser and write the address:  
 [http://localhost:8080](http://localhost:8080)  
 
 **Create a Servlet**
 
-0. Steps 0 of Start Tomcat  
+1. Step 1 of Start Tomcat  
 
-1. Steps 1 of Start Tomcat  
+2. Step 2 of Start Tomcat  
 
-2. Create the folder structure of  "Servlet1" application in the Tomcat installation  
+3. Create the folder structure of  "Servlet1" application in the Tomcat installation  
 - Create folder "Servlet1" in webapps folder of Tomcat  
 - Create folder WEB-INF in webapps\Servlet1\ folder  
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
@@ -41,7 +41,7 @@ startup
                └── classes
    ```
 
-3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
+4. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
 HelloWorld.java
 
    ```java
@@ -58,12 +58,12 @@ HelloWorld.java
    }
    ```  
 
-4. Compile with the command javac:  
+5. Compile with the command javac:  
 ```
 javac HelloWorld.java
 ```  
 
-5. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
+6. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
 
    ```xml
    <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -81,13 +81,13 @@ javac HelloWorld.java
    </web-app>
    ```
 
-6. Start the Tomcat server as in step 3 of Start Tomcat:  
+7. Start the Tomcat server as in step 3 of Start Tomcat:  
 
    ```
    startup
    ```
 
-7. Start the browser and write the address:  
+8. Start the browser and write the address:  
 [http://localhost:8080/Servlet1/start](http://localhost:8080/Servlet1/start)
 
 ## Run from pendrive 
