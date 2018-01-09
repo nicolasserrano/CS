@@ -10,7 +10,7 @@
    SET JAVA_HOME=Q:\JAVA\jdk1.7.80
    SET CATALINA_HOME=P:\apache-tomcat-8.5.24
    SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-   SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;%CATALINA_HOME%\common\lib\Jama-1.0.2.jar;.
+   SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\Jama-1.0.2.jar;.
    ```  
    It's recommended to save the previous statements in a bat file (example: sv.bat) 
     
@@ -105,5 +105,5 @@ SET DRIVE=%cd:~0,3%
 SET JAVA_HOME=%DRIVE%Java\jdk1.7.0_51
 SET CATALINA_HOME=%DRIVE%Java\apache-tomcat-8.5.24
 SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\common\lib\servlet-api.jar;%CATALINA_HOME%\common\lib\Jama-1.0.2.jar;.
+SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\Jama-1.0.2.jar;.
 ```
