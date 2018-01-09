@@ -7,7 +7,7 @@
 2. Define the environment variables in the MS-DOS console:
 
    ```batch  
-   SET JAVA_HOME=Q:\JAVA\jdk1.7.80
+   SET JAVA_HOME=Q:\JAVA\jdk1.7.0_80
    SET CATALINA_HOME=P:\apache-tomcat-8.5.24
    SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
    SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\Jama-1.0.2.jar;.
