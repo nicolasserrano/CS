@@ -29,9 +29,9 @@ shutdown
 
 **Create a Servlet**
 
-1. Step 1 of Start Tomcat  
+1. Step 1 of Start Tomcat  (done)
 
-2. Step 2 of Start Tomcat  
+2. Step 2 of Start Tomcat  (type sv + return)
 
 3. Create the folder structure of  "Servlet1" application in the Tomcat installation  
 - Create folder "Servlet1" in webapps folder of Tomcat  
@@ -39,6 +39,7 @@ shutdown
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
 
    ```
+   apache-tomcat-8.5.24
    └── webapps
        └── Servlet1
            └── WEF-INF
