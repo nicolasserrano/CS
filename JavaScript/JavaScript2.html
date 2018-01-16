@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--jQuery</h2  -->    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      $("button").click(function(){
-        $("#div1").load("newText.txt");
-      });
-    });
-    </script>
+    <script src='JavaScript2.js'></script>
   </head>
   <body>
+<h2>Modify innerHTML</h2>
     <p>
     <input type="button" value="Button" onclick="document.getElementById('ini').innerHTML += ' added text from button'">
     <span id="ini">Initial text</span>
@@ -19,15 +12,27 @@
     <p>
     Texto <b onclick="document.getElementsByTagName('p')[0].innerHTML += ' added text from bold word'">bold</b>
     </p>
-    <!-- www.usatoday.com:
-    // document.getElementsByTagName('img')[8].src='http://www.gannett-cdn.com/media/USATODAY/USATODAY/2013/03/04/usp-ncaa-womens-basketball_-kansas-state-at-baylor_002-1_1_rx223_c200x220.jpg?28352ba27b37ce2871936d91737db66b8f7fb934'
--->
-    <h2>jQuery</h2>    
 
-<div id="div1"><h2>Change with jQuery</h2>ABC</div>
-<button>To be replaced</button>
-
+   
+<h2>Input type date</h2>
 <input type="date" name="fecha">
+
+<h2>Create button manipulating DOM</h2>
+    <input type="button" value="Create a button" onclick="createButton('buttonContent')">
+    <div id='buttonContent'>
+    </div>
+
+<h2>Create table</h2>
+    <input type="button" value="Create a table" onclick="createTable1('table1Content')">
+    <div id='table1Content'>
+    </div>
+
+<h2>Create table 2</h2>
+    <input type="button" value="Create a table of " onclick="var rows = document.getElementById('rowNumber').value; var cols = document.getElementById('colNumber').value;createTable2('table2Content', rows, cols)">
+    <input id='rowNumber'> rows and 
+    <input id='colNumber'> columns 
+    <div id='table2Content'>
+    </div>
 
   </body>
 </html>
