@@ -30,6 +30,7 @@
 - [Example of processor simulator](https://nicolasserrano.github.io/c5i/c5i-ui.html)
 - [Nozbe task manager](http://app.nozbe.com/#login)
 - [Data Driven Documents](http://d3js.org/)
+- [Puzzle with video](http://www.infinything.com/CanvasVidPuzzle.html) [source code](https://github.com/graymouser/vid-puzzle)
 
 Other examples:
 - <http://www.drawastickman.com/>
