@@ -60,7 +60,7 @@ JSON.parse(as)
 ```
 Result (as): "{"b":55}"
 
-- [Example of JSON data from TED](TestData.html)
+- [Example of JSON data from TED](JavaScript/TestData.html)
 
 - [Example of JSON with TED talks](http://www.ted.com/talks/subtitles/id/70/lang/en)
 
