@@ -47,13 +47,6 @@ Other examples:
 - Dialog with jQuery [dialog.html](JavaScript/components/dialog.html)
 - Dialog with JavaScript [dialog2.html](JavaScript/components/dialog2.html)
 
-## AJAX examples
-- AJAX 1 [Ajax.html](AJAX/Ajax.html)
-- Book list [book.html](AJAX/book.html)
-- Book form [bookForm.html](AJAX/bookForm.html)
-- Book form 2 [bookForm2.html](AJAX/bookForm2.html)
-- [Example with jQuery](JavaScript/jQuery1.html)
-
 ## JSON
 - JSON object
 - Open the console (F12) and try:
@@ -67,6 +60,8 @@ JSON.parse(as)
 ```
 Result (as): "{"b":55}"
 
+- [Example of JSON data from TED](TestData.html))
+
 - [Example of JSON with TED talks](http://www.ted.com/talks/subtitles/id/70/lang/en)
 
 ```
@@ -79,8 +74,16 @@ document.write("<table border=1>");for (x in t2.captions) { document.write("<tr>
 Clear screen:
 
 ```
-document.body.innerHTML
+document.body.innerHTML=""
 ```
+
+## AJAX examples
+- AJAX 1 [Ajax.html](AJAX/Ajax.html)
+- Book list [book.html](AJAX/book.html)
+- Book form [bookForm.html](AJAX/bookForm.html)
+- Book form 2 [bookForm2.html](AJAX/bookForm2.html)
+- [Example with jQuery](JavaScript/jQuery1.html)
+
 API examples:
 - [it books](http://it-ebooks-api.info/)
 
