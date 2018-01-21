@@ -19,7 +19,7 @@ public class ProductListMockup extends HttpServlet {
                 toClient.println("<td>" + product.productName + " </td>");
                 toClient.println("<td>" + product.companyName + " </td>");
                 toClient.println("<td>" + product.unitPrice + " </td>");
-                toClient.println("<td><a href='ProductEdit?id=" + product.productId + "'>Edit</a></td>");
+                toClient.println("<td><a href='ProductEditMockup?id=" + product.productId + "'>Edit</a></td>");
                 toClient.println("</tr>");
         }
 
