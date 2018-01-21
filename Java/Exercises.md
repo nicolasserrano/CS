@@ -11,7 +11,7 @@ In the servlet ProductListMockup, add a button with the caption "Add product", t
 
 # JSON
 
-Create the servlet ProductJSONListMockup that shows the sama information that the servlet ProductListMockup but sending the information with the data in a JSON structure instead of the HMTL to be rendered.
+Create the servlet ProductJSONListMockup that shows the same information that the servlet ProductListMockup but sending the information with the data in a JSON structure instead of the HMTL to be rendered.
 
 To do this follow the next steps:
 1. Create a servlet that writes a JSON array with all the data of the Vector of Product data.
