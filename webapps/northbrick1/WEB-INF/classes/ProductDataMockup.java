@@ -16,10 +16,14 @@ public class ProductDataMockup {
     }
     public static Vector<ProductDataMockup> getProductList() {
         Vector<ProductDataMockup> vec = new Vector<ProductDataMockup>();
-        vec.addElement(new ProductDataMockup(1, "Chai", 1, "Exotic Liquids", 18.0f));
-        vec.addElement(new ProductDataMockup(2, "Chang", 1, "Exotic Liquids", 19.0f));
-        vec.addElement(new ProductDataMockup(3, "Aniseed Syrup", 1, "Exotic Liquids", 10.0f));
-        vec.addElement(new ProductDataMockup(4, "Chef Anton's Cajun Seasoning", 2, "New Orleans Cajun Delights", 22.0f));
+        vec.addElement(new ProductDataMockup(1, "Homemaker Bookcase 2 x 4 x 4", 1, "Brick Manufactures, Co.", 0.0337f));
+        vec.addElement(new ProductDataMockup(2, "Homemaker Cupboard 4 x 4 x 4", 1, "Brick Manufactures, Co.", 0.0381f));
+        vec.addElement(new ProductDataMockup(3, "Homemaker Drawer 4 x 4 x 2", 1, "Brick Manufactures, Co.", 0.0314f));
+        vec.addElement(new ProductDataMockup(5, "Fabuland Fire Ladder Holder 2 x 4 x 2 1/2", 1, "Brick Manufactures, Co.", 0.0135f));
         return vec;
     }
+    public static ProductDataMockup getProduct(int i) {
+        return getProductList().elementAt(i - 1);
+    }
+    
 }
