@@ -2,7 +2,7 @@
 
 ## JDBC architecture  
 - [Architecture](https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html#teir)  
-- ![JDBC Classes](images/JDBC50.png)
+![JDBC Classes](images/JDBC50.png)
 
 ## Web Applications
 ![Web Applications](images/ClientServer50.png)
@@ -15,12 +15,14 @@
 ## Other elements of JDBC
 
 ###   jdbc:odbc without DSN
-ODBC driver in JDBC:
-java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
+ODBC driver in JDBC (instead of jdbc:odbc:books):
 ```
 ServletContext context = getServletConfig( ).getServletContext();
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
+It can be tested with firstJDBC application
+java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
+
 
 ### Metadate  
 - [ResultAppSQL](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/ResultAppSQL.java)
