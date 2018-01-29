@@ -20,7 +20,7 @@ ODBC driver in JDBC (instead of jdbc:odbc:books):
 ServletContext context = getServletConfig( ).getServletContext();
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
-It can be tested with firstJDBC application
+It can be tested with [firstJDBC application](Java/JDBC/firstJDBC.java)
 java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
 
 
