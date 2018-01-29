@@ -1,12 +1,11 @@
 # MVC (JDBC and Web Aplications)
 
 ## JDBC architecture  
-- [Architecture](https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html#teir)
-- JDBC Classes
-![JDBC Classes](images/JDBC.png)
+- [Architecture](https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html#teir)  
+- ![JDBC Classes](images/JDBC50.png)
 
 ## Web Applications
-![Web Applications](images/ClientServer.png)
+![Web Applications](images/ClientServer50.png)
 
 
 ## API java.sql  
