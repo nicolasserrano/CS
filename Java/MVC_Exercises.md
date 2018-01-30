@@ -1,0 +1,21 @@
+# Northbrick application
+
+Install the northbrick application from the files in the folder: 
+[https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick1](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick1)
+
+# Product edition
+
+In the Servlet ProductEdit, include the other fields of the product:  CategoryId, QuantityPerUnit, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued.
+
+# Category list
+
+Create a Servlet that lists all the categories from the table Categories. Each category row has a link to the existing servlet http://localhost:8080/northbrick3/ProductList?id=categoryId. categoryId is the id of the category.
+
+# Category edition
+
+Create the servlets to edit an existing category
+
+# Order creation
+
+Create the servlets neccesary to add a new product to an existing order
+
