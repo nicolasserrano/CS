@@ -1,7 +1,7 @@
 # Northbrick application
 
 Install the northbrick application from the files in the folder: 
-[https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick1](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick1)
+[https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick3](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick3)
 
 # Product edition
 
