@@ -12,6 +12,9 @@ The changes are saved in the servlet ProductUpdate.java
 
 Create a Servlet that lists all the categories from the table Categories. Each category row has a link to the existing servlet http://localhost:8080/northbrick3/ProductList?id=categoryId. categoryId is the id of the category.
 
+List of products of a category:
+![List of products of a category](https://nicolasserrano.github.io/CS/Java/images/CategoryProductList.jpg)
+
 # Category edition
 
 Create the servlets to edit an existing category
@@ -19,4 +22,5 @@ Create the servlets to edit an existing category
 # Order creation
 
 Create the servlets neccesary to add a new product to an existing order
+![Order](https://nicolasserrano.github.io/CS/Java/images/OrderEdit10483.jpg)
 
