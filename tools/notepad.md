@@ -8,3 +8,5 @@ In Settings -> Preferences..., select Language, check "Replace by space", the Ta
 To duplicate the line with the cursor or the selected text: Ctrl + D  
 To move the line with the cursor or the selected text: Shift + Ctrl + (Up arrow or Down arrow)
 
+## Overwrite
+When the new characters overwrite previous ones is because is in Overwrite mode. Type "Insert" key to change from insert mode (INS) to overwrite mode (OVR)
