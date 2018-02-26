@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Books API Example</title>
+  </head>
+  <body>
+    <div id="content"></div>
+    <button type="button" onclick="setText()">List of Books</button>
+    <script>
+      function handleResponse(response) {
+        for (var i = 0; i < response.items.length; i++) {
+          var item = response.items[i];
+          // in production code, item.text should have the HTML entities escaped.
+          document.getElementById("content").innerHTML += "<br>" + item.volumeInfo.title;
+        }
+      }
+      function setText(){
+        s=document.createElement('script');
+        s.src = 'https://www.googleapis.com/books/v1/volumes?q=harry+potter&callback=handleResponse'
+        document.head.appendChild(s);
+      }
+    </script>
+  </body>
+</html>
