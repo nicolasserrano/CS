@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeSrc() {
+  document.getElementById('iframe1').src='inner.html';
+}
+function modifyDOM(value) {
+  div = parent.document.getElementById('id1');
+  div.innerHTML = value;
+}
+</script>
+</head>
+<body>
+<div id="id1">Original text</div>
+<iframe id='iframe1'></iframe>
+<button type="button" onclick="changeSrc()">Change with Ajax</button>
+</body>
+</html>
