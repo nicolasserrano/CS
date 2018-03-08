@@ -42,7 +42,7 @@ shutdown
    apache-tomcat-8.5.24
    └── webapps
        └── Servlet1
-           └── WEF-INF
+           └── WEB-INF
                └── web.xml
                └── classes
    ```
