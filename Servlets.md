@@ -39,7 +39,7 @@
   - [HttpSession](http://docs.oracle.com/javaee/5/api/index.html?javax/servlet/http/HttpSession.html)
     - [getAttribute(String name)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpSession.html#getAttribute(java.lang.String))
     - [setAttribute(String name, Object value)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpSession.html#setAttribute(java.lang.String, java.lang.Object))
-- [Example of servlets](http://www.tecnun.es/asignaturas/Informat2/Material/Libro/sesiones.zip)
+- [Example of servlets with Sessions](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrickExampleTestAjaxSession) [Examples in Computer Science 2](http://www.tecnun.es/asignaturas/Informat2/Material/Libro/sesiones.zip)
 
 ### Using a pendrive to execute the programas  
 [See the instructions](Java/Pendrive.md)
