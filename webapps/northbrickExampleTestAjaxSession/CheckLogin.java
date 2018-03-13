@@ -20,12 +20,12 @@ public class CheckLogin extends HttpServlet {
         res.setContentType("text/html");
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        boolean logged = check(connection, login, password);
+        String logged = check(connection, login, password);
         System.out.println("check Login logged: " + logged);
         System.out.println("check Login login, password: " + login + " " + password);
-        if (logged) {
+        if (logged != null) {
             HttpSession session = req.getSession(true);
-            session.setAttribute("login", login);
+            session.setAttribute("login", logged);
             res.sendRedirect("ProductList");
         } else {
             PrintWriter toClient = res.getWriter();
@@ -36,25 +36,28 @@ public class CheckLogin extends HttpServlet {
         }
     }
     
-    boolean check(Connection connection, String login, String password) {
-        String sql = "Select EmployeeID FROM Employees";
-        sql += " WHERE FirstName=? and Password=?";
+    String check(Connection connection, String login, String password) {
+        String sql = "Select Firstname, Lastname FROM Employees";
+        sql += " WHERE Login=? and Password=?";
         System.out.println("check Login: " + sql);
-        boolean logged = false;
+        String name = null;
         try {
             PreparedStatement pstmt = connection.prepareStatement(sql);
             pstmt.setString(1, login);
             pstmt.setString(2, password);
             ResultSet result = pstmt.executeQuery();
             if(result.next()) {
-                logged = true;
+                name = result.getString("Firstname") + " " + result.getString("Lastname");
            }
             result.close();
             pstmt.close();
         } catch(SQLException e) {
             e.printStackTrace();
-            System.out.println("Error in check login: " + sql + " Exception: " + e);
+            System.out.println("SQLException in check login: " + sql + " Exception: " + e);
+        } catch(Exception e) {
+            e.printStackTrace();
+            System.out.println("Exception in check login. Exception: " + e);
         }
-        return logged;
+        return name;
     }
 }
