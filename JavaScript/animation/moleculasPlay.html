@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 74px;
+  border-color: transparent transparent transparent #202020;
+  transition: 0ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 37px 0 37px 60px;
+}
+.button.paused {
+  border-style: double;
+  border-width: 0px 0 0px 60px;
+}
+.button:hover {
+  border-color: transparent transparent transparent #404040;
+}
+</style>
+<script>
+var paused = true;
+function playStop(btn) {
+    btn.classList.toggle("paused");
+    if (paused) {
+        interval = setInterval(drawMoleculas,document.getElementById('timems').value);
+    } else {
+        clearInterval(interval);
+    }
+    paused = !paused;
+}
+</script>
+</head>
+<body>
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script src=moleculasPlay.js>
+</script>
+<br>Horas que simula un intervalo:<input id='timeStep' value='.1' />
+<br>Tiempo real intervalo (ms): <input id='timems' value='100' />
+<br>Tiempo<input id='time' />
+Bacterias:<input id='bacterias' />
+
+<br><button id='play' class='button' onclick='playStop(this)'></button>
+<br><button onclick="reset(document.getElementById('play'))">Reset</button>
+</body>
+</html>
