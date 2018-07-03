@@ -13,11 +13,14 @@ t=0;
 
 
 function drawMoleculas() {
-  dt = document.getElementById('timeStep').value;
+  
+  scaleT = document.getElementById('timeScale').value;
+  intervalMs = document.getElementById('timems').value / 1000;
+  dt = scaleT * intervalMs;
   t = t + Number(dt);
   moleculas = 200+3*t*t;
   document.getElementById('time').value = parseFloat(t).toFixed(2);
-  document.getElementById('bacterias').value = parseFloat(moleculas).toFixed(0);
+  document.getElementById('ft').value = parseFloat(moleculas).toFixed(0);
   //console.log("t: " + t + " mol: " + moleculas);
   while (count < moleculas) {
     count++;
