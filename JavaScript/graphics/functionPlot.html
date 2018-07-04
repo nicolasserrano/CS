@@ -1,0 +1,51 @@
+<html>
+<!--https://mauriciopoppe.github.io/function-plot/-->
+<head>
+    <script src="https://unpkg.com/d3@3/d3.min.js"></script>
+    <script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
+    <script src="https://nicolasserrano.github.io/CS/JavaScript/graphics/functionPlot.js"></script>
+
+	<title> Function Plot</title>
+<body>
+
+
+
+    <h3>Ejemplo 1</h3>
+    <span id='quadratic'></span>
+    <h3>Ejemplo 2</h3>
+    <span id='polar-complex'></span>
+    <h3>Ejemplo 3</h3>
+    <span id='third'></span>
+<script>drawFunction([ [1, 1], [2, 1], [2, 2], [1, 2] ])</script>
+    <h3>Ejemplo 4</h3>
+<script>drawFunction('x*x*x')</script>
+    <h3>Ejemplo 5</h3>
+<script>drawFunction('1/x')</script>
+<script>
+functionPlot({
+  target: '#quadratic',
+  grid: true,
+  data: [{
+    fn: 'x^2',
+    derivative: {
+      fn: "2 * x",
+      updateOnMouseMove: true
+    }
+  }]
+})
+functionPlot({
+  target: '#polar-complex',
+  yAxis: {domain: [-1.897959183, 1.897959183]},
+  xAxis: {domain: [-3, 3]},
+  data: [{
+    r: '2 * sin(4 theta)',
+    fnType: 'polar',
+    graphType: 'polyline'
+  }]
+})
+</script>
+
+    <h3>Fin Ejemplo</h3>
+	</body>		
+</head>
+</html>
