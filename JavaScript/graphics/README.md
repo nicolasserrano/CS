@@ -2,6 +2,5 @@
 
 - [Raphael](https://nicolasserrano.github.io/CS/JavaScript/graphics/basicRaphael.html)
 - [canvas](https://nicolasserrano.github.io/CS/JavaScript/graphics/canvas.html)
-- [dygraph](https://nicolasserrano.github.io/CS/JavaScript/graphics/dygraph.html)
 - [functionPlot](https://nicolasserrano.github.io/CS/JavaScript/graphics/functionPlot.html)
 - [dygraph](https://nicolasserrano.github.io/CS/JavaScript/graphics/newton.html)
