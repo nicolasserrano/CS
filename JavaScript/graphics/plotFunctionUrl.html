@@ -1,0 +1,33 @@
+<html>
+<!--https://mauriciopoppe.github.io/function-plot/-->
+<head>
+    <script src="https://unpkg.com/d3@3/d3.min.js"></script>
+    <script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
+    <script src="https://nicolasserrano.github.io/CS/JavaScript/graphics/functionPlot.js"></script>
+
+	<title> Function Plot</title>
+<body>
+    <span id='quadratic'></span>
+<script>
+var url_string = window.location.href
+var url = new URL(url_string);
+var dfunc = url.searchParams.get("func");
+//console.log(dfunc);
+
+functionPlot({
+  target: '#quadratic',
+  grid: true,
+  data: [{
+    fn: dfunc,
+    sampler: 'builtIn',
+    graphType: 'polyline',
+    derivative: {
+      fn: "1/x",
+      updateOnMouseMove: true
+    }
+  }]
+})
+</script>
+	</body>		
+</head>
+</html>
