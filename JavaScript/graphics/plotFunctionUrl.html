@@ -11,22 +11,32 @@
 <script>
 var url_string = window.location.href
 var url = new URL(url_string);
-var dfunc = url.searchParams.get("func");
+var dfunc = url.searchParams.get("f");
+var darray = url.searchParams.get("d");
 //console.log(dfunc);
 
+if (dfunc != null) {
 functionPlot({
   target: '#quadratic',
   grid: true,
   data: [{
     fn: dfunc,
     sampler: 'builtIn',
-    graphType: 'polyline',
-    derivative: {
-      fn: "1/x",
-      updateOnMouseMove: true
-    }
+    graphType: 'polyline'
   }]
 })
+} else if (darray != null) {
+functionPlot({
+  target: '#quadratic',
+  grid: true,
+  data: [{
+    points: eval(darray),
+    fnType: 'points',
+    sampler: 'builtIn',
+    graphType: 'polyline'
+  }]
+})
+}
 </script>
 	</body>		
 </head>
