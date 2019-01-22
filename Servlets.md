@@ -42,9 +42,8 @@
 - [Example of servlets with Sessions](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrickExampleTestAjaxSession) [Examples in Computer Science 2](http://www.tecnun.es/asignaturas/Informat2/Material/Libro/sesiones.zip)
 
 ### Using a pendrive to execute the programas  
-[See the instructions](Tomcat#run-from-pendrive)
-[See the instructions md](Tomcat.md#run-from-pendrive)
-[See the instructions with Tomcat 5.5](Java/Pendrive.md)
+[See the instructions](Tomcat.md#run-from-pendrive)
+<!-- [See the instructions with Tomcat 5.5](Java/Pendrive.md) -->
 
 
 ---
