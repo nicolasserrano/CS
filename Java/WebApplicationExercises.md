@@ -13,7 +13,7 @@ Company name: Brick Manufactures, Co.
 Price: 0.0381
 ```
 Notes: 
-  - To write the main program you can use [this file](https://nicolasserrano.github.io/CS/JDK#jdk-primer-programa) as initial template or [this one](https://nicolasserrano.github.io/CS/JDK#jdk-primer-programa).
+  - To write the main program you can use [this file](https://nicolasserrano.github.io/CS/JDK#jdk-primer-programa) as initial template or [this one](https://books.trinket.io/thinkjava2/chapter1.html#sec11).
   - To see an example of using the ProductDataMockup class you can see [the ProductListMockup class](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick1/WEB-INF/classes/ProductListMockup.java)
 5. Insert before the information of the product the result of the `header()` function and after the information of the product the result of the `footer()` function. Include the card information between the &lt;PRE&gt; and &lt;/PRE&gt; tags. You can paste the output in an html file and see the result. You can include the style.css file to apply a better style. The result must be:
 ![ProductCard](images/ProductCard.png)
