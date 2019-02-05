@@ -31,7 +31,4 @@ Clear screen:
 document.body.innerHTML=""
 ```
 
-## Other AJAX examples
-- Basic AJAX 1 [Ajax.html](AJAX/Ajax.html)
-- Book form [bookForm2.html](AJAX/bookForm2.html)
 
