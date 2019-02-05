@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <style>
   h1 {
     width: 60%;
@@ -19,7 +18,7 @@ body {
     
     <h1>Example 1</h1>
     
-    <button  onclick="alert('Hello World in \nJavaScript alert window')">Call function
+    <button onclick="alert('Hello World in \nJavaScript alert window')">Call function
     </button>
     
     <h1>Example 2</h1>
@@ -37,7 +36,7 @@ body {
     </script>
     <form name="form1">
       <input name="entrada">
-      <input type="button" onclick="myfunction(form1.entrada.value)"value="Call function">
+      <input type="button" onclick="myfunction(form1.entrada.value)" value="Call function">
     </form>
     <p>By pressing the button, a function with an argument will be called. 
     The function will alert this argument.
@@ -52,11 +51,11 @@ body {
         document.write("</h" + i + ">")
       }
     </script>
-
+    
     <h1>Example 5</h1>
     <h2>Open a window</h2>
 
-    <script language=javascript>
+    <script language="javascript">
       function openwindow() {
         m = window.open("http://www.tecnun.es", "new");
       }
@@ -65,8 +64,8 @@ body {
       }
     </script>
     <form>
-      <input type=button value="Open Window" onclick="openwindow()">
-      <input type=button value="Close Window" onclick="closewindow()">
+      <input type="button" value="Open Window" onclick="openwindow()">
+      <input type="button" value="Close Window" onclick="closewindow()">
     </form>
 
     <h1>Example 6</h1>
@@ -86,7 +85,7 @@ body {
         }
       }
     </script>
-    <form name="myForm" action="#" onSubmit="return validate()">
+    <form name="myForm" action="#" onsubmit="return validate()">
       Enter a value from 1 to 5: <input type="text" name="myInput">
       <input type="submit" value="Send input">
     </form>
@@ -94,11 +93,96 @@ body {
     
     <h1>Example 7</h1>
     
-    <button  onclick='    a=document.getElementsByTagName("h4")[0];
-      a.style.color="blue";
-      a.style.backgroundColor="red"'>Set red</button>
-    <button  onclick='document.getElementsByTagName("h4")[0].style.display="none";'>Hide</button>
-    <button  onclick='    a=document.getElementsByTagName("h4")[0].style.display="initial";'>Show</button>
+    <button onclick="    a=document.getElementsByTagName('h4')[0];
+      a.style.color='blue';
+      a.style.backgroundColor='red'">Set red</button>
+    <button onclick="document.getElementsByTagName('h4')[0].style.display='none';">Hide</button>
+    <button onclick="    a=document.getElementsByTagName('h4')[0].style.display='initial';">Show</button>
+    
+    <h1>Example 8</h1>
+<h2>Modify innerHTML</h2>
+    <p>
+    <input type="button" value="Button" onclick="document.getElementById('ini').innerHTML += ' added text from button'">
+    <span id="ini">Initial text</span>
+    </p>
+    <p>
+    Texto <b id="bold" onclick="document.getElementById('bold').innerHTML += ' added text from bold word'">bold</b>
+    </p>
 
-  </body>
+   
+    <h1>Example 9</h1>
+<h2>Input type date</h2>
+<input type="date" name="fecha">
+
+    <h1>Example 10</h1>
+<h2>Create button manipulating DOM</h2>
+    <script type="text/javascript">
+function createButton(id) {
+    parentNode = document.getElementById(id);
+    buttonEl = document.createElement('button');
+    var textNode = document.createTextNode("New button");
+    buttonEl.appendChild(textNode);
+    parentNode.appendChild(buttonEl);
+}
+    </script>
+    <input type="button" value="Create a button" onclick="createButton('buttonContent')">
+    <div id='buttonContent'>
+    </div>
+
+    <h1>Example 11</h1>
+<h2>Create table</h2>
+    <script type="text/javascript">
+function createTable1(id) {
+    parentNode = document.getElementById(id);
+    
+    var tableEl = document.createElement("TABLE");
+    tableEl.setAttribute("id", "table1");
+    tableEl.setAttribute("border", "1");
+    parentNode.appendChild(tableEl);
+
+    var tr1 = document.createElement("TR");
+    tableEl.appendChild(tr1);
+
+    var td1 = document.createElement("TD");
+    var textNode = document.createTextNode("cell 1");
+    td1.appendChild(textNode);
+    tr1.appendChild(td1);
+}
+    </script>
+    <input type="button" value="Create a table" onclick="createTable1('table1Content')">
+    <div id='table1Content'>
+    </div>
+
+    <h1>Example 12</h1>
+<h2>Create table 2</h2>
+    <script type="text/javascript">
+function createTable2(id, rows, cols) {
+    parentNode = document.getElementById(id);
+    
+    var tableEl = document.createElement("TABLE");
+    tableEl.setAttribute("id", "table1");
+    tableEl.setAttribute("border", "1");
+    parentNode.appendChild(tableEl);
+
+    for (i = 0; i <rows; i++) {
+        var tr1 = document.createElement("TR");
+        tableEl.appendChild(tr1);
+        for (j = 0; j <cols; j++) {
+            var td1 = document.createElement("TD");
+            var textNode = document.createTextNode("cell " + i + "_" + j);
+            td1.appendChild(textNode);
+            tr1.appendChild(td1);
+        }
+    }
+}
+    </script>
+    <input type="button" value="Create a table of " onclick="var rows = document.getElementById('rowNumber').value; var cols = document.getElementById('colNumber').value;createTable2('table2Content', rows, cols)">
+    <input id='rowNumber' value='6'> rows and 
+    <input id='colNumber' value='3'> columns 
+    <div id='table2Content'>
+    </div>
+    <p><p><p><p>
+    <h2>End of page</h2>
+
+</body>
 </html>
