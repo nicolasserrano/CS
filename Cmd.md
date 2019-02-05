@@ -2,8 +2,7 @@
 
 ## Abri Command Prompt
 
-En el botón inicio escribir "cmd" o "Command Prompt"
-O en el botón inicio ir a Windows System -> Command Prompt
+En el botón inicio (tecla windows) escribir "cmd" o "Command Prompt". O con el ratón, en el botón inicio ir a Windows System -> Command Prompt
 
 ## Comandos básicos
 - Cambiar de unidad (disco, pendrive, ...): letra de la unidad y dos puntos, ej: `C:`  
