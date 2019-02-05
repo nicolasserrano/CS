@@ -1,6 +1,6 @@
 # Command Prompt
 
-## Abri Command Prompt
+## Abrir Command Prompt
 
 En el botón inicio (tecla windows) escribir "cmd" o "Command Prompt". O con el ratón, en el botón inicio ir a Windows System -> Command Prompt
 
