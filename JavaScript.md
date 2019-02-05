@@ -2,7 +2,7 @@
 
 ## Class structure:
 - Architecture Client - Server
-- Why JavasScript
+- Why JavaScript
 - JavaScript in Web Applications
 - How &lt;script&gt; tag, examples, tools, JQuery, jQuery ui, Bootstrap
 - Ajax
@@ -48,6 +48,7 @@ Other examples:
 - Dialog with JavaScript [dialog2.html](JavaScript/components/dialog2.html)
 
 ## JSON
+In [JSON page](JSON)
 - JSON object
 - Open the console (F12) and try:
 
