@@ -11,5 +11,5 @@ Create the servlet ProductJSONListMockup that shows the same information that th
 To do this follow the next steps:
 1. Create a servlet that writes a JSON array with all the data of the Vector of Product data.
 2. Verify with the browser that the JSON array is correctly defined.
-3. Create a JavaScript function that reads this array an creates the same table that produces the origininal ProductListMockup.
+3. Create a JavaScript function that reads this array and creates the same table that produces the origininal ProductListMockup.
 4. Insert the JavaScript funcion in the html page with the tag <script src=file.js></script>
