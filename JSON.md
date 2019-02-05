@@ -12,6 +12,8 @@ JSON.parse(as)
 ```
 Result (as): "{"b":55}"
 
+## Example of JSON with a TED conference
+
 - [Example of JSON data from TED](https://nicolasserrano.github.io/CS/JavaScript/TedData.html)
 
 - [Example of JSON with TED talks](http://www.ted.com/talks/subtitles/id/70/lang/en)
@@ -29,9 +31,7 @@ Clear screen:
 document.body.innerHTML=""
 ```
 
-## AJAX examples
-- AJAX 1 [Ajax.html](AJAX/Ajax.html)
-- Book list [book.html](AJAX/book.html)
-- Book form [bookForm.html](AJAX/bookForm.html)
-- Book form 2 [bookForm2.html](AJAX/bookForm2.html)
+## Other AJAX examples
+- Basic AJAX 1 [Ajax.html](AJAX/Ajax.html)
+- Book form [bookForm2.html](AJAX/bookForm2.html)
 
