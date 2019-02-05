@@ -9,7 +9,7 @@ En el botón inicio (tecla windows) escribir "cmd" o "Command Prompt". O con el 
 - Listar ficheros y directorios: `dir`  
 - Cambiar de directorio: `cd folder_name`  
 - Ir al directorio superior: `cd ..`  
-- Ir a una dirección absoluta: `cd \absolute_path`. El comando cd no cabia de disco, es necesario realizarlo con el comando de cambio de unidad.   
+- Ir a una dirección absoluta: `cd \absolute_path`. El comando cd no cambia de disco, es necesario realizarlo con el comando de cambio de unidad.   
 - Crear directorio: `mkdir folder_name`  
 - Ver contenido de fichero: `type folder_name`  
 - Ver contenido de variable: `set variable_name`  
@@ -21,7 +21,7 @@ En el botón inicio (tecla windows) escribir "cmd" o "Command Prompt". O con el 
 - Utilizar teclas de flecha arriba y abajo para ir a los comandos anteriores.  
 - Seleccionar texto con el cursor para pegarlo en el portapapeles.  
 - Botón derecho del ratón para pegar texto del portapapeles.  
-- En el explorador de ficheros, se puede copiar la ruta del directorio haciendo click con el botón derecho en la ruta mostrada en la cabecera. Esta ruta se puede pegar después del comando `cd `.  
+- En el explorador de ficheros, se puede copiar la ruta del directorio haciendo clic con el botón derecho en la ruta mostrada en la cabecera. Esta ruta se puede pegar después del comando `cd `.  
 
 
 
