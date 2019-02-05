@@ -77,6 +77,8 @@ Clear screen:
 ```
 document.body.innerHTML=""
 ```
+## AJAX 
+<a href="https://bpmtalk.files.wordpress.com/2010/10/ajax.jpg">Ajax image</a>
 
 ## AJAX examples
 - AJAX 1 [Ajax.html](AJAX/Ajax.html)
