@@ -12,6 +12,7 @@ class PrimerPrograma {
      }
 }
 ```
+La construcci&oacute;n de este programa se explica en la p&aacute;gina [Hello, World!](Hello.md)  
 
 ### 2. Guardarlo con el nombre “PrimerPrograma.java”
 
