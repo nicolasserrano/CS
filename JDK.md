@@ -8,7 +8,7 @@ Para escribir, compilar y ejecutar el primer programa en Java, se deben seguir l
 ```
 class PrimerPrograma {
      public static void main(String[] args) {
-          System.out.println("Primer programa de Infor 2");
+          System.out.println("Hello, World!");
      }
 }
 ```
