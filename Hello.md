@@ -54,7 +54,7 @@ La ejecuci&oacute;n no da ning&uacute;n error pero tampoco produce ning&uacute;n
 Para que imprima se incluye la l&iacute;nea:
 ```
     System.out.println("Hello, World!");
-'''
+```
 
 El programa final es:
 ```
