@@ -1,6 +1,6 @@
 # Hello, World!
 
-Pasos para crear el primer programa de Java. Los pasos para compilarlo se encuentran en [JDK](JDK.md) y para utilizar el Command Prompt en [Cmd](Cmd)
+Pasos para crear el primer programa de Java. Los pasos para compilarlo se encuentran en [JDK](JDK.md) y para utilizar el Command Prompt en [Cmd](Cmd.md)
 
 ## Paso 1
 El fichero mas simple que se puede compilar en Java es un fichero vacío. Se guarda con el nombre A.java  
