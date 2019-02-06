@@ -3,7 +3,7 @@
 Pasos para crear el primer programa de Java. Los pasos para compilarlo se encuentran en [JDK](JDK.md) y para utilizar el Command Prompt en [Cmd](Cmd)
 
 ## Paso 1
-El fichero mas simple que se puede compilar en Java es un fichero vacío. Se guarda con el nombre A.java
+El fichero mas simple que se puede compilar en Java es un fichero vacío. Se guarda con el nombre A.java  
 Compilar con el comando:
 ```
 javac A.java
@@ -38,7 +38,7 @@ Error: Main method not found in class A, please define the main method as:
 ```
 Por tanto se incluye este m&eacute;todo en la clase A.
 ```
-class A{
+class A {
     public static void main(String[] args){
     }
 }
@@ -52,7 +52,9 @@ La ejecuci&oacute;n no da ning&uacute;n error pero tampoco produce ning&uacute;n
 
 ## Paso 4
 Para que imprima se incluye la l&iacute;nea:
-```System.out.println("Hello, World!");
+```
+    System.out.println("Hello, World!");
+'''
 
 El programa final es:
 ```
