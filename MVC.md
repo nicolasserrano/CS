@@ -15,13 +15,23 @@
 ## Other elements of JDBC
 
 ###   jdbc:odbc without DSN
-ODBC driver in JDBC (instead of jdbc:odbc:books):
+We can avoid the definition of the DSN using the following syntax.
+
+1. In a console application (with main() method):
+
+```
+String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + "Libros.mdb");
+```
+
+It can be tested with [firstJDBC application](Java/JDBC/firstJDBC.java)
+java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
+
+2. In a servlet:
+
 ```
 ServletContext context = getServletConfig( ).getServletContext();
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
-It can be tested with [firstJDBC application](Java/JDBC/firstJDBC.java)
-java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
 
 
 ### Metadate  
