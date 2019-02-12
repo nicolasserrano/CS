@@ -15,7 +15,7 @@ class Hello {
 
 ## Programa 2
 
-El programa Hello Name imprime el saludo con el nombre que se pasa al programa:
+El programa Name imprime el saludo con el nombre que se pasa al programa:
 ```
 class Name {
     public static void main(String[] args){
@@ -31,7 +31,7 @@ El programa Arguments imprime los arguemntos que se pasan al programa:
 public class Arguments {
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
-            System.out.print("[" + args[i] + "] ");
+            System.out.println(i + ": " + args[i]);
         }
         System.out.println("");
     }
@@ -63,7 +63,7 @@ class Numbers {
         long num_l = 1;
         float num_f = 1;
         double num_d = 1;
-        for (int i=1; i<70; ++ ) {
+        for (int i=1; i<70; i++) {
             num_b *= 2;
             num_s *= 2;
             num_i *= 2;
