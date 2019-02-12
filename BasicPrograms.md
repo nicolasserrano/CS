@@ -85,9 +85,9 @@ class Numbers {
 
 ## Programa 6
 
-El programa Letras imprime las letras del argumento que se pasa al programa:
+El programa Letters imprime las letras del argumento que se pasa al programa:
 ```
-public class Letras {
+public class Letters {
     public static void main(String[] args) {
         String nombre = args[0];
         int n = nombre.length();
