@@ -58,7 +58,7 @@ Para que imprima se incluye la l&iacute;nea:
 
 El programa final es:
 ```
-class A{
+class A {
     public static void main(String[] args){
         System.out.println("Hello, World!");
     }
