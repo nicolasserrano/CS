@@ -17,7 +17,7 @@
 ###   jdbc:odbc without DSN
 We can avoid the definition of the DSN using the following syntax.
 
-1. In a console application (with main() method):
+1. In a console application (an application that has a main() method):
 
 ```
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + "Libros.mdb");
