@@ -42,7 +42,7 @@ public class Arguments {
 
 El programa Types imprime una variable de tipo booleana y otra de tipo char:
 ```
-class types {
+class Types {
     public static void main(String[] args)  {
         boolean b = (1 == 2);
         char c = 'a';
@@ -63,7 +63,7 @@ class Numbers {
         long num_l = 1;
         float num_f = 1;
         double num_d = 1;
-        for (int i=1;i<70 ;i++ ) {
+        for (int i=1; i<70; ++ ) {
             num_b *= 2;
             num_s *= 2;
             num_i *= 2;
@@ -83,3 +83,19 @@ class Numbers {
 }
 ```
 
+## Programa 6
+
+El programa Letras imprime las letras del argumento que se pasa al programa:
+```
+public class Letras {
+    public static void main(String[] args) {
+        String nombre = args[0];
+        int n = nombre.length();
+        String res = "";
+        System.out.println(res);
+        for (int i=0; i<n; i++) {
+            System.out.println(i + ": " + nombre.charAt(i));
+        }
+    }
+}
+```
