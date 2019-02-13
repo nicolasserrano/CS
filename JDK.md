@@ -56,6 +56,7 @@ Primer programa de Infor 2
 
 - [Java tutor](http://www.pythontutor.com/java.html#mode=edit)
 - [DrJava](http://www.drjava.org/)
+- [NotePad++](tools/notepad++)
 
 ---
 [Edit](https://github.com/nicolasserrano/CS/edit/master/JDK.md)
