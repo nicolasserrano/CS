@@ -18,7 +18,8 @@ La construcci&oacute;n de este programa se explica en la p&aacute;gina [Hello, W
 
 ### 3. Abrir una ventana “Command Prompt”. Se realiza desde el botón “start”:
   >start -> Programs -> Accessories -> Command Prompt
-  La informaci&oacute;n de como abrir y utilizar Command Prompt se encuentra en la p&aacute;gina [More programs](Cmd.md)
+  
+La informaci&oacute;n de como abrir y utilizar Command Prompt se encuentra en la p&aacute;gina [More programs](Cmd.md)
 
 ### 4. Incluir en la variable PATH, el directorio en que se encuentran las herramientas de compilación y ejecución. Y en la variable CLASSPATH, el directorio en que se encuentran las clases para su ejecución. Para ello, teclear en la ventana Command Prompt:
   
