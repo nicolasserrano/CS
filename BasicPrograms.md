@@ -4,7 +4,7 @@ Se muestran varios programas en Java. Los pasos para compilarlo se encuentran en
 
 ## Programa 1
 
-El programa Hello World que se explca en [Hello, World!](Hello.md):
+El programa Hello World que se explica en [Hello, World!](Hello.md):
 ```
 class Hello {
     public static void main(String[] args){
