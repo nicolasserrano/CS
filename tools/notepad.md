@@ -10,4 +10,4 @@ To duplicate the line with the cursor or the selected text: Ctrl + d
 To move the line with the cursor or the selected text: Shift + Ctrl + (Up arrow or Down arrow)
 
 ## Overwrite
-When the new characters overwrite previous ones, it is because it is in Overwrite mode. Type "Insert" key to change from insert mode (INS) to overwrite mode (OVR). INS or OVR appears in lower right corner of the application.
+When the new characters overwrite previous ones, it is because it is in Overwrite mode. Type the "Insert" key to change from insert mode (INS) to overwrite mode (OVR). INS or OVR appears in the lower right corner of the application.
