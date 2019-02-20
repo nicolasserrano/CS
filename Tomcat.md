@@ -97,7 +97,7 @@ javac HelloWorld.java
 [http://localhost:8080/Servlet1/start](http://localhost:8080/Servlet1/start)
 
 ## Run from pendrive 
-To execute the Java progrmas from a pendrive follow the next steps:
+To execute the Java programs from a pendrive follow the next steps:
 1. Copy the Q:\Java folder to your pendrive
 2. Insert the pendrive into your computer.
 3. See the letter asigned to your pendrive. Example: F
