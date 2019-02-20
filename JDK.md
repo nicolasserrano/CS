@@ -56,7 +56,7 @@ Primer programa de Infor 2
 
 ## Recursos
 
-- [Java tutor](http://www.pythontutor.com/java.html#mode=edit) - [Ejemplo con clases](https://goo.gl/bxUygg)
+- [Java tutor](http://www.pythontutor.com/java.html#mode=edit) - [Ejemplo con clases](http://tiny.cc/MyClass) - [Version Java Tutor](https://goo.gl/bxUygg)
 - [DrJava](http://www.drjava.org/)
 - [NotePad++](tools/notepad.md)
 - [Instalar en Pendrive](Tomcat.md#run-from-pendrive)
