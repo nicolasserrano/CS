@@ -5,7 +5,8 @@ Install from https://notepad-plus-plus.org/
 In View -> Show Symbol -> Show White Space and TAB  
 In Settings -> Preferences..., select Language, check "Replace by space", the Tab size is 4, doesn't change.
 
-## Edit
+## Edit shortcuts
+Save:  Ctrl + s
 Copy:  Ctrl + c  
 Paste: Ctrl + v  
 Cut:   Ctrl + x  
@@ -17,3 +18,7 @@ To select some words: Shift + Ctrl + (Right or Left arrow)
 
 ## Overwrite
 When the new characters overwrite previous ones, it is because it is in Overwrite mode. Type the "Insert" key to change from insert mode (INS) to overwrite mode (OVR). INS or OVR appears in the lower right corner of the application.
+
+## Other shortcuts
+Change to another application: Alt + Tab  
+
