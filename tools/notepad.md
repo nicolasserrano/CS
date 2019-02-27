@@ -6,7 +6,7 @@ In View -> Show Symbol -> Show White Space and TAB
 In Settings -> Preferences..., select Language, check "Replace by space", the Tab size is 4, doesn't change.
 
 ## Edit shortcuts
-Save:  Ctrl + s
+Save:  Ctrl + s  
 Copy:  Ctrl + c  
 Paste: Ctrl + v  
 Cut:   Ctrl + x  
