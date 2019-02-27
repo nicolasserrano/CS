@@ -10,7 +10,7 @@ Copy:  Ctrl + c
 Paste: Ctrl + v  
 Cut:   Ctrl + x  
 To duplicate the line with the cursor or the selected text: Ctrl + d  
-To move the line with the cursor or the selected text: Shift + Ctrl + (Up arrow or Down arrow)
+To move the line with the cursor or the selected text: Shift + Ctrl + (Up arrow or Down arrow)  
 To move from one word to the next one: Ctrl + (Right or Left arrow)  
 To select some characters: Shift + arrows  
 To select some words: Shift + Ctrl + (Right or Left arrow)  
