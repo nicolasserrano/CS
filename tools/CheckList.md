@@ -16,6 +16,6 @@ Verify the next points until you find the problem:
 # If the program doesn't compile
 
 - [ ] Read the compile error message and correct it.
-- [ ] If you don't know how to correct, comment the line or lines producing the error, with two slashes: ```\\ code ```  
+- [ ] If you don't know how to correct, comment the line or lines producing the error, with two slashes: ```// code ```  
 - [ ] Alternatively, you can start with a program that works, for example the [Hello program](../Hello.md) and add the lines of the problematic program until it produces an error.
 - [ ] **The goal is to find the line that causes the error.**
