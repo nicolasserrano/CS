@@ -1,10 +1,7 @@
-# Examples
-- Ajax 1 [Ajax.html](Ajax.html)
-- Books [book.html](book.html)
-- Image
+# AJAX
 ![AJAX flowchart](https://sureshjain.files.wordpress.com/2007/04/untitled.jpg)
 
-Simple code:
+Simple code ([execute](https://nicolasserrano.github.io/CS/AJAX/Ajax.html)):
 ```  
 function changeText() {
   var xmlhttp =new XMLHttpRequest();
@@ -18,7 +15,7 @@ function changeText() {
 }
 ```  
 
-Processin a JSON object
+Processin a JSON object ([execute](https://nicolasserrano.github.io/CS/AJAX/bookForm2.html)):
 ``` 
   function getData(ISBN) {    
     var data ="";
