@@ -1,7 +1,7 @@
 # AJAX
 ![AJAX flowchart](https://sureshjain.files.wordpress.com/2007/04/untitled.jpg)
 
-Simple code ([execute](https://nicolasserrano.github.io/CS/AJAX/Ajax.html)):
+## Simple code ([execute](https://nicolasserrano.github.io/CS/AJAX/Ajax.html)):
 ```  
 function changeText() {
   var xmlhttp =new XMLHttpRequest();
@@ -15,7 +15,7 @@ function changeText() {
 }
 ```  
 
-Processin a JSON object ([execute](https://nicolasserrano.github.io/CS/AJAX/bookForm2.html)):
+## Processin a JSON object ([execute](https://nicolasserrano.github.io/CS/AJAX/bookForm2.html)):
 ``` 
   function getData(ISBN) {    
     var data ="";
