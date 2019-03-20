@@ -28,7 +28,7 @@
     <th><b>Así se ve:</b>&nbsp;</th>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
  method=&quot;GET&quot; name=&quot;form&quot;&gt;
 &lt;pre&gt;
   Nombre:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;input NAME=&quot;nombre&quot; size=&quot;20&quot;&gt; 
