@@ -193,3 +193,9 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
 
 <iframe name="res5"></iframe>
 
+<style>
+iframe {
+    height: 4em;
+    width: 100%;
+}
+</style>
