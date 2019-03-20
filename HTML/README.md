@@ -37,7 +37,7 @@
 &lt;/pre&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET" name="form" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="form" target="res">
       <pre>      Nombre:&nbsp;&nbsp;&nbsp;&nbsp; <input name="nombre" size="20"> 
       Contraseña: <input type="password" name="contrasena" size="20">
       <input type="SUBMIT" value="Enviar"> 
