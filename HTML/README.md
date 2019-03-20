@@ -37,7 +37,7 @@
 &lt;/pre&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="query.html" method="GET" name="form" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="form" target="res1">
       <pre>      Nombre:&nbsp;&nbsp;&nbsp;&nbsp; <input name="nombre" size="20"> 
       Contraseña: <input type="password" name="contrasena" size="20">
       <input type="SUBMIT" value="Enviar"> 
@@ -54,7 +54,7 @@
   &lt;input TYPE=&quot;RESET&quot; VALUE=&quot;Borrar&quot;&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET" name="comentario" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="comentario" target="res1">
       <p>Caja de texto de varias líneas:</p>
       <p><textarea rows="3" name="comentario" cols="20">Texto inicial</textarea></p>
       <p><input type="SUBMIT" value="Enviar"> <input type="RESET" value="Borrar"> </p>
@@ -63,9 +63,10 @@
   </tr>
 </table>
 
+<iframe name="res1"></iframe>
 <hr>
 
-<h3><a NAME="check"></a>Casillas de verificación</h3>
+## Casillas de verificación
 
 <table BORDER="1" WIDTH="100%">
   <tr>
@@ -73,7 +74,7 @@
     <th><b>Así se ve:</b>&nbsp;</th>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
  method=&quot;GET&quot;  name=&quot;checks&quot;&gt;
       &lt;p&gt;Indique los idiomas que hablar:&lt;/p&gt;
       &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;euskera&quot;&gt; Euskera &lt;br&gt;
@@ -82,26 +83,21 @@
       &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET"
-    name="checks" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="checks" target="res2">
       <p>Indique los idiomas que hablar:</p>
-      <p><input TYPE="checkbox" NAME="Idioma" VALUE="euskera"> Euskera <br>
-      <input TYPE="checkbox" NAME="Idioma" VALUE="ingles"> Inglés <br>
-      <input TYPE="checkbox" NAME="Idioma" VALUE="frances"> Francés <br>
-      <input TYPE="SUBMIT" VALUE="Enviar"> </p>
+      <p><input type="checkbox" name="Idioma" value="euskera"> Euskera <br>
+      <input type="checkbox" name="Idioma" value="ingles"> Inglés <br>
+      <input type="checkbox" name="Idioma" value="frances"> Francés <br>
+      <input type="SUBMIT" value="Enviar"> </p>
     </form>
     </td>
   </tr>
 </table>
 
-<p><font SIZE="+1"><a HREF="Curso011.htm#Inicio"></a></p>
-</font>
-
-<p><font SIZE="+1"><a HREF="#inicio">Volver al inicio</a></font>&nbsp; </p>
-
+<iframe name="res2"></iframe>
 <hr>
 
-<h3><a NAME="radio"></a>Botones de opciones</h3>
+## Botones de opciones
 
 <table BORDER="1" WIDTH="100%">
   <tr>
@@ -118,26 +114,21 @@
       &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt;
     &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET"
-    name="radio" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="radio" target="res3">
       <p>Seleccione el idioma:</p>
-      <p><input TYPE="radio" NAME="Idioma" VALUE="euskera"> Euskera <br>
-      <input TYPE="radio" NAME="Idioma" VALUE="ingles"> Inglés <br>
-      <input TYPE="radio" NAME="Idioma" VALUE="frances"> Francés <br>
-      <input TYPE="SUBMIT" VALUE="Enviar"> </p>
+      <p><input type="radio" name="Idioma" value="euskera"> Euskera <br>
+      <input type="radio" name="Idioma" value="ingles"> Inglés <br>
+      <input type="radio" name="Idioma" value="frances"> Francés <br>
+      <input type="SUBMIT" value="Enviar"> </p>
     </form>
     </td>
   </tr>
 </table>
 
-<p><font SIZE="+1"><a HREF="Curso011.htm#Inicio"></a></p>
-</font>
-
-<p><font SIZE="+1"><a HREF="#inicio">Volver al inicio</a></font>&nbsp; </p>
-
+<iframe name="res3"></iframe>
 <hr WIDTH="100%">
 
-<h3><a NAME="ventana"></a>Ventana de selección</h3>
+## Ventana de selección
 
 <table BORDER="1" WIDTH="100%">
   <tr>
@@ -145,7 +136,7 @@
     <th><b>Así se ve:</b>&nbsp;</th>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
 method=&quot;GET&quot; name=&quot;ventana&quot;&gt;
 &lt;p&gt;Indique la forma de pago:&lt;/p&gt;
   &lt;p&gt;&lt;select NAME=&quot;Pago&quot; size=&quot;1&quot; &gt;
@@ -155,24 +146,19 @@ method=&quot;GET&quot; name=&quot;ventana&quot;&gt;
   &lt;/select&gt; &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt; &lt;/p&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET"
-    name="ventana" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="ventana" target="res4">
       <p>Indique la forma de pago:</p>
-      <p><select NAME="Pago" size="1">
-        <option VALUE="metalico"> En metálico </option>
-        <option VALUE="cheque"> Cheque </option>
-        <option VALUE="transferencia"> Transferencia bancaria </option>
-      </select> <input TYPE="SUBMIT" VALUE="Enviar"> </p>
+      <p><select name="Pago" size="1">
+        <option value="metalico"> En metálico </option>
+        <option value="cheque"> Cheque </option>
+        <option value="transferencia"> Transferencia bancaria </option>
+      </select> <input type="SUBMIT" value="Enviar"> </p>
     </form>
     </td>
   </tr>
 </table>
 
-<p><font SIZE="+1"><a HREF="Curso011.htm#Inicio"></a></p>
-</font>
-
-<p><font SIZE="+1"><a HREF="#inicio">Volver al inicio</a></font>&nbsp; </p>
-
+<iframe name="res4"></iframe>
 <hr WIDTH="100%">
 
 <h3><a NAME="lista"></a>Listas</h3>
@@ -193,24 +179,19 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
   &lt;/select&gt; &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt; &lt;/p&gt;
 &lt;/form&gt;</pre>
     </td>
-    <td WIDTH="50%"><form action="http://www1.tecnun.es/asignaturas/informat3/Material/query.asp" method="GET"
-    name="lista" target="res">
+    <td WIDTH="50%"><form action="query.html" method="GET" name="lista" target="res5">
       <p>Indique la forma de pago:</p>
-      <p><select NAME="Pago" size="3" MULTIPLE>
-        <option VALUE="metalico"> En metálico </option>
-        <option VALUE="cheque"> Cheque </option>
-        <option VALUE="transferencia"> Transferencia bancaria </option>
-      </select> <input TYPE="SUBMIT" VALUE="Enviar"> </p>
+      <p><select name="Pago" size="3" multiple="">
+        <option value="metalico"> En metálico </option>
+        <option value="cheque"> Cheque </option>
+        <option value="transferencia"> Transferencia bancaria </option>
+      </select> <input type="SUBMIT" value="Enviar"> </p>
     </form>
     </td>
   </tr>
 </table>
 
-<p><font SIZE="+1"><a HREF="Curso011.htm#Inicio"></a></p>
-</font>
-
-<p><font SIZE="+1"><a HREF="#inicio">Volver al inicio</a></font>&nbsp; </p>
-
+<iframe name="res5"></iframe>
 <hr WIDTH="100%">
 </body>
 </html>
