@@ -1,8 +1,6 @@
 # Curso básico de formularios en lenguaje HTML
 
-Última actualización: 20 de Marzo de 2019
-
-Índice
+*Índice*
 
 <table WIDTH="90%" UNITS="relative">
   <tr>
@@ -20,6 +18,7 @@
   </tr>
 </table>
 
+<a NAME="form"></a>
 ## Formularios
 
 <table BORDER="1" WIDTH="100%">
@@ -66,6 +65,7 @@
 <iframe name="res1"></iframe>
 <hr>
 
+<a NAME="radio"></a>
 ## Botones de opciones
 
 <table BORDER="1" WIDTH="100%">
@@ -97,6 +97,7 @@
 <iframe name="res3"></iframe>
 <hr WIDTH="100%">
 
+<a NAME="check"></a>
 ## Casillas de verificación
 
 <table BORDER="1" WIDTH="100%">
@@ -128,6 +129,7 @@
 <iframe name="res2"></iframe>
 <hr>
 
+<a NAME="ventana"></a>
 ## Ventana de selección
 
 <table BORDER="1" WIDTH="100%">
@@ -161,7 +163,8 @@ method=&quot;GET&quot; name=&quot;ventana&quot;&gt;
 <iframe name="res4"></iframe>
 <hr WIDTH="100%">
 
-<h3><a NAME="lista"></a>Listas</h3>
+<a NAME="lista"></a>
+## Listas
 
 <table BORDER="1" WIDTH="100%">
   <tr>
@@ -192,6 +195,8 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
 </table>
 
 <iframe name="res5"></iframe>
+
+&Uacute;ltima actualizaci&oacute;n: 20 de Marzo de 2019
 
 <style>
 iframe {
