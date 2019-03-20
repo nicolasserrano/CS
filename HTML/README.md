@@ -45,7 +45,7 @@
     </td>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
  method=&quot;GET&quot; name=&quot;comentario&quot;&gt;
   Caja de texto de varias líneas:&lt;p&gt;
   &lt;textarea rows=&quot;3&quot; name=&quot;comentario&quot; cols=&quot;20&quot;&gt;Texto inicial&lt;/textarea&gt;
@@ -74,7 +74,7 @@
     <th><b>Así se ve:</b>&nbsp;</th>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
  method=&quot;GET&quot;    name=&quot;radio&quot;&gt;
       &lt;p&gt;Seleccione el idioma:&lt;/p&gt;
       &lt;input TYPE=&quot;radio&quot; NAME=&quot;Idioma&quot; VALUE=&quot;euskera&quot;&gt; Euskera &lt;br&gt;
@@ -172,7 +172,7 @@ method=&quot;GET&quot; name=&quot;ventana&quot;&gt;
     <th><b>Así se ve:</b>&nbsp;</th>
   </tr>
   <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;http://www1.tecnun.es/asignaturas/informat3/Material/query.asp&quot;
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
 method=&quot;GET&quot; name=&quot;lista&quot;&gt;
 &lt;p&gt;Indique la forma de pago:&lt;/p&gt;
   &lt;p&gt;&lt;select NAME=&quot;Pago&quot; size=&quot;3&quot; MULTIPLE&gt;
