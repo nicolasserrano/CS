@@ -26,7 +26,8 @@ function parse_query_string(query) {
 var query = window.location.search.substring(1);
 var qs = parse_query_string(query);
 
-document.write(JSON.stringify(qs))
+document.write("url: " + window.location.href)
+document.write("<BR>" + JSON.stringify(qs))
 </script>
 </body>
 </html>
