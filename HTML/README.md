@@ -8,8 +8,8 @@
   <tr>
     <td VALIGN="BASELINE"><ul>
       <li><a HREF="#form">Formularios</a></li>
-      <li><a href="#check">Casillas de verificación</a></li>
       <li><a href="#radio">Botones de opciones</a></li>
+      <li><a href="#check">Casillas de verificación</a></li>
     </ul>
     </td>
     <td VALIGN="BASELINE"><ul>
@@ -20,7 +20,7 @@
   </tr>
 </table>
 
-## Formularios </font></h3>
+## Formularios
 
 <table BORDER="1" WIDTH="100%">
   <tr>
@@ -66,37 +66,6 @@
 <iframe name="res1"></iframe>
 <hr>
 
-## Casillas de verificación
-
-<table BORDER="1" WIDTH="100%">
-  <tr>
-    <th><b>Así se escribe:</b></th>
-    <th><b>Así se ve:</b>&nbsp;</th>
-  </tr>
-  <tr>
-    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
- method=&quot;GET&quot;  name=&quot;checks&quot;&gt;
-      &lt;p&gt;Indique los idiomas que hablar:&lt;/p&gt;
-      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;euskera&quot;&gt; Euskera &lt;br&gt;
-      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;ingles&quot;&gt; Inglés &lt;br&gt;
-      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;frances&quot;&gt; Francés &lt;br&gt;
-      &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt;
-&lt;/form&gt;</pre>
-    </td>
-    <td WIDTH="50%"><form action="query.html" method="GET" name="checks" target="res2">
-      <p>Indique los idiomas que hablar:</p>
-      <p><input type="checkbox" name="Idioma" value="euskera"> Euskera <br>
-      <input type="checkbox" name="Idioma" value="ingles"> Inglés <br>
-      <input type="checkbox" name="Idioma" value="frances"> Francés <br>
-      <input type="SUBMIT" value="Enviar"> </p>
-    </form>
-    </td>
-  </tr>
-</table>
-
-<iframe name="res2"></iframe>
-<hr>
-
 ## Botones de opciones
 
 <table BORDER="1" WIDTH="100%">
@@ -127,6 +96,37 @@
 
 <iframe name="res3"></iframe>
 <hr WIDTH="100%">
+
+## Casillas de verificación
+
+<table BORDER="1" WIDTH="100%">
+  <tr>
+    <th><b>Así se escribe:</b></th>
+    <th><b>Así se ve:</b>&nbsp;</th>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
+ method=&quot;GET&quot;  name=&quot;checks&quot;&gt;
+      &lt;p&gt;Indique los idiomas que hablar:&lt;/p&gt;
+      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;euskera&quot;&gt; Euskera &lt;br&gt;
+      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;ingles&quot;&gt; Inglés &lt;br&gt;
+      &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;frances&quot;&gt; Francés &lt;br&gt;
+      &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt;
+&lt;/form&gt;</pre>
+    </td>
+    <td WIDTH="50%"><form action="query.html" method="GET" name="checks" target="res2">
+      <p>Indique los idiomas que hablar:</p>
+      <p><input type="checkbox" name="Idioma" value="euskera"> Euskera <br>
+      <input type="checkbox" name="Idioma" value="ingles"> Inglés <br>
+      <input type="checkbox" name="Idioma" value="frances"> Francés <br>
+      <input type="SUBMIT" value="Enviar"> </p>
+    </form>
+    </td>
+  </tr>
+</table>
+
+<iframe name="res2"></iframe>
+<hr>
 
 ## Ventana de selección
 
@@ -192,6 +192,4 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
 </table>
 
 <iframe name="res5"></iframe>
-<hr WIDTH="100%">
-</body>
-</html>
+
