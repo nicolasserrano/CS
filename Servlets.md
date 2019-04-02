@@ -7,7 +7,7 @@
 - crete the HTTP request: Developer tool -> Network, click on <http://www.amazon.com>, see Headers, Request header.
   - Search for amazon. Open a cookie.
   - Remove all shown
-  - New request (F%) to www.amazon.com with "Developer tool -> Network" open
+  - New request (F5) to www.amazon.com with "Developer tool -> Network" open
     - See Request (no cookies)
     - See Response (new cookies)
   - Second request to amazon (F5):
