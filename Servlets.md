@@ -33,7 +33,7 @@
 - Cookies in the network: Console (F12), Network, reload (F5) and click url - > headers -> view source
 - Example with Amazon
 
-## Session in applications
+## Example of Session in applications
 
 ### Login [code](webapps/northbrickSession/WEB-INF/classes/CheckLogin.java)
 
