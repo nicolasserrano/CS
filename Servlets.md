@@ -33,6 +33,55 @@
 - Cookies in the network: Console (F12), Network, reload (F5) and click url - > headers -> view source
 - Example with Amazon
 
+## Session in applications
+
+### Login [code](webapps/northbrickSession/WEB-INF/classes/CheclLogin.java)
+'''
+ public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
+        res.setContentType("text/html");
+        String login = req.getParameter("login");
+        String password = req.getParameter("password");
+        String logged = check(connection, login, password);
+        System.out.println("check Login logged: " + logged);
+        System.out.println("check Login login, password: " + login + " " + password);
+        if (logged != null) {
+            HttpSession session = req.getSession(true);
+            session.setAttribute("login", logged);
+            res.sendRedirect("ProductList");
+        } else {
+        ...
+'''
+        
+### Function [code](webapps/northbrickSession/WEB-INF/classes/ProductList.java)
+'''
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
+        res.setContentType("text/html");
+        PrintWriter toClient = res.getWriter();
+        String categoryId = req.getParameter("id");
+        HttpSession session = req.getSession(false);
+        String login = null;
+        if (session != null) {
+            login = (String)session.getAttribute("login");
+            System.out.println("ProductList logged");
+            System.out.println("ProductList login: " + login);
+        }
+        toClient.println(Utils.header("Products", login));
+        
+        ...
+'''
+        
+### Logout
+'''
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
+        res.setContentType("text/html");
+        HttpSession session = req.getSession(false);
+        if (session != null) {
+            session.invalidate();
+            res.sendRedirect("CheckLogin");
+        }
+    }
+'''
+
 ## Session in Servlets
 - Java Classes:
   - [HttpServletRequest getSession(boolean create)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpServletRequest.html#getSession(boolean))
