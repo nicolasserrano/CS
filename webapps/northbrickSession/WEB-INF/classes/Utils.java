@@ -22,7 +22,7 @@ public class Utils {
         if (user != null) {
             str.append("<a id='login' href='Logout'>Logout (" + user + ")</a>");
         } else {
-            str.append("<a id='login' href='login.html'>Login</a>");
+            str.append("<a id='login' href='CheckLogin'>Login</a>");
         }
         str.append("</div>");
         str.append("<H2 align=\"center\">" + title + "</H2>");

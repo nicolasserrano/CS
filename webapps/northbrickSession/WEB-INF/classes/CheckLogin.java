@@ -29,9 +29,12 @@ public class CheckLogin extends HttpServlet {
             res.sendRedirect("ProductList");
         } else {
             PrintWriter toClient = res.getWriter();
-            toClient.println(Utils.header("Category Form"));
-            toClient.println("</h1>Login incorrect</h1>");
-            toClient.println(Utils.footer("Category Form"));
+            toClient.println(Utils.header("Login"));
+            if (login != null) {
+              toClient.println("<h1>Login incorrect</h1>");
+            }
+            toClient.println(loginForm());
+            toClient.println(Utils.footer("Login"));
             toClient.close();
         }
     }
@@ -59,5 +62,18 @@ public class CheckLogin extends HttpServlet {
             System.out.println("Exception in check login. Exception: " + e);
         }
         return name;
+    }
+
+    String loginForm() {
+        String out = "";
+        out += "<form action='CheckLogin'";
+        out += " method='GET' name='form'>";
+        out += "<pre>";
+        out += " Nombre:&nbsp;&nbsp;&nbsp;&nbsp; <input NAME='login' size='20'>\n";
+        out += " Contrase&ntilde;a: <input TYPE='password' NAME='password' size='20'>\n";
+        out += " <input TYPE='SUBMIT' VALUE='Login'>";
+        out += "</pre>";
+        out += "</form>";
+        return out;
     }
 }
