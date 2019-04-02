@@ -35,7 +35,7 @@
 
 ## Session in applications
 
-### Login [code](webapps/northbrickSession/WEB-INF/classes/CheclLogin.java)
+### Login [code](webapps/northbrickSession/WEB-INF/classes/CheckLogin.java)
 
 ```
  public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
