@@ -36,6 +36,7 @@
 ## Session in applications
 
 ### Login [code](webapps/northbrickSession/WEB-INF/classes/CheclLogin.java)
+
 '''
  public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
@@ -53,6 +54,7 @@
 '''
         
 ### Function [code](webapps/northbrickSession/WEB-INF/classes/ProductList.java)
+
 '''
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
@@ -70,7 +72,8 @@
         ...
 '''
         
-### Logout
+### Logout [code](webapps/northbrickSession/WEB-INF/classes/Logout.java)
+
 '''
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
