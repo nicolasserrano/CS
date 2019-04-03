@@ -84,7 +84,7 @@
         }
     }
 ```
-In folder [northbrickSession](https://github.com/nicolasserrano/CS/webapps/northbrickSession)
+In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/webapps/northbrickSession)
 
 ## Session in Servlets
 - Java Classes:
