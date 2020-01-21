@@ -120,4 +120,5 @@ Or a complete file with variables for Java, Derby, Squirrel and Apache Tomcat ar
 To execute this sp file:
 1. Open a Command Prompt Window (type CMD after clicking in the Start button of Windows)
 2. Change to the drive whre the file is. Example: >F:
-3. Type the name of the file: sp
+3. Change to the Java8 folder: >cd Java8
+4. Type the name of the file: >sp
