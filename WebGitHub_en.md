@@ -1,7 +1,7 @@
 # Web site with GitHub
 
 ## Create an account on GitHub
-[Create account] (https://github.com/join?source_repo=nicolasserrano%2FCS)
+[Create account](https://github.com/join?source_repo=nicolasserrano%2FCS)
 
 ## Create a repository
 In Repositories, click on New
@@ -18,7 +18,7 @@ In Repositories, click on New
 - After a few seconds you can access with the url indicated in GitHub Pages by adding the name of the page
 - You can also create pages with MarkDown, as this is created.
 
-[Edit](https://github.com/nicolasserrano/CS/edit/master/WebGitHub.md)
+[Edit](https://github.com/nicolasserrano/CS/edit/master/WebGitHub_en.md)
 <style>
 div.container ul, div.container ol {
     padding-left: 1.4em;
