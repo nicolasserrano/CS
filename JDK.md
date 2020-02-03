@@ -17,14 +17,16 @@ La construcci&oacute;n de este programa se explica en la p&aacute;gina [Hello, W
 ### 2. Guardarlo con el nombre “PrimerPrograma.java”
 
 ### 3. Abrir una ventana “Command Prompt”. Se realiza desde el botón “start”:
-  >start -> Programs -> Accessories -> Command Prompt
+  >start -> Windows System -> Command Prompt
+  
+  O tecleando 'CMD' en start
   
 La informaci&oacute;n de como abrir y utilizar Command Prompt se encuentra en la p&aacute;gina [Cmd](Cmd.md)
 
 ### 4. Incluir en la variable PATH, el directorio en que se encuentran las herramientas de compilación y ejecución. Y en la variable CLASSPATH, el directorio en que se encuentran las clases para su ejecución. Para ello, teclear en la ventana Command Prompt:
   
 ```
-set PATH=.;Q:\Java\jdk1.7.0_80\bin;%PATH%
+set PATH=.;Q:\Java\jdk1.8.0_131\bin;%PATH%
 set CLASSPATH=.;%CLASSPATH%
 ```
 
