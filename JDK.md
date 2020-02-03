@@ -53,7 +53,7 @@ java PrimerPrograma
 ### 8. Se obtendrá el resultado:
 
 ```
-Primer programa de Infor 2
+Hello, World!
 ```
 
 ## Recursos
