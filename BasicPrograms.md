@@ -26,6 +26,34 @@ class Name {
 
 ## Programa 3
 
+El programa Factor2 multiplica el argumento que se le pasa por 2. Primero convierte el argumento en float:
+```
+class Factor2 {
+    public static void main(String[] args){
+        float x = Float.parseFloat(args[0]);
+        System.out.println(x*2);
+    }
+}
+```
+
+## Programa 4
+
+El programa Compare imprime positive o negative dependiendo del valor del argumento que se le pasa:
+```
+class Compare {
+    public static void main(String[] args){
+        float x = Float.parseFloat(args[0]);
+        if (x >= 0) {
+            System.out.println("positive");
+        } else {
+            System.out.println("negative");
+        }
+    }
+}
+```
+
+## Programa 5
+
 El programa Arguments imprime los arguemntos que se pasan al programa:
 ```
 public class Arguments {
@@ -38,7 +66,7 @@ public class Arguments {
 }
 ```
 
-## Programa 4
+## Programa 6
 
 El programa Types imprime una variable de tipo booleana y otra de tipo char:
 ```
@@ -51,7 +79,7 @@ class Types {
 }
 ```
 
-## Programa 5
+## Programa 7
 
 El programa Numbers imprime los distintos tipos de variables num&eacute;ricas de Java:
 ```
@@ -83,7 +111,7 @@ class Numbers {
 }
 ```
 
-## Programa 6
+## Programa 8
 
 El programa Letters imprime las letras del argumento que se pasa al programa:
 ```
