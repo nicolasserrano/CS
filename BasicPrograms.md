@@ -54,7 +54,7 @@ class Compare {
 
 ## Programa 5
 
-El programa Arguments imprime los arguemntos que se pasan al programa:
+El programa Arguments imprime los argumentos que se pasan al programa:
 ```
 public class Arguments {
     public static void main(String[] args) {
@@ -124,6 +124,30 @@ public class Letters {
         for (int i=0; i<n; i++) {
             System.out.println(i + ": " + nombre.charAt(i));
         }
+    }
+}
+```
+
+## Programa 9
+
+El programa Factorial imprime el factorial de los números que se le pasan al programa, usando la función factorial:
+```
+class Factorial {
+    public static void main(String[] args) {
+        for (int i = 0; i < args.length; i++) {
+            int n = Integer.parseInt(args[i]);
+            //System.out.println("Llamada a factorial con n: " + n);
+            float sol = factorial(n);
+            System.out.println("Factorial de " + args[i] + " = " + sol);
+        }
+    }
+    static float factorial(int n) {
+        float res = 1;
+        for (int i = 1; i <= n; i++) {
+            res = res * i;
+            //System.out.println("i: " + i + " res: " + res);
+        }
+        return res;
     }
 }
 ```
