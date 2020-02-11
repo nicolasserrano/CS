@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>ProductListMockup</servlet-name>
+        <servlet-class>ProductListMockup</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductOrdersListMockup</servlet-name>
+        <servlet-class>ProductOrdersListMockup</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductOrderEditMockup</servlet-name>
+        <servlet-class>ProductOrderEditMockup</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductListMockup</servlet-name>
+        <url-pattern>/ProductListMockup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductOrdersListMockup</servlet-name>
+        <url-pattern>/ProductOrdersListMockup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductOrderEditMockup</servlet-name>
+        <url-pattern>/ProductOrderEditMockup</url-pattern>
+    </servlet-mapping>
+
+</web-app>
