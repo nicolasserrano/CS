@@ -1,5 +1,6 @@
 ## Tipos de variables
 
+```
 boolean  1 byte. Valores true y false
 char     2 bytes.Unicode . Comprende el código ASCII.
 byte     1 byte. Entero entre -128 y 127
@@ -8,6 +9,7 @@ int      4 bytes.Entero entre -2.147.483.648 y 2.147.483.647
 long     8 bytes.Entero entre -9.223.372.036.854.775.808 y 9.223.372.036.854.775.807
 float    4 bytes.Real (entre 6 y 7 cifras decimales equivalentes).De -3.402823E38 a -1.401298E-45y de 1.401298E-45 a 3.402823E38
 double   8 bytes.Real (15 cifras decimales equivalentes).De -1.79769313486232E308 a -4.94065645841247E-324y de 4.94065645841247E-324a 1.79769313486232E308
+```
 
 ## Declaración de variables
 
