@@ -36,7 +36,7 @@ function createForm(productid, productname){
     hidd = document.createElement("input");
     hidd.setAttribute("type", "hidden");
     hidd.setAttribute("name", "id");
-    hidd.setAttribute("value", id);
+    hidd.setAttribute("value", productid);  // instead of id, corrected 16/02/2020
     r1.appendChild(hidd);
     
     r2 = document.createElement("tr");
