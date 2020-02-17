@@ -38,7 +38,6 @@ lista[1] = new MyClass();       // Se asigna a lista[1] la referencia al nuevo o
 
 ## Clase Circulo
 
-.column[
    
 ```
 public class Circulo {
@@ -70,8 +69,7 @@ public class Circulo {
         return PI * r * r;
     }
 ```
-]
-.column[
+## Clase Circulo (parte 2)
 
 ```
 // método de objeto para comparar círculos
