@@ -38,6 +38,9 @@ lista[1] = new MyClass();       // Se asigna a lista[1] la referencia al nuevo o
 
 ## Clase Circulo
 
+<table>
+ <tr>
+ <td>
 ```
 public class Circulo {
     static int numCirculos = 0;
@@ -67,7 +70,12 @@ public class Circulo {
     public double area() {
         return PI * r * r;
     }
-    // método de objeto para comparar círculos
+```
+
+</td>
+ <td>
+```
+// método de objeto para comparar círculos
     public Circulo elMayor(Circulo c) {
         if (this.r>=c.r) {
             return this;
@@ -88,3 +96,8 @@ public class Circulo {
     }
 } // fin de la clase Circulo
 ```
+</td>
+</tr>
+</table>
+
+
