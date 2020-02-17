@@ -30,8 +30,12 @@ public class Circulo {
         this.y = y;
         this.r = r;
     }
-    Circulo(double r) { this(0.0, 0.0, r); }
-    Circulo(){this(0.0, 0.0, 1.0);}
+    Circulo(double r) {
+        this(0.0, 0.0, r);
+    }
+    Circulo(){
+        this(0.0, 0.0, 1.0);
+    }
     public static void main(String[] args) {
         Circulo c1;
         c1 = new Circulo(2,3,4);
