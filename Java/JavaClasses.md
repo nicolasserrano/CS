@@ -25,7 +25,7 @@ public class Circulo {
     double x;
     double y;
     double r;
-    Circulo (double x, double y, double z) {
+    Circulo (double x, double y, double r) {
         this.x = x;
         this.y = y;
         this.r = r;
