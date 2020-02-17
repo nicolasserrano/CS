@@ -24,11 +24,11 @@ Se puede ver el uso de la memoria con la aplicación [Java tutor](http://www.pyt
 public class Circulo {
     double x;
     double y;
-    double z;
+    double r;
     Circulo (double x, double y, double z) {
         this.x = x;
         this.y = y;
-        this.z = z;
+        this.r = r;
     }
     Circulo(double r) { this(0.0, 0.0, r); }
     Circulo(){this(0.0, 0.0, 1.0);}
