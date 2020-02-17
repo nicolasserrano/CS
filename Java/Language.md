@@ -41,6 +41,7 @@ lista[1] = new MyClass();       // Se asigna a lista[1] la referencia al nuevo o
 <table>
  <tr>
  <td>
+   
 ```
 public class Circulo {
     static int numCirculos = 0;
@@ -74,6 +75,7 @@ public class Circulo {
 
 </td>
  <td>
+  
 ```
 // método de objeto para comparar círculos
     public Circulo elMayor(Circulo c) {
