@@ -85,7 +85,7 @@ void addElement(Object)   // Añade un elemento al vector
 int size()                //  Devuelve el tamaño del vector
 elementAt(int i)          // Devuelve el elemento de la posición i
 ```
-Un ejemplo de un programa que crea un Vector de String e inserta 3 elementos, muestra el tamaño y se le pide el primero (0).
+Un ejemplo de un programa que crea un Vector de String e inserta varios elementos, muestra el tamaño y se le pide el primero (0).
 ```
 import java.util.Vector;
 public class UseVector{
