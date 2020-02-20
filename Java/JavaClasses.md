@@ -96,7 +96,9 @@ public class UseVector{
         vs.addElement("Luke");
         vs.addElement("John");
         System.out.println("Size: " + vs.size());
-        System.out.println("Element 0: " + vs.elementAt(0));
+        for (int i=0; i<vs.size(); i++) {
+            System.out.println("Element " + i + ": " + vs.elementAt(i));
+        }
     }
 }
 ```
