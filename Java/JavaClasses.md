@@ -75,3 +75,28 @@ public class UseCirculo{
     }
 }
 ```
+
+## Class Vector
+La clase Vector se define en: https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html
+
+Utilizaremos los siguientes métodos:
+```
+void addElement(Object)   // Añade un elemento al vector
+int size()                //  Devuelve el tamaño del vector
+elementAt(int i)          // Devuelve el elemento de la posición i
+```
+Un ejemplo de un programa que crea un Vector de String e inserta 3 elementos, muestra el tamaño y se le pide el primero (0).
+```
+import java.util.Vector;
+public class UseVector{
+    public static void main(String[] args) {
+        Vector<String> vs = new Vector<String>();
+        vs.addElement("Matthew");
+        vs.addElement("Mark");
+        vs.addElement("Luke");
+        vs.addElement("John");
+        System.out.println("Size: " + vs.size());
+        System.out.println("Element 0: " + vs.elementAt(0));
+    }
+}
+```
