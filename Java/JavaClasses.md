@@ -102,3 +102,25 @@ public class UseVector{
     }
 }
 ```
+
+## Class Esfera
+La clase Esfera hereda o deriva de la clase Circulo
+
+```
+public class Esfera extends Circulo {
+    double z;
+    Esfera(double x, double y, double z, double r) {
+        super(x, y, r);
+        this.z = z;
+    }
+    double volumen() {
+        return 4/3*Math.PI*r*r*r;
+    }
+    public static void main(String[] args) {
+        Esfera e1 = new Esfera(3, 4, 5, 2);
+        System.out.println(e1.volumen());
+    }
+}
+```
+
+
