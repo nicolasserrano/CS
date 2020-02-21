@@ -114,7 +114,7 @@ public class Esfera extends Circulo {
         this.z = z;
     }
     double volumen() {
-        return 4/3*Math.PI*r*r*r;
+        return 4./3.*Math.PI*r*r*r;
     }
     public static void main(String[] args) {
         Esfera e1 = new Esfera(3, 4, 5, 2);
