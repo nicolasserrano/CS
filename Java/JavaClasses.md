@@ -134,7 +134,7 @@ public class typesDefinition {
       float x = 0;
       int[] v;
       v = new int[5];
-      vc[0] = 3;
+      v[0] = 3;
       String[] vs = new String[10];
       vs[0] = "Hello";  // equivalent to v[0] = new String("Hello");
     }
