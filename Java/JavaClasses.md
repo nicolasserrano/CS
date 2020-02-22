@@ -123,4 +123,21 @@ public class Esfera extends Circulo {
 }
 ```
 
+## Uso de la memoria
+Se puede ver el uso de la memoria introduciendo esta clase en [Java Tutor](http://www.pythontutor.com/java.html)
+
+```
+public class typesDefinition {
+    public static void main(String[] args) {
+      int i=1;
+      i = i + 1;
+      float x = 0;
+      int[] v;
+      v = new int[5];
+      vc[0] = 3;
+      String[] vs = new String[10];
+      vs[0] = "Hello";  // equivalent to v[0] = new String("Hello");
+    }
+}
+```
 
