@@ -88,6 +88,7 @@ public class Circulo {
             return d;
         }
     }
+    // metodo de para imprimir coordenadas y radio
     public String toString() {
         return "x: " + x + " y: " + y + " r: " + r;
     }
