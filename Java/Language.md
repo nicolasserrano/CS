@@ -42,7 +42,7 @@ lista[1] = new MyClass();       // Se asigna a lista[1] la referencia al nuevo o
 ```
 public class Circulo {
     static int numCirculos = 0;
-    public static final double PI=3.14159;
+    public static final double PI=3.14159265358979323846;
     public double x;
     public double y;
     public double r;
@@ -54,7 +54,7 @@ public class Circulo {
         numCirculos++;
     }
     public Circulo(double r) {
-       this(0.0, 0.0, r);
+        this(0.0, 0.0, r);
     }
     public Circulo(Circulo c) {
         this(c.x, c.y, c.r);
@@ -72,7 +72,7 @@ public class Circulo {
 ## Clase Circulo (parte 2)
 
 ```
-// método de objeto para comparar círculos
+// metodo de objeto para comparar circulos
     public Circulo elMayor(Circulo c) {
         if (this.r>=c.r) {
             return this;
@@ -80,7 +80,7 @@ public class Circulo {
             return c;
         }
     }
-    // método de clase para comparar círculos
+    // metodo de clase para comparar circulos
     public static Circulo elMayor(Circulo c, Circulo d) {
         if (c.r>=d.r) {
             return c;
@@ -89,7 +89,7 @@ public class Circulo {
         }
     }
     public String toString() {
-        return "x: " + x + " y: " + y + " radio: " + r;
+        return "x: " + x + " y: " + y + " r: " + r;
     }
 } // fin de la clase Circulo
 ```
