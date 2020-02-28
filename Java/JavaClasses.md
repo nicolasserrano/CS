@@ -1,6 +1,6 @@
 # Clases en Java
 
-Se muestran dos ejercicios de utilización de clases en Java.  
+Ejercicios de utilización de clases en Java.  
 
 ## Programa P2
 ```
@@ -136,7 +136,7 @@ public class typesDefinition {
       v = new int[5];
       v[0] = 3;
       String[] vs = new String[10];
-      vs[0] = "Hello";  // equivalent to v[0] = new String("Hello");
+      vs[0] = "Hello";  // equivalent to vs[0] = new String("Hello");
     }
 }
 ```
