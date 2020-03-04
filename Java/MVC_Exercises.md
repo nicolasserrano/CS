@@ -21,6 +21,9 @@ Create the servlets to edit an existing category
 
 # Order creation
 
-Create the servlets neccesary to add a new product to an existing order
+Create the servlets neccesary to add a new product to an existing order.
+The next figure shows the order (without the edition button and form)
 ![Order](https://nicolasserrano.github.io/CS/Java/images/OrderEdit10483.jpg)
+and you will need to get the final figure.
+![Order](https://nicolasserrano.github.io/CS/Java/images/OrderEditLine10483.jpg)
 
