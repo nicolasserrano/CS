@@ -3,10 +3,6 @@
 
 *Índice*
 
-<H1>
-
-Curso b&aacute;sico de lenguaje HTML</H1></CENTER>
-
 <HR>
 
 <H2>
