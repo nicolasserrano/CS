@@ -5,11 +5,6 @@
 
 <HR>
 
-<H2>
-
-&Iacute;ndice</H2>
-
-
 <TABLE WIDTH="90%" UNITS="relative" >
 <TR>
 <TD VALIGN=BASELINE>
@@ -52,41 +47,23 @@
 <A NAME="estrgral"></A>Estructura general de un fichero HTML</H3>
 
 HTML (HyperText Markup Language) es el lenguaje utilizado en la Internet
-
 para definir las p&aacute;ginas del WORLD WIDE WEB. Los ficheros HTML son
-
 ficheros puramente ASCII, que pueden ser escritos con cualquier editor
-
 b&aacute;sico, tal como Notepad en Windows o vi en Unix. Tambi&eacute;n
-
 se pueden utilizar procesadores de texto m&aacute;s complicados como Microsoft
-
 Word, pero en este caso hay que asegurarse que el fichero es guardado en
-
 disco como "text only". En este fichero de texto se introducen unas marcas
-
 o caracteres de control llamadas TAGs, que son interpretadas por el browser.
-
 Cuando &eacute;ste lee un fichero ASCII con extensi&oacute;n *.htm o *.html
-
 interpreta estas TAGs y formatea el texto de acuerdo con ellas.
 
-
-
 <P>Todas las TAGs de HTML van encerradas entre los caracteres menor que
-
 ( &lt;) y mayor que ( >), como por ejemplo &lt;HTML>. Adem&aacute;s, la
-
 mayor parte de ellas son dobles, en el sentido de que hay una TAG de comienzo
-
 y otra de final; entre ambas est&aacute; el texto afectado por dichas TAGs.
-
 La marca de final es como la de comienzo, pero incluyendo una barrra (/).
-
 Por ejemplo, la marca de final de &lt;HTML> es &lt;/HTML>. De la misma
-
 forma, la TAG de final de &lt;P> es &lt;/P>, y as&iacute; con otras TAGs.
-
 <PRE><FONT SIZE=+0>&lt;HTML>
 
 &nbsp;&nbsp;&nbsp; &lt;HEAD>
