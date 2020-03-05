@@ -1,0 +1,1142 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   
+
+   <meta name="GENERATOR" content="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+
+   <title>Curso básico de lenguaje HTML</title>
+<style>
+body {
+    max-width: 1012px;  
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 600;
+}
+</style>
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF">
+
+
+<h1>
+
+<a name="inicio"></a>Curso básico de lenguaje HTML</h1>
+
+
+<hr>
+
+<h2>
+
+Índice</h2>
+
+
+
+<table width="90%" units="relative">
+
+<tbody><tr>
+
+<td valign="BASELINE">
+
+<ul>
+
+<li>
+
+<a href="#estrgral">Estructura general de un fichero HTML</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#parrafos">Formato de párrafos</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#texto">Formato de texto</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#listasno">Listas no ordenadas</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#listasor">Listas ordenadas</a>&nbsp;</li>
+
+
+
+</ul>
+
+</td>
+
+
+
+<td valign="BASELINE">
+
+<ul>
+
+<li>
+
+<a href="#tablas">Tablas</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#anclas">Anclas</a>&nbsp;</li>
+
+<li>
+
+<a href="#link">Links</a>&nbsp;</li>
+
+
+
+<li>
+
+<a href="#inimag">Inserción de imágenes</a></li>
+
+
+
+<li>
+
+<a href="#imclic">Imágenes clicables</a></li>
+
+</ul>
+
+</td>
+
+</tr>
+
+</tbody></table>
+
+
+
+<hr>
+
+<h3>
+
+<a name="estrgral"></a>Estructura general de un fichero HTML</h3>
+
+HTML (HyperText Markup Language) es el lenguaje utilizado en la Internet
+
+para definir las páginas del WORLD WIDE WEB. Los ficheros HTML son
+
+ficheros puramente ASCII, que pueden ser escritos con cualquier editor
+
+básico, tal como Notepad en Windows o vi en Unix. También
+
+se pueden utilizar procesadores de texto más complicados como Microsoft
+
+Word, pero en este caso hay que asegurarse que el fichero es guardado en
+
+disco como "text only". En este fichero de texto se introducen unas marcas
+
+o caracteres de control llamadas TAGs, que son interpretadas por el browser.
+
+Cuando éste lee un fichero ASCII con extensión *.htm o *.html
+
+interpreta estas TAGs y formatea el texto de acuerdo con ellas.
+
+
+
+<p>Todas las TAGs de HTML van encerradas entre los caracteres menor que
+
+(&lt;) y mayor que (&gt;), como por ejemplo &lt;HTML&gt;. Además, la
+
+mayor parte de ellas son dobles, en el sentido de que hay una TAG de comienzo
+
+y otra de final; entre ambas está el texto afectado por dichas TAGs.
+
+La marca de final es como la de comienzo, pero incluyendo una barrra (/).
+
+Por ejemplo, la marca de final de &lt;HTML&gt; es &lt;/HTML&gt;. De la misma
+
+forma, la TAG de final de &lt;P&gt; es &lt;/P&gt;, y así con otras TAGs.
+</p><pre>
+&lt;!DOCTYPE HTML&gt;
+&lt;HTML&gt;
+&nbsp;&nbsp;&nbsp; &lt;HEAD&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TITLE&gt;Título de la página&lt;/TITLE&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp; &lt;/HEAD&gt;
+&nbsp;&nbsp;&nbsp; &lt;BODY&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp;&nbsp;&nbsp; &lt;/BODY&gt;
+&lt;/HTML&gt;</pre>
+
+<a href="#inicio">Volver al inicio</a>&nbsp;
+
+<hr width="100%">
+
+<h3>
+
+<a name="parrafos"></a>Formato de párrafos</h3>
+
+
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Este es un ejemplo de cómo se&nbsp;
+formatean los párrafos en lenguaje HTML.&nbsp;
+En esta celda de la Tabla se incluyen dos&nbsp;
+párrafos&lt;/P&gt;
+
+
+&lt;P&gt;El resultado puede verse en la&nbsp;
+celda vecina incluida en la columna de la&nbsp;
+derecha&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Este es un ejemplo de cómo se formatean los párrafos
+
+en lenguaje HTML. En esta celda de la Tabla se incluyen dos párrafos&nbsp;
+
+
+
+<p>El resultado puede verse en la celda vecina incluida en la columna de
+
+la derecha&nbsp;</p></td>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Los párrafos se separan con un espaciado&nbsp;
+superior al correspondiente&nbsp;
+a una nueva línea. &lt;BR&gt;
+
+Para tener un espaciado más compacto&nbsp;
+puede utilizarse el Line Break,&nbsp;
+como en este ejemplo.&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Los párrafos se separan con un espaciado superior
+
+al correspondiente a una nueva línea.&nbsp;
+
+<br>Para tener un espaciado más compacto puede utilizarse el Line
+
+Break, como en este ejemplo.&nbsp;</td>
+
+</tr>
+
+
+
+<tr>
+
+<td><tt>&lt;P&gt;Líneas horizontales:&lt;/P&gt;</tt>&nbsp;
+
+
+
+<p><tt>&lt;HR&gt;
+<br>&lt;HR WIDTH=80%&gt;
+<br>&lt;HR SIZE=4&gt;
+<br>&lt;HR NOSHADE&gt;</tt></p></td>
+
+
+
+<td>Líneas horizontales:&nbsp;
+
+<hr width="100%">
+
+<hr width="80%">
+
+<hr size="4" width="100%">
+
+<hr noshade="" width="100%"></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><tt>&lt;P&gt;Los párrafos pueden indentarse.</tt>&nbsp;
+
+
+
+<p><tt>&lt;BLOCKQUOTE&gt;Block quote indenta un párrafo. Se&nbsp;</tt>&nbsp;
+
+<tt>deshace esta indentación con el fin de la</tt>&nbsp;
+
+<tt>TAG Block quote,&lt;/BLOCKQUOTE&gt;</tt>&nbsp;
+
+<tt>como se ve en el ejemplo.&lt;/P&gt;</tt></p></td>
+
+
+
+<td>Los párrafos pueden indentarse.&nbsp;
+
+<ul>Block quote indenta un párrafo. Se deshace esta indentación
+
+con el fin de la TAG Block quote,</ul>
+
+como se ve en el ejemplo.</td>
+
+</tr>
+
+
+
+<tr>
+
+<td><tt>&lt;PRE&gt;La TAG Preformatted permite</tt>&nbsp;
+
+<ul>
+
+<ul><tt>respetar la forma</tt>&nbsp;
+
+<ul><tt>original</tt>&nbsp;
+
+
+
+<p><tt>en que se ha&nbsp;</tt>&nbsp;
+
+</p><ul><tt>escrito el texto.&lt;/PRE&gt;</tt></ul>
+
+</ul>
+
+</ul>
+
+</ul>
+
+</td>
+
+
+
+<td>La TAG Preformatted permite&nbsp;
+
+<ul>respetar la forma&nbsp;
+
+<ul>original&nbsp;
+
+
+
+<p>en que se ha&nbsp;
+
+</p><ul>escrito el texto.</ul>
+
+</ul>
+
+</ul>
+
+</td>
+
+</tr>
+
+
+</tbody></table>
+
+<a href="#inicio"></a>
+
+<p><a href="#inicio">Volver al inicio</a>
+
+
+
+</p><p>
+
+</p><hr>
+
+<h3>
+
+<a name="texto"></a>Formato de texto</h3>
+
+Una idea importante de HTML es la de definir lo que se desea hacer (resaltar
+
+una palabra o un párrafo, utilizar un espaciado constante, etc.),
+
+pero no decir cómo se desea hacerlo, dejando que esta función
+
+la realice el browser de acuerdo con sus posibilidades. Por ejemplo, se
+
+le puede decir al browser que se quiere remarcar una palabra sin decirle
+
+que la ponga en bold; de ordinario la remarcará poniéndola
+
+en bold, pero si el browser se está ejecutando en un ordenador que
+
+no permite texto en bold, el propio browser buscará una forma alternativa
+
+de remarcar esa palabra.
+
+
+
+<p>De todas formas, los autores quieren muchas veces determinar más
+
+en concreto cómo va a aparecer su texto en la pantalla del browser.
+
+Además, cada vez es más infrecuente ejecutar un browser que
+
+no tenga las amplias posibilidades de formatear texto de Mac o Windows.
+
+La consecuencia es que HTML se ha extendido y permite tanto definir de
+
+modo general la función del texto como determinar en concreto el
+
+formato con que se debe representar. A continuación se muestran
+
+algunos ejemplos de ambas formas de definir los formatos.
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Una palabra o un fragmento de texto se&nbsp;
+puede resaltar con el tag STRONG&nbsp;
+o con el tag EM, que en la mayor&nbsp;
+parte de los browsers se corresponden&nbsp;
+con &lt;STRONG&gt;bold&lt;/STRONG&gt; e&nbsp;
+&lt;EM&gt;italic&lt;/EM&gt;&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Una palabra o un fragmento de texto se puede resaltar con
+
+el tag STRONG o con el tag EM, que en la mayor parte de los browsers se
+
+corresponden con <b>bold</b> e <i>italic</i>.&nbsp;</td>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;En cualquier caso, también se&nbsp;
+pueden utilizar los tags&nbsp;
+&lt;B&gt;bold&lt;/B&gt; (B) e &lt;I&gt;italic&lt;/I&gt; (I).&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">En cualquier caso, también se pueden utilizar los
+
+tags <b>bold</b> (B) e <i>italic</i> (I).&nbsp;</td>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Para escribir con una &lt;TT&gt;letra de paso
+constante (estilo teletipo)&lt;/TT&gt; se emplea la&nbsp;
+Tag TeleType&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Para escribir con una <tt>letra de paso constante (estilo
+
+teletipo)</tt> se emplea la Tag TeleType.</td>
+
+</tr>
+
+
+
+
+<tr>
+
+<td><tt>Títulos: 
+<br>&lt;H1&gt;Título 1&lt;/H1&gt;
+<br>&lt;H2&gt;Título 2&lt;/H2&gt;
+<br>&lt;H3&gt;Título 3&lt;/H3&gt;
+<br>&lt;H4&gt;Título 4&lt;/H4&gt;
+<br>&lt;H5&gt;Título 5&lt;/H5&gt;
+<br>&lt;H6&gt;Título 6&lt;/H6&gt;</tt></p></td>
+
+
+
+<td>Títulos: <H1>Título 1</H1><H2>Título 2</H2><H3>Título 3</H3> 
+<H4>Título 4</H4><H5>Título 5</H5><H6>Título 6</H6></td>
+
+</tr>
+
+
+
+<tr>
+
+<td><tt>&lt;P&gt;Alineados:&lt;/P&gt;</tt>&nbsp;
+
+
+
+<p><tt>&lt;P ALIGN="LEFT"&gt;Izquierda&lt;/P&gt;</tt>&nbsp;
+
+
+
+</p><p><tt>&lt;P ALIGN="RIGHT"&gt;Derecha&lt;/P&gt;</tt>&nbsp;
+
+
+
+</p><p><tt>&lt;P ALIGN="CENTER"&gt;Centrado&lt;/P&gt;</tt>&nbsp;
+
+
+
+</p></td>
+
+
+
+<td>Alineados:&nbsp;
+
+
+
+<p>Izquierda&nbsp;
+
+</p><div align="right">Derecha</div>
+
+
+
+<center>Centrado</center>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td><tt>Otros efectos:&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;&lt;U&gt;subrayado&lt;/U&gt;&lt;/P&gt;&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;&lt;STRIKE&gt;tachado&lt;/STRIKE&gt;&lt;/P&gt;&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;&lt;BIG&gt;letra más grande que el estándar&lt;/BIG&gt;&lt;/P&gt;&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;&lt;SMALL&gt;letra más pequeña que el estándar&lt;/SMALL&gt;&lt;/P&gt;&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;Texto tipo&lt;SUB&gt;subíndice&lt;/SUB&gt;&lt;/P&gt;&nbsp;</tt>&nbsp;
+
+<br><tt>&lt;P&gt;Texto tipo&lt;SUP&gt;superíndice&lt;/SUP&gt;&lt;/P&gt;</tt></td>
+
+
+
+<td>Otros efectos:&nbsp;
+
+
+
+<p><u>subrayado</u>&nbsp;
+
+
+
+</p><p><strike>tachado&nbsp;</strike>&nbsp;
+
+
+
+</p><p><big>letra más grande que el estándar</big>&nbsp;
+
+
+
+</p><p><small>letra más pequeña que el estándar</small>&nbsp;
+
+
+
+</p><p>Texto tipo<sub>subíndice</sub>&nbsp;
+
+
+
+</p><p>Texto tipo<sup>superíndice</sup></p></td>
+
+</tr>
+
+</tbody></table>
+
+
+</p><p><a href="#inicio">Volver al inicio</a>&nbsp;
+
+</p><hr>
+
+<h3>
+
+<a name="listasno"></a>Listas no ordenadas</h3>
+
+
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Las listas no ordenadas:
+&lt;UL&gt;
+&lt;LI&gt;Van precedidas por "bullets"
+&lt;LI&gt;Se entiende que no importa el orden
+&lt;LI&gt;Se utilizan con mucha frecuencia
+&lt;/UL&gt;
+&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Las listas no ordenadas:&nbsp;
+
+<ul>
+
+<li>
+
+Van precedidas por "bullets"&nbsp;</li>
+
+
+
+<li>
+
+Se entiende que no importa el orden&nbsp;</li>
+
+
+
+<li>
+
+Se utilizan con mucha frecuencia&nbsp;</li>
+
+</ul>
+
+</td>
+
+</tr>
+
+</tbody></table>
+
+
+<p><a href="#inicio">Volver al inicio</a>&nbsp;
+
+</p><hr>
+
+<h3>
+
+<a name="listasor"></a>Listas ordenadas:</h3>
+
+
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Las listas ordenadas:
+&lt;P&gt;Las listas ordenadas:
+&lt;OL&gt;
+&lt;LI&gt;Van precedidas por números
+&lt;LI&gt;La numeración es automática
+&lt;LI&gt;Son también muy utilizadas
+&lt;/OL&gt;
+&lt;/P&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Las listas ordenadas:&nbsp;
+
+<ol>
+
+<li>
+
+Van precedidas por números&nbsp;</li>
+
+
+
+<li>
+
+La numeración es automática&nbsp;</li>
+
+
+
+<li>
+
+Son también muy utilizadas&nbsp;</li>
+
+</ol>
+
+</td>
+
+</tr>
+
+</tbody></table>
+
+<a href="#inicio">Volver al inicio</a>&nbsp;
+
+<hr>
+<h3><a name="tablas"></a>Tablas</h3>
+
+Las tablas son uno de los elementos más interesantes de HTML. Permiten,
+
+por ejemplo, escribir texto en varias columnas, hacer listas de equivalencias,
+
+tablas propiamente dichas, etc. Este documento es un ejemplo de las posibilidades
+
+ofrecidas por las tablas.
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;TABLE BORDER=1&gt;
+
+&lt;TR&gt;&lt;TD&gt;celda (1,1)&lt;/TD&gt;&lt;TD&gt;celda (1,2)&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD&gt;celda (2,1)&lt;/TD&gt;&lt;TD&gt;celda (2,2)&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;/TABLE&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">
+
+<table border="">
+
+<tbody><tr>
+
+<td>celda (1,1)</td>
+
+
+
+<td>celda (1,2)</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>celda (2,1)</td>
+
+
+
+<td>celda (2,2)</td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;</td>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;CENTER&gt;&lt;TABLE BORDER=1&gt;
+
+&lt;TR&gt;&lt;TD&gt;celda (1,1)&lt;/TD&gt;&lt;TD&gt;celda (1,2)&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;TR&gt;&lt;TD&gt;celda (2,1)&lt;/TD&gt;&lt;TD&gt;celda (2,2)&lt;/TD&gt;&lt;/TR&gt;
+
+&lt;/TABLE&gt;&lt;/CENTER&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">
+
+<center><table border="">
+
+<tbody><tr>
+
+<td>
+
+<center>celda (1,1)</center>
+
+</td>
+
+
+
+<td>
+
+<center>celda (1,2)</center>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<center>celda (2,1)</center>
+
+</td>
+
+
+
+<td>
+
+<center>celda (2,2)</center>
+
+</td>
+
+</tr>
+
+</tbody></table></center>
+
+&nbsp;</td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;
+
+
+
+<a href="#inicio">Volver al inicio&nbsp;</a>
+
+<hr width="100%">
+<h3><a name="anclas"></a></font><b>Anclas</b></h3>
+
+Las anclas son referencias que se emplean en el archivo con el fin de ser
+
+el punto de destino de un <i>link. </i>En el archivo son invisibles pero
+
+al clicar sobre una palabra señalada como <i>link</i>, la visualización
+
+de la página pasa a ser el punto donde se había definido
+
+el ancla.
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;&lt;A NAME "ancla"&gt;</pre>
+
+</td>
+
+
+
+<td width="50%"><a name="ancla"></a>&nbsp;</td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;
+
+
+
+<a href="#inicio">Volver al inicio&nbsp;</a>
+
+<hr width="100%">
+<h3><a name="link"></a></font>Links</h3>
+
+Los <i>links</i> son palabras diferenciadas en un archivo HTML, y tienen
+
+la función de enviar al usuario a algún ordenador remoto,
+
+o a algún sitio de la página, que esté señalada
+
+por un ancla. Los <i>links </i>forman lo que se llama hipertexto.
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Este link envía al Web de la Universidad&lt;P&gt;</pre>
+
+
+
+<pre>&lt;A HREF="http://www.tecnun.es/"&gt;Al Web&lt;/A&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Este link envía al Web de la Universidad&nbsp;
+
+
+
+<p><a href="http://www.tecnun.es/">Al Web</a>&nbsp;</p></td>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;Este link envía al ancla&lt;P&gt;</pre>
+
+
+
+<pre>&lt;A HREF="#ancla"&gt;Al ancla&lt;/A&gt;</pre>
+
+</td>
+
+
+
+<td width="50%">Este link envía; al ancla&nbsp;
+
+
+
+<p><a href="#ancla">Al ancla</a></p></td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;
+
+
+
+<a href="#inicio">Volver al inicio&nbsp;</a>
+
+<hr width="100%">
+<h3><a name="inimag"></a></font>Inserción de imágenes</h3>
+
+Un recurso que da mucha vida a una página hecha con HTML es la inserción
+
+de elementos gráficos. La forma de insertar una imagen es la siguiente:
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;IMG SRC="todo.gif"&gt;</pre>
+
+</td>
+
+
+
+<td width="50%"><img src="todo.gif" height="100" width="200"></td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;
+
+
+
+<a href="#inicio">Volver al inicio&nbsp;</a>
+
+<hr width="100%">
+<h3><a name="imclic"></a></font>Imágenes clicables</h3>
+
+Se pueden unir los dos apartados anteriores, es decir, se puede crear una
+
+imagen que a la vez sea un link. Al clicar sobre la imagen, ésta
+
+te enviará a un documento o un ancla destino.
+
+<table border="" width="100%">
+
+<tbody><tr>
+
+<th><b>Así se escribe:</b></th>
+
+
+
+<th><b>Así se ve:</b>&nbsp;</th>
+
+</tr>
+
+
+
+<tr>
+
+<td width="50%">
+
+<pre>&lt;P&gt;&lt;A HREF="#ancla"&gt;
+&lt;IMG SRC="todo.gif"&gt;
+&lt;/A&gt;</pre>
+
+</td>
+
+
+
+<td width="50%"><a href="#ancla"><img src="todo.gif" height="100" width="200"></a></td>
+
+</tr>
+
+</tbody></table>
+
+&nbsp;
+
+<a href="#inicio">Volver al inicio</a>
+
+<br>
+
+<hr width="100%">
+
+<h3><a name="plantilla"></a>Una plantilla de ayuda</h3>
+
+
+
+<table border="" width="100%">
+<tbody><tr>
+<th><b>Así se escribe:</b></th>
+<th><b>Así se ve:</b>&nbsp;</th>
+</tr>
+
+<tr>
+<td width="50%">
+<pre>&lt;P&gt;Texto aquí</pre>
+</td>
+<td width="50%">Texto aquí</td>
+</tr>
+</tbody></table>
+
+
+<p><a href="#inicio">Volver al inicio</a>
+
+<br>
+
+</p><hr width="100%">
+
+
+
+
+
+</body></html>
