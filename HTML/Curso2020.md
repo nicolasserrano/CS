@@ -1,39 +1,11 @@
+<A NAME="inicio"></A>
+# Curso b&aacute;sico de lenguaje HTML
 
-<HTML>
-
-<HEAD>
-
-   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
-
-   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
-
-   <TITLE>Curso b&aacute;sico de lenguaje HTML</TITLE>
-
-</HEAD>
-
-<BODY TEXT="#000000" BGCOLOR="#FFFFFF">
-
-
-
-<CENTER>
+*Índice*
 
 <H1>
 
-<A NAME="inicio"></A>Curso b&aacute;sico de lenguaje HTML</H1></CENTER>
-
-
-
-<CENTER><I><FONT SIZE=-1>P&aacute;gina todav&iacute;a en construcci&oacute;n&nbsp;<IMG SRC="construt.gif" HSPACE=10 HEIGHT=38 WIDTH=38 ALIGN=CENTER>Se
-
-ir&aacute; mejorando poco a poco</FONT></I></CENTER>
-
-
-
-<CENTER><I><FONT SIZE=-1>&Uacute;ltima actualizaci&oacute;n: 22 de Septiembre
-
-de 1997</FONT></I></CENTER>
-
-
+Curso b&aacute;sico de lenguaje HTML</H1></CENTER>
 
 <HR>
 
@@ -42,117 +14,37 @@ de 1997</FONT></I></CENTER>
 &Iacute;ndice</H2>
 
 
-
 <TABLE WIDTH="90%" UNITS="relative" >
-
 <TR>
-
 <TD VALIGN=BASELINE>
-
 <UL>
-
 <LI>
-
 <A HREF="#estrgral">Estructura general de un fichero HTML</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#parrafos">Formato de p&aacute;rrafos</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#texto">Formato de texto</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#listasno">Listas no ordenadas</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#listasor">Listas ordenadas</A>&nbsp;</LI>
-
-
-
 <LI>
-
-<A HREF="#listasdef">Listas de definiciones</A>&nbsp;</LI>
-
-
-
-<LI>
-
 <A HREF="#tablas">Tablas</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#anclas">Anclas</A>&nbsp;</LI>
-
 </UL>
-
 </TD>
-
-
-
 <TD VALIGN=BASELINE>
-
 <UL>
-
 <LI>
-
 <A HREF="#link">Links</A>&nbsp;</LI>
-
-
-
 <LI>
-
 <A HREF="#inimag">Inserci&oacute;n de im&aacute;genes</A></LI>
-
-
-
 <LI>
-
 <A HREF="#imclic">Im&aacute;genes clicables</A></LI>
-
-
-
-<LI>
-
-<A HREF="#imsen">Im&aacute;genes sensibles</A></LI>
-
-
-
-<LI>
-
-<A HREF="#frames">Frames</A></LI>
-
-
-
-<LI>
-
-<A HREF="#form">Formularios</A></LI>
-
-
-
-<LI>
-
-<A HREF="#layers">Layers o capas</A>&nbsp;<IMG SRC="NEW.gif" HEIGHT=20 WIDTH=32></LI>
-
 </UL>
-
 </TD>
-
 </TR>
-
 </TABLE>
 
 
@@ -899,99 +791,6 @@ Son tambi&eacute;n muy utilizadas&nbsp;</LI>
 
 <P><FONT SIZE=+1><A HREF="#inicio">Volver al inicio</A></FONT>&nbsp;
 
-<HR>
-
-<H3>
-
-<A NAME="listasdef"></A>Listas de definiciones:</H3>
-
-
-
-<TABLE BORDER WIDTH="100%" >
-
-<TR>
-
-<TH><B>As&iacute; se escribe:</B></TH>
-
-
-
-<TH><B>As&iacute; se ve:</B>&nbsp;</TH>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-&lt;P>Las listas de definiciones:
-
-
-
-&lt;DL>
-
-&lt;DT>Primer t&eacute;rmino</PRE>
-
-
-
-<PRE>&lt;DD>Definici&oacute;n del 1er t&eacute;rmino</PRE>
-
-
-
-<PRE>&lt;DT>Segundo t&eacute;rmino</PRE>
-
-
-
-<PRE>&lt;DD>Definici&oacute;n del 2&ordm; t&eacute;rmino
-
-&lt;/DL></PRE>
-
-</TD>
-
-
-
-<TD>Las listas de definiciones:&nbsp;
-
-<DL>
-
-<DT>
-
-Primer t&eacute;rmino</DT>
-
-
-
-<DD>
-
-Definici&oacute;n del 1er t&eacute;rmino&nbsp;</DD>
-
-
-
-<DT>
-
-Segundo t&eacute;rmino</DT>
-
-
-
-<DD>
-
-Definici&oacute;n del 2&ordm; t&eacute;rmino&nbsp;</DD>
-
-</DL>
-
-</TD>
-
-</TR>
-
-</TABLE>
-
-
-
-<H3>
-
-<FONT SIZE=+1><A HREF="#inicio">Volver al inicio</A></FONT>&nbsp;
 
 <HR><A NAME="tablas"></A>Tablas</H3>
 
@@ -1359,436 +1158,9 @@ te enviar&aacute; a un documento o un ancla destino.
 
 <FONT SIZE=+1><A HREF="#inicio">Volver al inicio&nbsp;
 
-<HR width="100%"><A NAME="imsen"></A></A></FONT>Im&aacute;genes sensibles</H3>
-
-Im&aacute;genes sensibles son un tipo de im&aacute;genes las cuales detectan
-
-la zona en la que se ha clicado y seg&uacute;n el punto realizan un <I>link</I>
-
-a una zona del documento u a otra (o entre archivos). Hay que definir los
-
-puntos de la imagen y la zona a la que hay que ir si se clica. Se pueden
-
-definir zonas rectangulares, circulares y poligonales. El ejemplo crea
-
-dos zonas rectangulares definiendo los puntos seg&uacute;n las coordenadas
-
-del punto superior izquierdo y el del punto inferior derecho.
-
-<TABLE BORDER WIDTH="100%" >
-
-<TR>
-
-<TH><B>As&iacute; se escribe:</B></TH>
-
-
-
-<TH><B>As&iacute; se ve:</B>&nbsp;</TH>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;P>&lt;IMG USEMAP="#mapadirec" SRC="mapa.gif"></PRE>
-
-
-
-<PRE>&lt;MAP NAME="mapadirec"></PRE>
-
-
-
-<PRE>&lt;AREA COORDS=0,0,47,46 HREF="http://193.145.249.23"></PRE>
-
-
-
-<PRE>&lt;AREA COORDS=47,0,96,46 HREF="#ancla"></PRE>
-
-
-
-<PRE>&lt;/MAP></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%"><IMG USEMAP="#mapadirec" SRC="mapa.gif" HEIGHT=50 WIDTH=100><MAP NAME="mapadirec"><AREA COORDS=0,0,47,46 HREF="http://193.145.249.23"><AREA COORDS=47,0,96,46 HREF="#ancla"></MAP></TD>
-
-</TR>
-
-</TABLE>
-
-<FONT SIZE=+1><A HREF="#inicio"></A></FONT>
-
-
-
-<P><FONT SIZE=+1><A HREF="#inicio">Volver al inicio</A></FONT>&nbsp;
-
-<HR>
-
-<H3>
-
-<A NAME="frames"></A>Frames</H3>
-
-
-
-<TABLE BORDER WIDTH="100%" >
-
-<TR>
-
-<TH><B>As&iacute; se escribe:</B></TH>
-
-
-
-<TH><B>As&iacute; se ve:</B>&nbsp;</TH>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;FRAMESET ROWS="50%,50%,*"></PRE>
-
-
-
-<PRE>&lt;FRAME SCR="ejemplo.htm"></PRE>
-
-
-
-<PRE>&lt;FRAME SCR="ejemplo.htm"></PRE>
-
-
-
-<PRE>&lt;/FRAMESET></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%"><IMG SRC="frameh.gif" HEIGHT=300 WIDTH=400></TD>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;FRAMESET COLS="40%,60%"></PRE>
-
-
-
-<PRE>&lt;FRAME SCR="ejemplo.htm"></PRE>
-
-
-
-<PRE>&lt;FRAME SCR="ejemplo.htm"></PRE>
-
-
-
-<PRE>&lt;/FRAMESET></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%"><IMG SRC="frames.gif" HEIGHT=300 WIDTH=400></TD>
-
-</TR>
-
-</TABLE>
-
-<A HREF="#inicio"></A>&nbsp;
-
-<H3>
-
-<FONT SIZE=+1><A HREF="#inicio">Volver al inicio&nbsp;
-
-<HR width="100%"><A NAME="form"></A></A></FONT>Formularios</H3>
-
-
-
-<TABLE BORDER WIDTH="100%" >
-
-<TR>
-
-<TH><B>As&iacute; se escribe:</B></TH>
-
-
-
-<TH><B>As&iacute; se ve:</B>&nbsp;</TH>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;FORM></PRE>
-
-
-
-<PRE>Nombre: &lt;INPUT NAME="nombre"></PRE>
-
-
-
-<PRE>&lt;/FORM></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%"><FORM>Nombre:&nbsp;<INPUT NAME="nombre"></FORM></TD>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;FORM></PRE>
-
-
-
-<PRE>Nombre: &lt;INPUT NAME="nombre">&lt;P></PRE>
-
-
-
-<PRE>&lt;INPUT TYPE="radio" NAME="boton" CHECKED></PRE>
-
-
-
-<PRE>boton radio 1&lt;P></PRE>
-
-
-
-<PRE>&lt;INPUT TYPE="radio" NAME="boton" CHECKED></PRE>
-
-
-
-<PRE>boton radio 2&lt;P></PRE>
-
-
-
-<PRE>&lt;INPUT TYPE="checkbox" NAME="check"></PRE>
-
-
-
-<PRE>checkbox</PRE>
-
-
-
-<PRE>&lt;/FORM></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%"><FORM>Nombre:&nbsp;<INPUT NAME="nombre">&nbsp;
-
-
-
-<P><INPUT TYPE="radio" NAME="boton" CHECKED">boton radio 1&nbsp;
-
-
-
-<P><INPUT TYPE="radio" NAME="boton" CHECKED>boton radio 2&nbsp;
-
-
-
-<P><INPUT TYPE="checkbox" NAME="check">checkbox&nbsp;</FORM></TD>
-
-</TR>
-
-</TABLE>
-
-<FONT SIZE=+1><A HREF="#inicio"></A></FONT>
-
-
-
-<P><FONT SIZE=+1><A HREF="#inicio">Volver al inicio</A></FONT>&nbsp;
-
-<HR>
-
-<H3>
-
-<A NAME="layers"></A>Layers</H3>
-
-Antes que nada, hay que decir que las layers s&oacute;lo son compatibles
-
-con <B><I>Netscape Communicator</I></B> por el momento. As&iacute; que
-
-si no es este tu navegador, no ver&aacute;s esta parte como deber&iacute;a
-
-ser en la realidad. Las capas permiten jugar con contenidos situados en
-
-capas distintas, escondi&eacute;ndolos o haci&eacute;ndolos visibles, situandolos
-
-en la parte deseada de las ventanas... pero con el handicap de la compatibilidad.&nbsp;
-
-Para browsers que no soportan layers, est&aacute; la tag pareada&lt;NOLAYER>
-
-<BR>Hay dos tipos de layers: las definidas por &lt;LAYER> son posicionadas
-
-de una forma absoluta. Las definidas por &lt;ILAYER> son posicionadas con
-
-relaci&oacute;n a otra layer.
-
-<BR>&nbsp;
-
-<TABLE BORDER WIDTH="100%" >
-
-<TR>
-
-<TH><B>As&iacute; se escribe:</B></TH>
-
-
-
-<TH><B>As&iacute; se ve:</B>&nbsp;</TH>
-
-</TR>
-
-
-
-<TR>
-
-<TD WIDTH="50%">
-
-<PRE>&lt;LAYER NAME="uno" VISIBILITY="HIDE"> Esta es la capa uno &lt;/LAYER></PRE>
-
-
-
-<PRE>&lt;LAYER NAME="dos" VISIBILITY="SHOW"> Esta otra es la capa dos &lt;/LAYER></PRE>
-
-</TD>
-
-
-
-<TD WIDTH="50%">Esta otra es la capa dos&nbsp;</TD>
-
-</TR>
-
-</TABLE>
-
-&nbsp;
-
-
-
-<P>A continuaci&oacute;n se listan los atributos que soporta la tag pareada
-
-&lt;LAYER>:
-
-<UL>
-
-<LI>
-
-Todo tipo de eventos de JavaScript. (Ver cap&iacute;tulo de eventos del
-
-<A HREF="../Javascript/Curso/Index.htm">tutorial de JavaScript de la ESIISS</A>)</LI>
-
-
-
-<LI>
-
-NAME: especifica el nombre de la capa para poder referirse a ella desde
-
-JavaScript, por ejemplo.</LI>
-
-
-
-<LI>
-
-LEFT, TOP: indica la posici&oacute;n (izquierda y arriba) en la que empieza
-
-la layer (si es una tag LAYER) o la posici&oacute;n relativa para las definidas
-
-con ILAYER.</LI>
-
-
-
-<LI>
-
-PAGEX, PAGEY: especifica la posici&oacute;n relativa de la layer a la ventana
-
-del documento</LI>
-
-
-
-<LI>
-
-SRC="<I>nombrearchivo.ext</I>" carga en la layer el arhivo especificado
-
-(nombrearchivo.ext)</LI>
-
-
-
-<LI>
-
-Z-INDEX, ABOVE, BELOW: especifican en orden de amontonamiento de las layers
-
-entre s&iacute;.&nbsp; Estos tres atributos son mutuamente exclusivos,
-
-empl&eacute;ese s&oacute;lo uno de ellos.</LI>
-
-
-
-<LI>
-
-WIDTH, HEIGHT: especifican la anchura y la altura de la layer. Limitan
-
-el &aacute;rea en la que se muestra el contenido de la layer.</LI>
-
-
-
-<LI>
-
-CLIP=x1,y1,x2,y2 delimita el area visible (definida por el rect&aacute;ngulo
-
-de las coordenadas indicadas) de la layer.</LI>
-
-
-
-<LI>
-
-VISIBILITY: SHOW hace la layer visible, HIDE la oculta.</LI>
-
-
-
-<LI>
-
-BGCOLOR: especifica el color de fondo de la layer. Por defecto, una layer
-
-es transparente para que puedan verse las que est&aacute;n por debajo.&nbsp;
-
-Si se pone color de fondo, no podr&aacute;n verse las layers inferiores.</LI>
-
-
-
-<LI>
-
-BACKGROUND="<I>archivo.ext</I>" es lo mismo que BGCOLOR pero poniendo como
-
-fondo la imagen del <I>archivo.ext</I></LI>
-
-</UL>
-
-<FONT SIZE=+1><A HREF="Curso01.htm#Inicio">Volver al inicio</A></FONT>
-
-<BR>
-
-<HR WIDTH="100%">
-
+<HR width="100%">
+   
+   
 <H3>
 
 <A NAME="plantilla"></A>Una plantilla de ayuda</H3>
@@ -1851,7 +1223,4 @@ fondo la imagen del <I>archivo.ext</I></LI>
 
 <HR WIDTH="100%">
 
-</BODY>
-
-</HTML>
-
+&Uacute;ltima actualizaci&oacute;n: 5 de Marzo de 2020
