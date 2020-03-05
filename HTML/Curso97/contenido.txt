@@ -1,0 +1,4 @@
+Este directorio contiene los ficheros del Curso básico de lenguaje HTML
+que esté en la dirección: 
+http://www1.ceit.es/asignaturas/Informat1/Ayudainf/CursoHTML/Curso01.htm
+realizado por Javier García de Jalón
