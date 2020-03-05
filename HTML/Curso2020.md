@@ -113,33 +113,20 @@ forma, la TAG de final de &lt;P> es &lt;/P>, y as&iacute; con otras TAGs.
 <TD WIDTH="50%">
 
 <PRE>&lt;P>Este es un ejemplo de c&oacute;mo se&nbsp;
-
 formatean los p&aacute;rrafos en lenguaje HTML.&nbsp;
-
 En esta celda de la Tabla se incluyen dos&nbsp;
-
 p&aacute;rrafos&lt;/P>
-
-
-
 &lt;P>El resultado puede verse en la&nbsp;
-
 celda vecina incluida en la columna de la&nbsp;
-
 derecha&lt;/P></PRE>
-
 </TD>
 
 
 
 <TD WIDTH="50%">Este es un ejemplo de c&oacute;mo se formatean los p&aacute;rrafos
-
 en lenguaje HTML. En esta celda de la Tabla se incluyen dos p&aacute;rrafos&nbsp;
 
-
-
 <P>El resultado puede verse en la celda vecina incluida en la columna de
-
 la derecha&nbsp;</TD>
 
 </TR>
@@ -151,29 +138,19 @@ la derecha&nbsp;</TD>
 <TD WIDTH="50%">
 
 <PRE>&lt;P>Los p&aacute;rrafos se separan con un espaciado&nbsp;
-
 superior al correspondiente&nbsp;
-
 a una nueva l&iacute;nea. &lt;BR>
-
 Para tener un espaciado m&aacute;s compacto&nbsp;
-
 puede utilizarse el Line Break,&nbsp;
-
 como en este ejemplo.&lt;/P></PRE>
-
 </TD>
 
 
 
 <TD WIDTH="50%">Los p&aacute;rrafos se separan con un espaciado superior
-
 al correspondiente a una nueva l&iacute;nea.&nbsp;
-
 <BR>Para tener un espaciado m&aacute;s compacto puede utilizarse el Line
-
 Break, como en este ejemplo.&nbsp;</TD>
-
 </TR>
 
 
@@ -181,8 +158,6 @@ Break, como en este ejemplo.&nbsp;</TD>
 <TR>
 
 <TD><TT>&lt;P>L&iacute;neas horizontales:&lt;/P></TT>&nbsp;
-
-
 
 <P><TT>&lt;HR>&lt;HR WIDTH=80%>&lt;HR SIZE=4>&lt;HR NOSHADE></TT></TD>
 
@@ -765,16 +740,12 @@ Son tambi&eacute;n muy utilizadas&nbsp;</LI>
 <P><FONT SIZE=+1><A HREF="#inicio">Volver al inicio</A></FONT>&nbsp;
 
 
-<HR><A NAME="tablas"></A>Tablas</H3>
+<HR><A NAME="tablas"></A><H3>Tablas</H3>
 
 Las tablas son uno de los elementos m&aacute;s interesantes de HTML. Permiten,
-
 por ejemplo, escribir texto en varias columnas, hacer listas de equivalencias,
-
 tablas propiamente dichas, etc. Este documento es un ejemplo de las posibilidades
-
 ofrecidas por las tablas.
-
 <TABLE BORDER WIDTH="100%" >
 
 <TR>
