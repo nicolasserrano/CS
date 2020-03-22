@@ -1,4 +1,23 @@
 <p>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+  onload="resizeIframe(this)";
+  window.addEventListener('message', event => {
+    // IMPORTANT: check the origin of the data! 
+    if (event.origin.startsWith('https://aula-virtual.unav.edu')) { 
+        // The data was sent from your site.
+        // Data sent with postMessage is stored in event.data:
+        console.log(event.data); 
+    } else {
+        // The data was NOT sent from your site! 
+        // Be careful! Do not use it. This else branch is
+        // here just for clarity, you usually shouldn't need it.
+        return; 
+    } 
+}); 
+</script>
 <script type="text/javascript" src="https://www.nicolasserrano.com/tools/libraries/setIframesForPanopto.js"></script>
 <link rel="stylesheet" type="text/css" href="https://www.nicolasserrano.com/tools/libraries/material.css" /></p>
 <p><a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2905875_1/xid-2905875_1" target="_blank">Libro de apuntes de Informática II (Java)</a><span> </span><a href="https://q-server.tecnun.es/codex/" target="_blank">Codex</a> <a href="https://piazza.com/tecnun.es/spring2020/cs201" target="_blank">Piazza</a></p>
