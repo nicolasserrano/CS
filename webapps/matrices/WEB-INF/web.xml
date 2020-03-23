@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>primer</servlet-name>
+  <servlet-class>HelloWorld</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Celdas</servlet-name>
+  <servlet-class>Celdas</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>CrearMatriz</servlet-name>
+  <servlet-class>CrearMatriz</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>MostrarMatrices</servlet-name>
+  <servlet-class>MostrarMatrices</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>MultiplicacionSeleccion</servlet-name>
+  <servlet-class>MultiplicacionSeleccion</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Multiplicar</servlet-name>
+  <servlet-class>Multiplicar</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>TrasposicionSeleccion</servlet-name>
+  <servlet-class>TrasposicionSeleccion</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Trasponer</servlet-name>
+  <servlet-class>Trasponer</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>DeterminanteSeleccion</servlet-name>
+  <servlet-class>DeterminanteSeleccion</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Determinante</servlet-name>
+  <servlet-class>Determinante</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>InversaSeleccion</servlet-name>
+  <servlet-class>InversaSeleccion</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Inversa</servlet-name>
+  <servlet-class>Inversa</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>BorrarSeleccion</servlet-name>
+  <servlet-class>BorrarSeleccion</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>Borrar</servlet-name>
+  <servlet-class>Borrar</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+  <servlet-name>primer</servlet-name>
+  <url-pattern>/primer.html</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>CrearMatriz</servlet-name>
+  <url-pattern>/CrearMatriz</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>MostrarMatrices</servlet-name>
+  <url-pattern>/MostrarMatrices</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Celdas</servlet-name>
+  <url-pattern>/Celdas</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>MultiplicacionSeleccion</servlet-name>
+  <url-pattern>/MultiplicacionSeleccion</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Multiplicar</servlet-name>
+  <url-pattern>/Multiplicar</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>TrasposicionSeleccion</servlet-name>
+  <url-pattern>/TrasposicionSeleccion</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Trasponer</servlet-name>
+  <url-pattern>/Trasponer</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>DeterminanteSeleccion</servlet-name>
+  <url-pattern>/DeterminanteSeleccion</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Determinante</servlet-name>
+  <url-pattern>/Determinante</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>InversaSeleccion</servlet-name>
+  <url-pattern>/InversaSeleccion</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Inversa</servlet-name>
+  <url-pattern>/Inversa</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>BorrarSeleccion</servlet-name>
+  <url-pattern>/BorrarSeleccion</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Borrar</servlet-name>
+  <url-pattern>/Borrar</url-pattern>
+</servlet-mapping>
+
+</web-app>

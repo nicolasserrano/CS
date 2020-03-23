@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>DatosCeldas</servlet-name>
+        <servlet-class>DatosCeldas</servlet-class>
+    </servlet>
+
+	<servlet>
+        <servlet-name>Calculo</servlet-name>
+        <servlet-class>Calculo</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>DatosCeldas</servlet-name>
+        <url-pattern>/DatosCeldas</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Calculo</servlet-name>
+        <url-pattern>/Calculo</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

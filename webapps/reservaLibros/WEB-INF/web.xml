@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>MostrarLibros</servlet-name>
+        <servlet-class>MostrarLibros</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegistroLibro</servlet-name>
+        <servlet-class>RegistroLibro</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>MostrarLibrosCheck</servlet-name>
+        <servlet-class>MostrarLibrosCheck</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RealizarReserva</servlet-name>
+        <servlet-class>RealizarReserva</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RealizarReservaDescripcion</servlet-name>
+        <servlet-class>RealizarReservaDescripcion</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegistroUsuario</servlet-name>
+        <servlet-class>RegistroUsuario</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>MostrarLibros</servlet-name>
+        <url-pattern>/MostrarLibros</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegistroLibro</servlet-name>
+        <url-pattern>/RegistroLibro</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MostrarLibrosCheck</servlet-name>
+        <url-pattern>/MostrarLibrosCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RealizarReserva</servlet-name>
+        <url-pattern>/RealizarReserva</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>RealizarReservaDescripcion</servlet-name>
+        <url-pattern>/RealizarReservaDescripcion</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegistroUsuario</servlet-name>
+        <url-pattern>/RegistroUsuario</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

@@ -1,0 +1,38 @@
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import com.google.soap.search.*;
+
+public class HelloWorld extends HttpServlet{
+  public void doGet(HttpServletRequest request, HttpServletResponse response)
+                                          throws ServletException, IOException {
+  
+    PrintWriter out = response.getWriter();
+    
+    System.out.println("Hello World");
+    GoogleSearch s = new GoogleSearch();
+    String clientKey="H2deIvNQFHI9ilswRXR1h1+7IqnD7Pp4";
+    s.setKey(clientKey);
+    s.setQueryString("wolber");
+    GoogleSearchResult result = null;
+    // Depending on user input, do search or cache query, then print out result
+    try {
+      
+      	result = s.doSearch();
+        
+     
+    } 
+    catch (GoogleSearchFault f) {
+      System.out.println("The call to the Google Web APIs failed:");
+      out.println(f.toString());
+    }
+
+    // if we made it here, the search went through
+    System.out.println("Google Search Results:");
+    System.out.println("======================");
+    if (result!= null) {
+        out.println(result.toString());
+    }
+  }
+
+}
