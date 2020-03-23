@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+  <TITLE>Envíe su opinión</TITLE>
+</HEAD>
+
+<BODY>
+  <H2>Por favor, envíenos su opinión acerca de este sitio web</H2>
+  <FORM action="opinion" method="GET">
+    Nombre: <INPUT type="text" name="nombre" size="15"><BR>
+    Apellidos: <INPUT type="TEXT" name="apellidos" size="30">
+    <P>Opinión que le ha merecido este sitio web<BR>
+    <INPUT type="radio" checked name="opinion" value="Buena">Buena<BR>
+    <INPUT type="radio" name="opinion" value="Regular">Regular<BR>
+    <INPUT type="radio" name="opinion" value="Mala">Mala
+    <P>Comentarios<BR>
+    <TEXTAREA name="comentarios" rows="6" cols="40"> </TEXTAREA>
+    <P><INPUT type="submit" name="botonEnviar" value="Enviar">
+    <INPUT type="reset" name="botonLimpiar" value="Limpiar">
+  </FORM>
+</BODY>
+</HTML>
