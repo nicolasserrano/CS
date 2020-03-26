@@ -92,7 +92,7 @@ API examples:
 - [SWAPI The Star Wars API](https://swapi.co/)
 
 ## DOM Manipulation
-- [Basic tutorial](http://callmenick.com/post/basics-javascript-dom-manipulation)
+- [Basic tutorial](http://callmenick.com/post/basics-javascript-dom-manipulation) - [from Archive](https://web.archive.org/web/20171010211719/https://callmenick.com/post/basics-javascript-dom-manipulation)
 - Examples of book "JavaScript & JQuery : Interactive Front-end Web Development" By Jon Duckett [web](http://javascriptbook.com/) [code examples](http://javascriptbook.com/code/)
   - [Update list](http://javascriptbook.com/code/c05/example.html)
   - [JSON data with Ajax](http://javascriptbook.com/code/c08/data-json.html)
