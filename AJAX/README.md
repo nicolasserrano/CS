@@ -1,5 +1,6 @@
 # AJAX
 ![AJAX flowchart](https://sureshjain.files.wordpress.com/2007/04/untitled.jpg)
+[Ajax: A New Approach to Web Applications, February 18, 2005 By Jesse James Garrett (archive.org)](https://web.archive.org/web/20150910072359/http://adaptivepath.org/ideas/ajax-new-approach-web-applications/)
 
 ## Simple code ([execute](https://nicolasserrano.github.io/CS/AJAX/Ajax.html)):
 ```  
