@@ -26,7 +26,7 @@
 ## Session in Web Applications
 - Hidden fields. Example in ShoppingCart.java
 - URL Rewriting
-- [Cookies](http://www.20thingsilearned.com/en-US/browser-cookies/1)
+- Cookies
 
 ## Cookies
 - See the cookies with [Browser settings](chrome://settings/) and Settings ->Show advanced settings... ->Content settings... -> All cookies and site data
