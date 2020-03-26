@@ -37,7 +37,7 @@
 
 ### Login [code](webapps/northbrickSession/WEB-INF/classes/CheckLogin.java)
 
-```
+```Java
  public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
         String login = req.getParameter("login");
@@ -55,7 +55,7 @@
         
 ### Function [code](webapps/northbrickSession/WEB-INF/classes/ProductList.java)
 
-```
+```Java
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
         PrintWriter toClient = res.getWriter();
@@ -74,7 +74,7 @@
         
 ### Logout [code](webapps/northbrickSession/WEB-INF/classes/Logout.java)
 
-```
+```Java
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
         res.setContentType("text/html");
         HttpSession session = req.getSession(false);
@@ -88,10 +88,10 @@ In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/w
 
 ## Session in Servlets
 - Java Classes:
-  - [HttpServletRequest getSession(boolean create)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpServletRequest.html#getSession(boolean))
-  - [HttpSession](http://docs.oracle.com/javaee/5/api/index.html?javax/servlet/http/HttpSession.html)
-    - [getAttribute(String name)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpSession.html#getAttribute(java.lang.String))
-    - [setAttribute(String name, Object value)](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpSession.html#setAttribute(java.lang.String, java.lang.Object))
+  - [HttpServletRequest getSession(boolean create)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpServletRequest.html#i22)
+  - [HttpSession](https://javaee.github.io/javaee-spec/javadocs/index.html?javax/servlet/http/HttpSession.html)
+    - [getAttribute(String name)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i0)
+    - [setAttribute(String name, Object value)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i15)
 
 ### Using a pendrive to execute the programas  
 [See the instructions](Tomcat.md#run-from-pendrive)
@@ -99,7 +99,7 @@ In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/w
 
 
 ---
-[Edit](https://github.com/nicolasserrano/CS/edit/master/Servlets.md)
+[Edit v8.1](https://github.com/nicolasserrano/CS/edit/master/Servlets.md)
 <style>
 div.container ul, div.container ol {
     padding-left: 1.4em;
