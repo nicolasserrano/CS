@@ -5,7 +5,7 @@ Computer Science [files](https://github.com/nicolasserrano/CS)
 
 - [Material de Tecnología Digital](http://www.nicolasserrano.com/CS/material)
 - [El ordenador](https://nicolasserrano.github.io/c5i/Notas)
-- [HTML](http://www.nicolasserrano.com/CS/HTML/CursoHTML.html) and Forms](http://www.nicolasserrano.com/CS/HTML/CursoForms)
+- [HTML](http://www.nicolasserrano.com/CS/HTML/CursoHTML.html) and [Forms](http://www.nicolasserrano.com/CS/HTML/CursoForms)
 - [CSS](http://nicolasserrano.github.io/viscom/CSS.html#/0) and [reference (pdf)](https://nicolasserrano.github.io/CS/CSS/CSS.pdf)
 - [JavaScript](https://nicolasserrano.github.io/CS/JavaScript) and [reference](https://www.nicolasserrano.com/CS/JavaScript/JavascriptOnePage.pdf)
 - [Command Prompt](https://nicolasserrano.github.io/CS/Cmd)
