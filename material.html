@@ -22,16 +22,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
+}	
+div#centeredContainer {
+    display: table-row;
 }
 </style>
-<script>
-function alignDivs() {
-  materialDiv=document.getElementById("material");
-  var style = materialDiv.currentStyle || window.getComputedStyle(materialDiv);
-  initDiv=document.getElementById("initialLinks");
-  initDiv.style.marginLeft=style.marginLeft;
-}
-</script>
 
 <link rel="stylesheet" type="text/css" href="https://www.nicolasserrano.com/tools/libraries/material.css" />
 <!-- HTML code to edit
@@ -40,7 +35,9 @@ function alignDivs() {
   --
   -->
 <div align="center">
-<div align="left" id="initialLinks">
+  <h2>Material docente de Tecnolog&iacute;a Digital</h2>
+  <div id="centeredContainer">
+    <div align="left" id="initialLinks">
 <a href="https://nicolasserrano.github.io/CS">CS</a>
 &nbsp;<a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2905875_1/xid-2905875_1" target="_blank">Libro de apuntes de Inform&aacute;tica II (Java)</a>
 &nbsp;<a href="https://q-server.tecnun.es/codex/" target="_blank">Codex</a>
@@ -246,6 +243,7 @@ function alignDivs() {
 		</tr>
 	</tbody>
 </table>
+  </div>
 </div>
 
 <p>&nbsp;</p>
@@ -256,4 +254,4 @@ function alignDivs() {
 
 <p><img src="//nicolasserrano.github.io/CS/images/digital.png" width="100%" /></p>
 
-<p><a href="https://github.com/nicolasserrano/CS/edit/master/material.html">Edit v1.74</a></p>
+<p><a href="https://github.com/nicolasserrano/CS/edit/master/material.html">Edit v1.75</a></p>
