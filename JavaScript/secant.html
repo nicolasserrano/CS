@@ -1,0 +1,21 @@
+<SCRIPT>
+var x;
+var y;
+var dh;
+
+function fx(x) {
+ y = x * x - 9
+ return y;
+}
+function fdx(x) {
+ dh = 0.0001;
+ y = (fx(x + dh) - fx(x)) / dh;
+ return y;
+}
+
+x = 4;
+for (var i = 0; i < 5; i++) {
+  x = x - fx(x) / fdx(x);
+  window.alert(x);
+}
+</SCRIPT>
