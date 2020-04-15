@@ -1,0 +1,12 @@
+<web-app>
+
+<servlet>
+  <servlet-name>Count</servlet-name>
+  <servlet-class>Count</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Count</servlet-name>
+  <url-pattern>/Count</url-pattern>
+</servlet-mapping>
+</web-app>
