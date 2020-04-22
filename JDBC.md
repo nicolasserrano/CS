@@ -64,6 +64,10 @@ Lab: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica
 ## JDBC and Dates
 - Example of using Dates with Access [java file](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/JDBC_Date.java)
 - Database for the example: [northbrick database](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick3/northbrick.mdb)
+### References
+-  SimpleDateFormat explained in tutorial [Java SimpleDateFormat](http://tutorials.jenkov.com/java-internationalization/simpledateformat.html)
+- Adding and substracting dates in [question at stackoverflow](https://stackoverflow.com/questions/3581258/adding-n-hours-to-a-date-in-java)
+- Calendar and GregorianCalendar in [question at stackoverflow](https://stackoverflow.com/questions/46705472/difference-between-gregoriancalendar-class-and-calendar-class-in-java)
 
 ## JDBC and Servlets  
 
