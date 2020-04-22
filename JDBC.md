@@ -61,6 +61,10 @@ JDBC  Files Wildcard characters in MS Access
 
 Lab: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica5.pdf>
 
+## JDBC and Dates
+- Example of using Dates with Access [java file](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/JDBC_Date.java)
+- Database for the example: [northbrick database](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick3/northbrick.mdb)
+
 ## JDBC and Servlets  
 
 ### Servlet structure with JDBC (methods init and doGet)  
