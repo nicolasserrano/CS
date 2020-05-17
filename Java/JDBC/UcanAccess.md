@@ -18,6 +18,7 @@ In the Drivers tab, create a new driver with the next values:
   - hsqldb-2.5.0.jar
   - commons-lang3-3.8.1.jar
   - commons-logging-1.2.jar
+
 Restart the application
   
 ## Add the Aliass for the database
@@ -26,4 +27,5 @@ In the Aliasses tab, create a new alias with the next values:
 - Name: Ucanaccess Northwind
 - Driver: Ucanaccess
 - jdbc:ucanaccess://drive:\path\northbrick.mdb;showSchema=true
+
 Restart the application
