@@ -1,0 +1,45 @@
+<html>
+<script>
+function createTable() {
+    parentNode = document.getElementById("table");
+    
+    var tableEl = document.createElement("TABLE");
+    tableEl.setAttribute("id", "table1");
+    tableEl.setAttribute("border", "1");
+    parentNode.appendChild(tableEl);
+
+    for(var col = 2; col < 8; col++) {
+        var tr1 = document.createElement("TR");
+        tableEl.appendChild(tr1);
+        for (j = 0; j <16; j++) {
+            var td1 = document.createElement("TD");
+            tr1.appendChild(td1);
+            var cell = "";
+            var code = col*16 + j;
+            var chr = String.fromCharCode(code);
+
+            cell += "<span title='Dec: " + code + "\nHex: " + code.toString(16).toUpperCase() + "\nBin: " + code.toString(2).toUpperCase() + "' class='char'>&nbsp;" + chr + "</span><BR>" + code + "<BR>";
+            td1.innerHTML = cell;
+        }
+    }
+
+}
+</script>
+<style>
+.char {
+  font-size: 2em;
+}
+H1, table#table1 {
+    margin: auto;
+    text-align: center;
+}
+td {
+    width: 3em;
+}
+</style>
+<body onload="createTable()">
+<H1>ASCII Table</H1>
+<div id="table" style="text-align: center;">
+</div>
+</body>
+</html>
