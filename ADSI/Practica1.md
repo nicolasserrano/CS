@@ -8,12 +8,12 @@ Una vez comprobado el número de registros, indicar el código del producto 1000
 
 ## Practica csv
 Realizar los ejercicios:  
-<http://nicolasserrano.github.io/practicaDatos/practicas/csv1>
+<http://nicolasserrano.github.io/practicaDatos/practicas/csv1>  
 <http://nicolasserrano.github.io/practicaDatos/practicas/csv2>
 
 Comprobar la visualización de los registros de parts.csv
 
 Ver el contenido de las otras tablas de la base de datos de Lego en kaggle.com, y pensar cual es la razón de crear dichas tablas en base a sus campos y contenido.
 
-Programas utilizados: Excel, Notepad++, <https://hexed.it>
+Programas utilizados: Excel, [Notepad++](https://notepad-plus-plus.org/), <https://hexed.it>
 
