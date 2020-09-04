@@ -1,0 +1,8 @@
+Albaranes.Id;Camion;Gasolinera;Nombre_Gasolinera;Dirección_Gasolinera;Precio;Fecha_albaran;Importe;Numero cheque;Matricula;Modelo;Fecha compra;Conductor;Color;Compania;Nombre_Compania;Direccion_Central
+6;2314-DFL;2;Anoeta;Paseo Doctor Begiristain;1,32 €;20/09/2019;205,00 €;524;2314-DFL;Pegaso;03/09/2019;Iñigo;Blanco;2;Petronor;Bilbao
+8;2314-DFL;1;Larramendi;Avenida Navarra 5;1,41 €;02/10/2019;110,00 €;112;2314-DFL;Pegaso;03/09/2019;Iñigo;Blanco;1;Campsa;Madrid
+9;2314-DFL;2;Anoeta;Paseo Doctor Begiristain;1,32 €;30/09/2019;112,00 €;114;2314-DFL;Pegaso;03/09/2019;Iñigo;Blanco;2;Petronor;Bilbao
+2;3426-DFR;1;Larramendi;Avenida Navarra 5;1,41 €;17/09/2019;300,00 €;424;3426-DFR;MAN;05/09/2019;Pedro;Rojo;1;Campsa;Madrid
+3;2314-DFL;3;Antiguo;Avenida Tolosa;1,42 €;18/09/2019;310,00 €;523;2314-DFL;Pegaso;03/09/2019;Iñigo;Blanco;1;Campsa;Madrid
+4;3426-DFR;2;Anoeta;Paseo Doctor Begiristain;1,32 €;18/09/2019;250,00 €;324;3426-DFR;MAN;05/09/2019;Pedro;Rojo;2;Petronor;Bilbao
+5;3426-DFR;1;Larramendi;Avenida Navarra 5;1,41 €;19/09/2019;270,00 €;352;3426-DFR;MAN;05/09/2019;Pedro;Rojo;1;Campsa;Madrid
