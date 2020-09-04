@@ -17,3 +17,8 @@ Ver el contenido de las otras tablas de la base de datos de Lego en kaggle.com, 
 
 Programas utilizados: Excel, [Notepad++](https://notepad-plus-plus.org/), <https://hexed.it>
 
+## Practicas csv Albaranes
+Realizar una tabla que contenga los datos de la tabla [AlbaranesDatos.csv](AlbaranesDatos.csv)
+Se recomienda abrirla con Notepad++ para ver su contenido
+
+
