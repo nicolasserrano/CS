@@ -1,7 +1,7 @@
 # Análisis y Diseño de Sistemas de Información  
 <H2>ADSI</H2>
 
-## Tema 1. Ficheros y tablas
+## Tema 1. Datos y tablas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9e30b99-3124-4f6d-a830-ac2c00f48444' target='_blank'>00a. Binario</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=afc3be34-cc60-4c0a-8ef0-ac2c00e9b6d0' target='_blank'>00b. ASCII</a> - Hexadecimal editor [editor](https://hexed.it/?hl=en)<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4db44598-a189-49af-be71-ac2900a4b12c' target='_blank'>01. Ficheros CSV</a><BR>
@@ -12,8 +12,14 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 
 - [Práctica 1](http://nicolasserrano.github.io/CS/ADSI/Practica1)
 
+## Tema 2. Relaciones
+
+- [Práctica 2](http://nicolasserrano.github.io/CS/ADSI/Practica2)
+
+
 ## Class resources
 - [Codex](https://q-server.tecnun.es/codex/)
+- [Piazza](https://piazza.com/class/ker1k53252gkz#)
 - [Socrative](https://b.socrative.com/login/teacher/)
 ## Resources of ADSI
 [Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)
@@ -30,4 +36,4 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
-<small>v1.06</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [View](http://nicolasserrano.github.io/CS/ADSI)
+<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https:/nicolasserrano.github.io/r?https:/nicolasserrano.github.io/CS/ADSI/README.md?breakTitlesWith#1)
