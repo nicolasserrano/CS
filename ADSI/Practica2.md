@@ -1,4 +1,4 @@
-# Práctica 2. Tablas
+# Práctica 2. Relaciones
 
 
 ## Objeto TABLA  
