@@ -36,4 +36,4 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
-<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://nicolasserrano.github.io/r?https://nicolasserrano.github.io/CS/ADSI/README.md?breakTitlesWith#1)
+<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
