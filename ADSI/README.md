@@ -19,7 +19,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 
 ## Class resources
 - [Codex](https://q-server.tecnun.es/codex/)
-- [Piazza](piazza.com/tecnun.es/fall2020/adsi)
+- [Piazza](https://piazza.com/tecnun.es/fall2020/adsi)
 - [Socrative](https://b.socrative.com/login/teacher/)
 ## Resources of ADSI
 [Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)
