@@ -1,4 +1,4 @@
-# Práctica 1. Ficheros 
+# Práctica 1. Datos y tablas 
 Leer el fichero parts.csv que se encuentra en la web de kaggle.com:  
 <https://www.kaggle.com/rtatman/lego-database/version/1?select=parts.csv>
 
