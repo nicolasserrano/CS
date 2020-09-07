@@ -1,5 +1,7 @@
 # Análisis y Diseño de Sistemas de Información  
 <H2>ADSI</H2>
+[ADI](https://tserver.tecnun.es/plan/asignatura?id=1000025605) - [Codex](https://q-server.tecnun.es/codex/) - [Piazza](https://piazza.com/tecnun.es/fall2020/adsi) 
+- [GitHub](https://nicolasserrano.github.io/CS/ADSI)
 
 ## Tema 1. Datos y tablas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9e30b99-3124-4f6d-a830-ac2c00f48444' target='_blank'>00a. Binario</a><BR>
@@ -36,4 +38,4 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
-<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
+<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
