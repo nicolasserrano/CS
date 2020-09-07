@@ -38,4 +38,5 @@ Tabla: estructura de almacenamiento de datos compuesta de filas y columnas.
 
 Dominio es el conjunto de valores posibles para un atributo, por ejemplo los nombre de los departamentos de una empresa.
 
+##
 <small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/ModeloER.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/ModeloER.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI/ModeloER) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/ModeloER.md?breakTitlesWith#1)
