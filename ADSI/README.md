@@ -17,6 +17,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 
 ## Tema 2. Relaciones
 
+Documento [Modelo Entidad Relacion](ModeloER.md)
+
 - [Práctica 2](http://nicolasserrano.github.io/CS/ADSI/Practica2)
 
 
