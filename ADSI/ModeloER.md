@@ -50,6 +50,9 @@ Dominio es el conjunto de valores posibles para un atributo, por ejemplo, los no
 Columnas, campos o atributos
 Filas, tuplas o registros
 
+## Modelo relacional de caso Laboratorio
+![](images/LaboratorioRelacional.png)
+
 ## Relación del Modelo E-R y modelo Relacional
 
 ##
