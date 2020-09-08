@@ -16,18 +16,18 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 - [Práctica 1](Practica1)
 
 ## Tema 2. Relaciones
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e37673bc-0b0f-4c54-a76b-ac30009336ba' target='_blank'>01. Modelo Entidad Relación</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f258a0b2-fee3-4df9-80dd-ac30009effee' target='_blank'>02. Caso de Laboratorio medico</a> - [Enunciado](https://aula-virtual.unav.edu/bbcswebdav/pid-1452873-dt-content-rid-3845896_1/courses/ANALIS-02038-2021/Laboratorio.pdf)<BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=66dfee85-4502-4e85-847b-ac3000af90d6' target='_blank'>03. Modelo relacional</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1dcc29b7-4265-42d1-9102-ac3000b5187e' target='_blank'>04. Modelo ER a Modelo Relacional</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7aaabfd9-1e79-45e8-8948-ac3000b914fa' target='_blank'>05. Normalizacion 1FN y 2FN</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8b841d6b-f4da-4ac7-a5ac-ac3000f0f0ef' target='_blank'>06. Normalizacion 3FN y FNBC</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b778800b-b29c-47eb-b118-ac3000fa30c9' target='_blank'>07. Relaciones en Access</a><BR>
 
 Documento [Modelo Entidad Relacion](ModeloER.md)
 
 - [Práctica 2](Practica2)
 
-
-## Class resources
-- [Codex](https://q-server.tecnun.es/codex/)
-- [Piazza](https://piazza.com/tecnun.es/fall2020/adsi)
-- [Socrative](https://b.socrative.com/login/teacher/)
-## Resources of ADSI
-[Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
 - Video Magnetism: Data Storage [video](https://www.youtube.com/watch?v=f3BNHhfTsvk&feature=youtu.be&t=41)
@@ -35,9 +35,15 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
 - XML tutorial [w3schools](https://www.w3schools.com/xml/default.asp)
 - JSON tutorial [w3schools](https://www.w3schools.com/js/js_json_intro.asp)
 - Practica ficheros [github](http://www.nicolasserrano.com/practicaDatos/)
-## Access
+
+## Recursos
+- [Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)  
+- [Socrative](https://b.socrative.com/login/teacher/)
+
+**Access**
 - Instrucciones para [comandos de Prácticas 2 a 4 de Access](http://www.nicolasserrano.com/ADSI/ComandosPracticas2-4Access.pdf)
-## SQL
+
+**SQL**
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
