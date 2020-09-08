@@ -28,7 +28,7 @@ Grados de una relación
 
 Cuando puede ser 0 o 1, se designa como c. Por ejemplo, una persona puede tener teléfono de la empresa o no.
 
-# Modelo Relacióonal
+# Modelo Relacional
 Definido por Codd en 1970.   
 Los datos se estructuran lógicamente en forma de tablas.De
 Las relaciones son referencias entre las tablas o/y nuevas tablas. Ejemplo: Pedido:articulos, la relación contiene el campo número de elementos de ese artículo.
