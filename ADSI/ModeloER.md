@@ -44,7 +44,7 @@ Tabla: estructura de almacenamiento de datos compuesta de filas y columnas.
 
 Dominio es el conjunto de valores posibles para un atributo, por ejemplo los nombre de los departamentos de una empresa.
 
-## Elementos de una tabla:
+** Elementos de una tabla: **
 Columnas, campos o atributos
 Filas, tuplas o registros
 
