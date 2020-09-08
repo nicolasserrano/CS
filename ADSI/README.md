@@ -13,13 +13,13 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2eb208
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ee48b41-b16d-4ee3-870e-ac2900ae9774' target='_blank'>04. Creacion de tabla en Access</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a6c-8c55-4e17-b28c-ac2900b1f97f' target='_blank'>05. Importacion de fichero csv en Access</a>
 
-- [Práctica 1](http://nicolasserrano.github.io/CS/ADSI/Practica1)
+- [Práctica 1](Practica1)
 
 ## Tema 2. Relaciones
 
 Documento [Modelo Entidad Relacion](ModeloER.md)
 
-- [Práctica 2](http://nicolasserrano.github.io/CS/ADSI/Practica2)
+- [Práctica 2](Practica2)
 
 
 ## Class resources
