@@ -28,6 +28,12 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
 
 - [Práctica 2](Practica2.md)
 
+## Tema 3. Consultas
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec0c034b-920d-453e-a616-ac3600e3d1b3' target='_blank'>01. Operaciones Unarias</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbba1b30-bd46-487e-a1fa-ac3600e634f1' target='_blank'>02. Operaciones binarias</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed405147-6fce-41bb-a608-ac3600ea10ff' target='_blank'>03. Operaciones Derivadas</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e07a-f74c-47da-9de9-ac3600f0e24d' target='_blank'>04. Consultas</a><BR>
+
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
 - Video Magnetism: Data Storage [video](https://www.youtube.com/watch?v=f3BNHhfTsvk&feature=youtu.be&t=41)
