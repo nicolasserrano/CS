@@ -13,7 +13,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2eb208
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ee48b41-b16d-4ee3-870e-ac2900ae9774' target='_blank'>04. Creacion de tabla en Access</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a6c-8c55-4e17-b28c-ac2900b1f97f' target='_blank'>05. Importacion de fichero csv en Access</a>
 
-- [Práctica 1](Practica1)
+- [Práctica 1](Practica1.md)
 
 ## Tema 2. Relaciones
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e37673bc-0b0f-4c54-a76b-ac30009336ba' target='_blank'>01. Modelo Entidad Relación</a><BR>
@@ -47,4 +47,4 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
-<small>v1.07</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
+<small>v1.08</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
