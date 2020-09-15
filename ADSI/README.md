@@ -26,7 +26,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b77880
 
 Documento [Modelo Entidad Relacion](ModeloER.md)
 
-- [Práctica 2](Practica2)
+- [Práctica 2](Practica2.md)
 
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
