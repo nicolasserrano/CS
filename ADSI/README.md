@@ -34,6 +34,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbba1b
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed405147-6fce-41bb-a608-ac3600ea10ff' target='_blank'>03. Operaciones Derivadas</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e07a-f74c-47da-9de9-ac3600f0e24d' target='_blank'>04. Consultas</a><BR>
 
+- [Práctica 3](Practica3.md)
+
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
 - Video Magnetism: Data Storage [video](https://www.youtube.com/watch?v=f3BNHhfTsvk&feature=youtu.be&t=41)
