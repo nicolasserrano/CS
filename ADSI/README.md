@@ -33,8 +33,14 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec0c03
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbba1b30-bd46-487e-a1fa-ac3600e634f1' target='_blank'>02. Operaciones Binarias</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed405147-6fce-41bb-a608-ac3600ea10ff' target='_blank'>03. Operaciones Derivadas</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e07a-f74c-47da-9de9-ac3600f0e24d' target='_blank'>04. Consultas</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df9697-ef6f-41dd-b2c4-ac3d01093feb' target='_blank'>04. Tipos de consultas</a><BR>
 
 - [Práctica 3](Practica3.md)
+
+## Tema 3. FOrmularios
+
+## Tema 5. Informes
+
 
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
