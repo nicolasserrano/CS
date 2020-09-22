@@ -38,6 +38,10 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df96
 - [Práctica 3](Practica3.md)
 
 ## Tema 4. Formularios
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3122c769-c66f-4bfa-86da-ac3e01112217' target='_blank'>01. Formularios para Sistemas de Informacion</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a37d2fc0-7237-483e-96c7-aae2010d1a7b' target='_blank'>02. Crear formulario</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=28db62dd-7d6f-481c-a52c-ac3d011257f0' target='_blank'>03. Menu desplegable</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af06-f982-4ea5-893a-ac3d01157729' target='_blank'>04. Subformulario</a><BR>
 
 ## Tema 5. Informes
 
