@@ -17,6 +17,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 
 - [Práctica 1](Practica1.md)
 
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/clint-adair-BW0vK-FA3eg-unsplash_400_225.jpg">
+</figure>
 ## Tema 2. Relaciones
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e37673bc-0b0f-4c54-a76b-ac30009336ba' target='_blank'>01. Modelo Entidad Relación</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f258a0b2-fee3-4df9-80dd-ac30009effee' target='_blank'>02. Caso de Laboratorio medico</a> - [Enunciado](https://aula-virtual.unav.edu/bbcswebdav/pid-1452873-dt-content-rid-3845896_1/courses/ANALIS-02038-2021/Laboratorio.pdf)<BR>
@@ -30,6 +32,8 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
 
 - [Práctica 2](Practica2.md)
 
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/marvin-meyer-SYTO3xs06fU-unsplash_400_225.jpg">
+</figure>
 ## Tema 3. Consultas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec0c034b-920d-453e-a616-ac3600e3d1b3' target='_blank'>01. Operaciones Unarias</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbba1b30-bd46-487e-a1fa-ac3600e634f1' target='_blank'>02. Operaciones Binarias</a><BR>
@@ -39,6 +43,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df96
 
 - [Práctica 3](Practica3.md)
 
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-5077045_form_400_225.jpg">
+</figure>
 ## Tema 4. Formularios
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3122c769-c66f-4bfa-86da-ac3e01112217' target='_blank'>01. Formularios para Sistemas de Informacion</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a37d2fc0-7237-483e-96c7-aae2010d1a7b' target='_blank'>02. Crear formulario</a><BR>
@@ -47,6 +53,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
  
 - [Práctica 4](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1469169_1&course_id=_26907_1&launch_in_new=true)
 
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-3201783_400_225.jpg">
+</figure>
 ## Tema 5. Informes
 
 
@@ -69,4 +77,5 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
+[Créditos de imágenes](http://www.nicolasserrano.com/tools/images/ADSI/)
 <small>v1.08</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
