@@ -4,6 +4,8 @@
 
 [ADI](https://tserver.tecnun.es/plan/asignatura?id=1000025605) - [Codex](https://q-server.tecnun.es/codex/) - [Piazza](https://piazza.com/tecnun.es/fall2020/adsi) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - Socrative [student](https://b.socrative.com/login/student/) / [teacher](https://b.socrative.com/login/teacher/)
 
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash_400_225.jpg">
+</figure>
 ## Tema 1. Datos y tablas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9e30b99-3124-4f6d-a830-ac2c00f48444' target='_blank'>00a. Binario</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=afc3be34-cc60-4c0a-8ef0-ac2c00e9b6d0' target='_blank'>00b. ASCII</a> - Hexadecimal editor [editor](https://hexed.it/?hl=en)<BR>
