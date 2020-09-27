@@ -4,6 +4,14 @@
 
 [ADI](https://tserver.tecnun.es/plan/asignatura?id=1000025605) - [Codex](https://q-server.tecnun.es/codex/) - [Piazza](https://piazza.com/tecnun.es/fall2020/adsi) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - Socrative [student](https://b.socrative.com/login/student/) / [teacher](https://b.socrative.com/login/teacher/)
 
+<style>
+ figure img {
+    border-radius: 12px;
+}
+</style>
+
+
+<hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash_400_225.jpg">
 </figure>
 ## Tema 1. Datos y tablas
@@ -17,6 +25,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 
 - [Práctica 1](Practica1.md)
 
+<hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/clint-adair-BW0vK-FA3eg-unsplash_400_225.jpg">
 </figure>
 ## Tema 2. Relaciones
@@ -32,6 +41,7 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
 
 - [Práctica 2](Practica2.md)
 
+<hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/marvin-meyer-SYTO3xs06fU-unsplash_400_225.jpg">
 </figure>
 ## Tema 3. Consultas
@@ -45,6 +55,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df96
 
 <br><br>
 
+<hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-5077045_form_400_225.jpg">
 </figure>
 ## Tema 4. Formularios
@@ -57,6 +68,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
 
 <br><br>
 
+<hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-3201783_400_225.jpg">
 </figure>
 ## Tema 5. Informes
@@ -82,4 +94,4 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
  - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
 [Créditos de imágenes](http://www.nicolasserrano.com/tools/images/ADSI/)
-<small>v1.08</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
+<small>v1.09</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
