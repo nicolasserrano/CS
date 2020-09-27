@@ -42,6 +42,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e0
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df9697-ef6f-41dd-b2c4-ac3d01093feb' target='_blank'>05. Tipos de consultas</a><BR>
 
 - [Práctica 3](Practica3.md)
+<br><br>
 
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-5077045_form_400_225.jpg">
 </figure>
@@ -52,6 +53,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=28db62
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af06-f982-4ea5-893a-ac3d01157729' target='_blank'>04. Subformulario</a><BR>  
  
 - [Práctica 4](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1469169_1&course_id=_26907_1&launch_in_new=true)
+<br><br>
 
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-3201783_400_225.jpg">
 </figure>
