@@ -55,5 +55,22 @@ Dominio es el conjunto de valores posibles para un atributo, por ejemplo, los no
 
 ## Relación del Modelo E-R y modelo Relacional
 
+# Índices e integridad 
+
+## Índices
+
+### Guía Telefónica
+
+<a title="© 2010 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com] / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-0.JPG"><img width="512" alt="Telefonbog ubt-0" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Telefonbog_ubt-0.JPG"></a>
+
+### Biblioteca
+!![](http://www.nicolasserrano.com/tools/images/ADSI/jan-antonin-kolar-lRoX0shwjUQ-unsplash_1920.jpg)
+
+### Número de operaciones
+
 ##
+References:
+<span>Photo by <a href="https://unsplash.com/@jankolar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/collections/68813970/information?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 <small>v1.09</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/ModeloER.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/ModeloER.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI/ModeloER) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/ModeloER.md?breakTitlesWith#1)
+
