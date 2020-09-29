@@ -64,9 +64,28 @@ Dominio es el conjunto de valores posibles para un atributo, por ejemplo, los no
 <a title="© 2010 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com] / CC BY (https://creativecommons.org/licenses/by/3.0)" href="https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-0.JPG"><img width="512" alt="Telefonbog ubt-0" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Telefonbog_ubt-0.JPG"></a>
 
 ### Biblioteca
-!![](http://www.nicolasserrano.com/tools/images/ADSI/jan-antonin-kolar-lRoX0shwjUQ-unsplash_1920.jpg)
+![](http://www.nicolasserrano.com/tools/images/ADSI/jan-antonin-kolar-lRoX0shwjUQ-unsplash_1920.jpg)
 
-### Número de operaciones
+### Índices en Access
+![](http://www.nicolasserrano.com/tools/images/ADSI/AccessIndexes.png)
+
+### Elección de claves
+Ejemplo de DNI y matrícula.
+
+## Integridad Referencial  
+- por tipo de dato
+- aceptar nulos
+- valores únicos
+- integridad referencial
+- reglas
+- disparadores (triggers)
+
+### Integridad en operaciones (borrado y modificación)
+- Restringir (Restrict)
+- Poner nulo (Set null)
+- En cascada (Cascade)
+
+
 
 ##
 References:
