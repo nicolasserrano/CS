@@ -72,7 +72,12 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-3201783_400_225.jpg">
 </figure>
 ## Tema 5. Informes
-
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de347665-c362-4e41-9b7c-ac45010ed27a' target='_blank'>01. Indices</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bd09b1f8-df03-4a92-ab12-ac45011088d1' target='_blank'>02. Creacion de indice</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=333d9e3a-c927-4904-87c9-ac450110d0cc' target='_blank'>03. Eleccion de claves</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f807a6d-be2c-4e36-a07f-ac450111d9bf' target='_blank'>04. Integridad referencial</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc29bc4b-6538-4d67-9ac9-aae2011448e2' target='_blank'>05. Consulta para informe</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f423-2366-49d1-bce8-aae2010eeb69' target='_blank'>06. Creacion de informe</a><BR> 
 
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
