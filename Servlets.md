@@ -93,6 +93,10 @@ In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/w
     - [getAttribute(String name)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i0)
     - [setAttribute(String name, Object value)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i15)
 
+## Servlet Sent Event
+  - Example in [https://github.com/nicolasserrano/CS/tree/master/webapps/ServletSentEvent](https://github.com/nicolasserrano/CS/tree/master/webapps/ServletSentEvent)
+  - [HTML file](https://nicolasserrano.github.io/CS/webapps/ServletSentEvent/index.html)
+
 ### Using a pendrive to execute the programas  
 [See the instructions](Tomcat.md#run-from-pendrive)
 <!-- [See the instructions with Tomcat 5.5](Java/Pendrive.md) -->
