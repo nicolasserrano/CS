@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script>		
+        function start(){
+            var url = "pruebaSSE";	
+            var source = new EventSource(url);
+            source.onmessage = function(event){
+                document.getElementById("item").innerHTML += event.data + "<br />";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Start Server-Sent Event</h2>
+    <button type="button" onclick="start()">Start</button>
+    <div id="item"></div>
+
+</body>
+</html>
