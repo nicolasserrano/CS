@@ -94,8 +94,8 @@ In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/w
     - [setAttribute(String name, Object value)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i15)
 
 ## Servlet Sent Event
-  - Example in [https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent](https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent)
-  - [HTML file](https://nicolasserrano.github.io/CS/webapps/ServerSentEvent/index.html)
+  - Example in [https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent](https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent) - [HTML file](https://nicolasserrano.github.io/CS/webapps/ServerSentEvent/index.html)
+  - Example of [chat with SSE](https://github.com/mariaserranomartinez/ChatSSE)
 
 ### Using a pendrive to execute the programas  
 [See the instructions](Tomcat.md#run-from-pendrive)
