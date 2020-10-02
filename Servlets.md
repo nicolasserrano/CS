@@ -93,7 +93,7 @@ In folder [northbrickSession](https://github.com/nicolasserrano/CS/tree/master/w
     - [getAttribute(String name)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i0)
     - [setAttribute(String name, Object value)](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSession.html#i15)
 
-## Servlet Sent Event
+## Server Sent Event
   - Example in [https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent](https://github.com/nicolasserrano/CS/tree/master/webapps/ServerSentEvent) - [HTML file](https://nicolasserrano.github.io/CS/webapps/ServerSentEvent/index.html)
   - Example of [chat with SSE](https://github.com/mariaserranomartinez/ChatSSE)
 
