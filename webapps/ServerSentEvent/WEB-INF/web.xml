@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>pruebaSSE</servlet-name>
+  <servlet-class>pruebaSSE</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>pruebaSSE</servlet-name>
+  <url-pattern>/pruebaSSE</url-pattern>
+</servlet-mapping>
+
+</web-app>
