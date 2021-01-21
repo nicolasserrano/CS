@@ -1,6 +1,6 @@
 # Web Applications in Apache Tomcat
 
-1.	Install Tomcat in the "P:" drive or in your pendrive. Instructions in [Tomcat Server](/CS/Tomcat).
+1.	Install Tomcat in your pendrive or hardrive. Instructions in [Tomcat Server](/CS/Tomcat).
 2.	Modify HelloWorld Servlet to show: "Welcome to Software Engineering".
 3.	Compile the [webapps/northbrick1/WEB-INF/classes/ProductDataMockup.java file](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick1/WEB-INF/classes/ProductDataMockup.java).
 4.	Create a main file that prints the card information of the requested product in the format shown below using the ProductDataMockup class. The requested product is a number from 0 to 3. Example:
