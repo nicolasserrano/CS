@@ -23,17 +23,25 @@ La construcci&oacute;n de este programa se explica en la p&aacute;gina [Hello, W
   
 La informaci&oacute;n de como abrir y utilizar Command Prompt se encuentra en la p&aacute;gina [Cmd](Cmd.md)
 
-### 4. Incluir en la variable PATH, el directorio en que se encuentran las herramientas de compilación y ejecución. Y en la variable CLASSPATH, el directorio en que se encuentran las clases para su ejecución. Para ello, teclear en la ventana Command Prompt:
+### 4.A Incluir en la variable PATH, el directorio en que se encuentran las herramientas de compilación y ejecución (en este ejemplo se supone que están en la unidad E:). Y en la variable CLASSPATH, el directorio en que se encuentran las clases para su ejecución. Para ello, teclear en la ventana Command Prompt:
   
 ```
-set PATH=.;Q:\Java8\jdk1.8.0_131\bin;%PATH%
+set PATH=.;E:\Java8\jdk1.8.0_131\bin;%PATH%
 set CLASSPATH=.;%CLASSPATH%
+```
+
+### 4.B Se pueden substituir las 2 l&iacute;neas anteriores por las sentencias correspondientes a pasar al disco de Java8, situarse en la carpeta Java8 y ejecutar el comando sp
+
+```
+E:
+cd \Java8
+sp
 ```
 
 ### 5. Situarse en el directorio en el que se ha guardado el fichero PrimerPrograma.java, por ejemplo, si se ha guardado en” P:\Infor2\practicaJava”, se realiza con los comandos:
 
 ```
-P:
+E:
 cd \infor2
 cd practicaJava
 ```
