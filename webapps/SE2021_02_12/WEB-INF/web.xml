@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>CountriesList</servlet-name>
+        <servlet-class>CountriesList</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>InsertPopulation</servlet-name>
+        <servlet-class>InsertPopulation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CountriesList</servlet-name>
+        <url-pattern>/CountriesList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>InsertPopulation</servlet-name>
+        <url-pattern>/InsertPopulation</url-pattern>
+    </servlet-mapping>
+
+</web-app>
