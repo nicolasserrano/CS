@@ -1,6 +1,6 @@
 # Práctica 1. Datos y tablas 
 Leer el fichero parts.csv que se encuentra en la web de kaggle.com:  
-<https://www.kaggle.com/rtatman/lego-database/version/1?select=parts.csv>
+<https://www.kaggle.com/rtatman/lego-database/version/1?select=parts.csv> o en el fichero [files/parts.csv](parts.csv)
 
 Comprobar que se visualizan los 25993 registros. Utilizar las aplicaciones informáticas que se conozcan y que se consideren adecuados para esta comprobación.
 
