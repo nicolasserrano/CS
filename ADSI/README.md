@@ -91,6 +91,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 
 ## Recursos
 - [Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)  
+- [Notas Cornell](https://www.youtube.com/watch?v=WtW9IyE04OQ)
 - [Socrative](https://b.socrative.com/login/teacher/)
 
 **Access**
