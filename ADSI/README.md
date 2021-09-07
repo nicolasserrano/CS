@@ -21,7 +21,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4db445
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=85123650-a8b6-4a7d-a6cc-ac2900b183f3' target='_blank'>02. Diferentes formatos de CSV</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2eb208bc-1d89-435c-b72f-ac2900a98e54' target='_blank'>03. Conceptos de base de datos</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ee48b41-b16d-4ee3-870e-ac2900ae9774' target='_blank'>04. Creacion de tabla en Access</a><BR>
-Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a6c-8c55-4e17-b28c-ac2900b1f97f' target='_blank'>05. Importacion de fichero csv en Access</a>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a6c-8c55-4e17-b28c-ac2900b1f97f' target='_blank'>05. Importacion de fichero csv en Access</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227e9-d170-4471-84b1-ad9c00f4227c' target='_blank'>05 b. Abrir fichero de texto en Access 2019</a><BR>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     (Pestaña "External Data" -> New Data Source -> From File -> Text File)<BR>
 
 - [Práctica 1](Practica1.md)
 
