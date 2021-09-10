@@ -1,9 +1,5 @@
 # Práctica 2. Relaciones
 
-
-## Objeto TABLA  
-El tipo de objeto **Tabla** permite crear y modificar las tablas de la base de datos, que es donde realmente se almacena toda la información.  
-
 ## Ejercicio 1.  Sistema de información de consumo de gasoil
 El objetivo del primer ejercicio de la práctica es construir una base de datos que controle el consumo de gasoil de los camiones de una empresa de transporte. 
 
