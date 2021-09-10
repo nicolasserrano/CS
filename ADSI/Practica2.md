@@ -17,15 +17,15 @@ Antes de comenzar la práctica es conveniente pensar sobre papel la forma de org
 Los datos que se deben introducir en las tablas están en el fichero [AlbaranesDatos.csv](AlbaranesDatos.csv) utilizado en la [práctica 1](Practica1)
 
 ### Pasos para realizar el ejercicio
-- Analizar y diseñar la tabla realizando el modelo Entidad Relación y el Modelo Relacional.
-- Crear una nueva base de datos de Access en blanco.
-- Crear las tablas necesarias y sus campos. Establecer las claves principales de cada tabla. 
-- Crear las relaciones entre las tablas. No debe permitirse un código de camión que no esté en la tabla de CAMIONES ni un código de gasolinera que no esté en la tabla de GASOLINERAS. Si es necesario, modificar las tablas según estas necesidades.
-- Introducir algunos datos en las tablas (Gasolineras, camiones,…).
-- Borrar esos datos e introducir los datos del fichero csv.
-- Incorporar una tabla de compañías de gasolineras (COMPANIA). Se desea almacenar el nombre, el precio actual del gasoil y la dirección de la sede. Efectuar su diseño completo y establecer sus relaciones con las tablas existentes. Introducir algunos registros: Petronor, Campsa, Cepsa, Repsol, Avanti, etc.
+1. Analizar y diseñar la tabla realizando el modelo Entidad Relación y el Modelo Relacional.
+2. Crear una nueva base de datos de Access en blanco.
+3. Crear las tablas necesarias y sus campos. Establecer las claves principales de cada tabla. 
+4. Crear las relaciones entre las tablas. No debe permitirse un código de camión que no esté en la tabla de CAMIONES ni un código de gasolinera que no esté en la tabla de GASOLINERAS. Si es necesario, modificar las tablas según estas necesidades.
+5. Introducir algunos datos en las tablas (Gasolineras, camiones,…).
+6. Borrar esos datos e introducir los datos del fichero csv.
+7. Incorporar una tabla de compañías de gasolineras (COMPANIA). Se desea almacenar el nombre, el precio actual del gasoil y la dirección de la sede. Efectuar su diseño completo y establecer sus relaciones con las tablas existentes. Introducir algunos registros: Petronor, Campsa, Cepsa, Repsol, Avanti, etc.
 
 ## Ejercicio 2.  Inicio del trabajo A de la asigantura
 
-- Describir (en texto) un problema a solucionar con un Sistema de Información. Se tratará de una descripción similar al párrafo de Descripción del problema, del ejercicio 1 o al caso del Laboratorio.  
-- Crear las tablas, relaciones e insertar unos datos.
+1. Describir (en texto) un problema a solucionar con un Sistema de Información. Se tratará de una descripción similar al párrafo de Descripción del problema, del ejercicio 1 o al caso del Laboratorio.  
+2. Crear las tablas, relaciones e insertar unos datos.
