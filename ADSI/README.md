@@ -32,7 +32,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227
 </figure>
 ## Tema 2. Relaciones
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e37673bc-0b0f-4c54-a76b-ac30009336ba' target='_blank'>01. Modelo Entidad Relación</a><BR>
-Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f258a0b2-fee3-4df9-80dd-ac30009effee' target='_blank'>02. Caso de Laboratorio medico</a> - [Enunciado](files/Laboratorio.pdf) - [Enunciado ADI](https://aula-virtual.unav.edu/bbcswebdav/pid-1452873-dt-content-rid-3845896_1/courses/ANALIS-02038-2021/Laboratorio.pdf)<BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f258a0b2-fee3-4df9-80dd-ac30009effee' target='_blank'>02. Caso de Laboratorio medico</a> - [Enunciado](files/Laboratorio.pdf)<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=66dfee85-4502-4e85-847b-ac3000af90d6' target='_blank'>03. Modelo relacional</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1dcc29b7-4265-42d1-9102-ac3000b5187e' target='_blank'>04. Modelo ER a Modelo Relacional</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7aaabfd9-1e79-45e8-8948-ac3000b914fa' target='_blank'>05. Normalizacion 1FN y 2FN</a><BR>
