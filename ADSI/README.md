@@ -66,7 +66,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a37d2f
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=28db62dd-7d6f-481c-a52c-ac3d011257f0' target='_blank'>03. Menu desplegable</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af06-f982-4ea5-893a-ac3d01157729' target='_blank'>04. Subformulario</a><BR>  
  
-- [Práctica 4](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1469169_1&course_id=_26907_1&launch_in_new=true)  
+- [Práctica 4](files/Practica Formularios.pdf)  
 
 <br><br>
 
@@ -81,7 +81,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f807a
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc29bc4b-6538-4d67-9ac9-aae2011448e2' target='_blank'>05. Consulta para informe</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f423-2366-49d1-bce8-aae2010eeb69' target='_blank'>06. Creacion de informe</a><BR> 
 
-- [Práctica 5](https://aula-virtual.unav.edu/bbcswebdav/pid-1475717-dt-content-rid-4085270_1/xid-4085270_1)  
+- [Práctica 5](files/Practica Informes.pdf)  
 
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
