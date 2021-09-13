@@ -25,7 +25,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227e9-d170-4471-84b1-ad9c00f4227c' target='_blank'>05 b. Abrir fichero de texto en Access 2019</a><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     (Pestaña "External Data" -> New Data Source -> From File -> Text File)<BR>
 
-- [Práctica 1](Practica1.md)
+- [Práctica 1](Practica1.md) - [Solución](Soluciones/Practica1.md)
 
 <hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/clint-adair-BW0vK-FA3eg-unsplash_400_225.jpg">
