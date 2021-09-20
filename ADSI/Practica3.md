@@ -5,7 +5,7 @@
 El tipo de objeto **Consulta** permite mostrar la información almacenada en las tablas de maneras muy distintas, para poder adecuarse a las necesidades de cada usuario o circunstancia.
 Las consultas también pueden permitir insertar, modificar o eliminar datos de las tablas de una manera más cómoda y automatizada.
 
-##	Ejercicio 1. Consultas en la basde de datos de albaranes
+##	Ejercicio 1. Consultas en la base de datos de albaranes
 El objetivo de la práctica es entender el funcionamiento de las consultas, ver cuáles son las operaciones que se pueden realizar con ellas y ser capaces de construir consultas.  
 
 ### 1. Consulta de proyección
