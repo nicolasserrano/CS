@@ -27,5 +27,5 @@ Consulta que borre los albaranes del año 2000 y anteriores.
 ### 9. Consulta anidada
 Consulta que muestre el camión que ha repostado más veces en una misma gasolinera, y el número de veces que lo ha hecho. Esta consulta requiere construir más de una consulta.
 
-##	Ejercicio 2. Consultas del trabajo A de la asigantura
+##	Ejercicio 2. Consultas del trabajo A de la asignatura
 Describir el enunciado y realizar las 2 consultas que debe realizar cada miembro del equipo para el trabajo A de la asignatura. Se debe procurar que sean consultas elaboradas y que su ejecución muestre un resultado relevante para el Sistema de información creado.
