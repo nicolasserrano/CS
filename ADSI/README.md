@@ -42,7 +42,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b77880
 
 Documento [Modelo Entidad Relacion](ModeloER.md)
 
-- [Práctica 2](Practica2.md)
+- [Práctica 2](Practica2.md) - [Solución]( https://aula-virtual.unav.edu/bbcswebdav/pid-1773358-dt-content-rid-5636579_1/xid-5636579_1)
 
 <hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/marvin-meyer-SYTO3xs06fU-unsplash_400_225.jpg">
