@@ -27,5 +27,15 @@ Consulta que borre los albaranes del año 2000 y anteriores.
 ### 9. Consulta anidada
 Consulta que muestre el camión que ha repostado más veces en una misma gasolinera, y el número de veces que lo ha hecho. Esta consulta requiere construir más de una consulta.
 
-##	Ejercicio 2. Consultas del trabajo A de la asignatura
+##	Ejercicio 2. Consultas en Northbrick
+La base de datos [Northbrick](https://aula-virtual.unav.edu/bbcswebdav/pid-1774529-dt-content-rid-5781408_1/xid-5781408_1) contiene una implementación del caso de Northbrick.
+Realizr las siguientes consultas
+### 1. Consulta de agrupación
+Consulta en la que se obtenga para cada Categoría de producto, el número de productos de la categoría y el precio mayor de un producto en esa categoría.
+### 3. Consulta de comprobación
+Consulta que muestre los pedidos en los que el precio es distinto del precio en el producto
+### 3. Consulta con totales y ordenación
+Consulta que muestre el importe vendido en cada mes. La función que obtiene el mes de un campo fecha es Month(campo) y la que obtiene el año es Year(campo). Para el importe considerar solo el UnitPrice y Quantity, no tener en cuenta el descuento.
+
+##	Ejercicio 3. Consultas del trabajo A de la asignatura
 Describir el enunciado y realizar las 2 consultas que debe realizar cada miembro del equipo para el trabajo A de la asignatura. Se debe procurar que sean consultas elaboradas y que su ejecución muestre un resultado relevante para el Sistema de información creado.
