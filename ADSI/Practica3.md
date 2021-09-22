@@ -23,7 +23,7 @@ Consulta que cree una nueva tabla, llamada Hacienda, en la que se indique el tot
 ### 7. Consulta de actualización
 Consulta que incremente el precio de las gasolineras de CAMPSA un 2%, suponiendo que cada gasolinera puede tener un precio distinto.
 ### 8. Consulta de borrado
-Consulta que borre los albaranes del año 2000 y anteriores.
+Consulta que borre los albaranes del año 2020 y anteriores (realizar primero una copia con botón derecho -> copy de la tabla para poder recuperar esos datos).
 ### 9. Consulta anidada
 Consulta que muestre el camión que ha repostado más veces en una misma gasolinera, y el número de veces que lo ha hecho. Esta consulta requiere construir más de una consulta.
 
