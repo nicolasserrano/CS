@@ -54,7 +54,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed4051
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e07a-f74c-47da-9de9-ac3600f0e24d' target='_blank'>04. Consultas</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df9697-ef6f-41dd-b2c4-ac3d01093feb' target='_blank'>05. Tipos de consultas</a><BR>
 
-- [Práctica 3](Practica3.md)  
+- [Práctica 3](Practica3.md) - [Solución](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1777180_1&course_id=_31221_1&launch_in_new=true)  
 
 <br><br>
 
