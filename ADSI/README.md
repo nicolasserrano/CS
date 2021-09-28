@@ -93,7 +93,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 - Practica ficheros [github](http://www.nicolasserrano.com/practicaDatos/)
 
 ## Recursos
-- [Fuentes de datos](https://www.nicolasserrano.com/practicaDatos/#referncias)  
+- [Fuentes de datos](https://www.nicolasserrano.com/practicaDatos/#referencias)  
 - [Digital Era image](https://nicolasserrano.github.io/CS/images/digital.png)  
 - [Notas Cornell](https://www.youtube.com/watch?v=WtW9IyE04OQ)
 - [Socrative](https://b.socrative.com/login/teacher/)
