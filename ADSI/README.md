@@ -69,7 +69,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ebc4e2a8-3b96-4f46-b4f4-adb1011cea04' target='_blank'>05. Subformulario en modo tabular</a><BR> 
 
  
-- [Práctica 4](files/Practica Formularios.pdf)  
+- [Práctica 4](files/Practica Formularios.pdf) - [Solución Access](https://aula-virtual.unav.edu/bbcswebdav/pid-1780922-dt-content-rid-5862044_1/xid-5862044_1)  
 
 <br><br>
 
