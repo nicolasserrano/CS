@@ -105,7 +105,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 
 **SQL**
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
- - [Select sentence (w3scools)](https://www.w3schools.com/sql/sql_and_or.asp)
+ - [Select sentence (w3schools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
 [Créditos de imágenes](http://www.nicolasserrano.com/tools/images/ADSI/)
 <small>v1.09</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
