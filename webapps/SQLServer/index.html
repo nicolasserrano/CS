@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Employees</title>
+	<link rel='icon' href='favicon.ico' />
+	<link rel='stylesheet' href='style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script>
+    function EmployeesCtrl($scope, $http) {
+	  //$scope.sessions = [{"EmployeeID":"1"}];
+      $http.get('http://localhost:8082/SQLServer/Servlet?sql=Select employeeID, FirstName, LastName, Extension from employees')
+      .success(function(data) {
+        $scope.sessions = data.records;
+        $scope.time = new Date;
+        })
+    }
+    </script>
+    <!--<link rel="stylesheet" href="app.css">-->
+  </head>
+  <body ng-controller="EmployeesCtrl">
+    <header><h1>Employees</h1></header>
+    <h2>Employees {{ time | date }}</h2>
+    <!--    <div class="third"><img src="img/clouds.jpg" alt="Clouds" /></div>-->
+    <div class="two-thirds" id="timetable">
+	
+	<h3 align='center'>Number of employees: {{ sessions.length }}</h3>
+	<button onclick="createButtons()">Add Edit Extension Buttons</button>
+		<table id='productTable' border='1'>
+        <tr ng-repeat="session in sessions" >
+		<td><img src='https://nicolasserrano.github.io/CS/webapps/auxiliary/images/emp{{ session.employeeID }}.jpg'></td>
+		<td><h2>{{ session.employeeID }} - {{ session.FirstName }} {{ session.LastName }}<h2><h3>Ext: <span>{{ session.Extension }}</span></h3></td>
+		</tr>
+      </table>
+    </div>
+	<script src='employeesList.js'></script>
+  </body>
+</html>
