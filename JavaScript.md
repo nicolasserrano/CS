@@ -98,12 +98,21 @@ API examples:
   - [JSON data with Ajax](http://javascriptbook.com/code/c08/data-json.html)
 - [Reference from mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
+## Angular
+- Examples of angular: https://javascriptbook.com/code/c09/  
+- Examples of w3Schools:  
+      Shopping list: [https://www.w3schools.com/angular/tryit.asp?filename=try_ng_app5](https://www.w3schools.com/angular/tryit.asp?filename=try_ng_app5)  
+      Table: [https://www.w3schools.com/angular/tryit.asp?filename=try_ng_tables_simple](https://www.w3schools.com/angular/tryit.asp?filename=try_ng_tables_simple)  
+      Application edit users: [https://www.w3schools.com/angular/tryit.asp?filename=try_ng_w3css](https://www.w3schools.com/angular/tryit.asp?filename=try_ng_w3css)  
+      ToDo application: [https://www.w3schools.com/angular/tryit.asp?filename=try_ng_todo_app](https://www.w3schools.com/angular/tryit.asp?filename=try_ng_todo_app)  
+
 ## Resouces
 - [JavaScript in One Page](JavaScript/JavascriptOnePage.pdf)
 - [Beginner tutorials](http://elijahmanor.com/beginner-html5-javascript-jquery-backbone-and-css3-resources/)
 - [Add target](http://stackoverflow.com/questions/6822945/add-target-blank-to-link-with-javascript)
 - [Read a local file](https://www.html5rocks.com/en/tutorials/file/dndfiles/)
 - [Drawing of sin function with Canvas](JavaScript/graphics/canvas.html)
+- [Google charts](https://developers.google.com/chart/interactive/docs/gallery)  
 - [Drawing with Raphael JavaScript library](http://dmitrybaranovskiy.github.io/raphael/)
 - [Charts with Dygraph](http://dygraphs.com/gallery/#g/plotter)
 
