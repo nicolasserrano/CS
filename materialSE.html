@@ -1,0 +1,209 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+  onload="resizeIframe(this)";
+  window.addEventListener('message', event => {
+    // IMPORTANT: check the origin of the data! 
+    if (event.origin.startsWith('https://aula-virtual.unav.edu')) { 
+        // The data was sent from your site.
+        // Data sent with postMessage is stored in event.data:
+        console.log(event.data); 
+    } else {
+        // The data was NOT sent from your site! 
+        // Be careful! Do not use it. This else branch is
+        // here just for clarity, you usually shouldn't need it.
+        return; 
+    } 
+}); 
+</script>
+<script type="text/javascript" src="https://www.nicolasserrano.com/tools/libraries/setIframesForPanopto.js"></script>
+<style>
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}	
+div#centeredContainer {
+    display: table-row;
+}
+h2 {
+    margin-bottom: 0.2em;
+}
+a {
+    color: #4C4D4F;
+}
+a:hover {
+    background-color: #68d9ff;
+}
+#initialLinks a {
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    padding: 3px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+#initialLinks a:hover {
+    background-color: #68d9ff;
+}
+div#initialLinks {
+    margin-top: .4em;
+    margin-bottom: 0.8em;
+}
+	
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://www.nicolasserrano.com/tools/libraries/material.css" />
+<div align="center">
+  <h2>Material of Software Engineering</h2>
+</div>
+
+<table border="1" cellspacing="1" cellpadding="6">
+<tbody>
+<tr style="background-color: #f4f4f4; color: #ce171f;">
+<td style="width: 202.667px;"><strong>Lecture</strong></td>
+<td style="width: 170.667px;"><strong>Content</strong></td>
+<td style="width: 423.667px;"><strong>Lab</strong> <a onclick="setVideoIcons(this)">Mostrar vista previa de videos</a><select id="iframeSize" name="ifsize" size="1">
+<option value="100">100</option>
+<option value="200">200</option>
+<option value="400" selected="selected">400</option>
+<option value="600">600</option>
+<option value="800">800</option>
+<option value="1080">1080</option>
+</select></td>
+<td style="width: 167.333px;"><strong>Additional resources</strong></td>
+<td style="width: 104.667px;"><strong>Solution</strong></td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong>Web Applications - Servlets</strong></td>
+<td style="width: 170.667px;"><a href="https://nicolasserrano.github.io/CS/Tomcat" target="_blank" rel="noopener">Tomcat</a><a href="https://nicolasserrano.github.io/CS/Tomcat" target="_blank" rel="noopener">&nbsp;Server</a></td>
+<td style="width: 234.667px;">
+<p><a href="https://nicolasserrano.github.io/CS/Java/WebApplicationExercises" target="_blank" rel="noopener">Web Application exercises</a></p>
+<p>Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f5c33c7b-bc2b-4b03-abee-acb80087cb43" target="_blank" rel="noopener">Servlets</a> (08_01)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b22c96e9-a062-4d12-a1e5-acb7016a8b62" target="_blank" rel="noopener">Installation</a> (08_02)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=10e97b13-5b52-4842-ae72-acb7016b209d" target="_blank" rel="noopener">Servlet_Creation</a> (08_03)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b88ed023-41e8-46d7-88b6-acb7016d3b36" target="_blank" rel="noopener">Structure_of_a_servlet</a> (08_04)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=02ecd6e4-0b45-444e-8886-acb7016f7ae0" target="_blank" rel="noopener">Parameters</a> (08_06)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f3f4252d-faf2-4463-ad84-acb701715b57" target="_blank" rel="noopener">Servlet_Opinion</a> (09_02)</p>
+</td>
+<td style="width: 167.333px;">
+<p><a href="https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick1" target="_blank" rel="noopener">Files</a></p>
+<p><a href="http://nicolasserrano.github.io/CS/material.html" title="Material" target="_blank" rel="noopener">Material</a> from Digital Technologies&nbsp;</p>
+</td>
+<td rowspan="2" style="width: 104.667px;">
+<p><a href="https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick2" target="_blank" rel="noopener">Files northbrick2<br /></a><a href="http://northbrick1.appspot.com/ProductListMockup" target="_blank" rel="noopener">Product List</a><br /><a href="http://northbrick1.appspot.com/ProductJSONListMockup" target="_blank" rel="noopener">Product JSON LIST</a>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong>User interface - JavaScript</strong></td>
+<td style="width: 170.667px;">
+<p><a href="https://nicolasserrano.github.io/CS/JavaScript/JavaScript1.html" target="_blank" rel="noopener">JavaScript examples</a><br /><a href="https://nicolasserrano.github.io/CS/JSON" target="_blank" rel="noopener">JSON</a></p>
+</td>
+<td style="width: 234.667px;">
+<p><a href="https://nicolasserrano.github.io/CS/Java/JavaScriptInWebApplication" target="_blank" rel="noopener">JavaScript in Web Application</a></p>
+<p>Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f504b876-76d2-4219-a9da-acbf0098d3b5" target="_blank" rel="noopener">JavaScript Examples 1 to 9</a> (11_09) <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=14b606f2-e10f-47d2-a1dc-acc300a55d29" target="_blank" rel="noopener">JavaScript Examples 10 to 12</a>&nbsp;(11_10) <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=03f585d9-2689-4943-92d8-acc40104ec2b" target="_blank" rel="noopener">JSON</a> (11_11)<br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=47431e55-471f-42ec-81ab-acc5011188d9" target="_blank" rel="noopener">JavaScript DOM Methods</a> (11_12)</p>
+<p><a href="https://nicolasserrano.github.io/CS/Java/JavaScriptJSON" target="_blank" rel="noopener">Exercise JavaScript and JSON</a></p>
+<p><a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1541702-dt-content-rid-2902989_1/xid-2902989_1" target="_blank" rel="noopener">Example Evaluation Test 1</a> <br /><a rel="noopener" target="_blank" href="https://aula-virtual.unav.edu/bbcswebdav/pid-1541702-dt-content-rid-3448026_1/xid-3448026_1">Evaluation Test February 18, 2020</a>&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/tree/master/webapps/SE2020_02_18_sol">Solution</a> <a href="http://www.nicolasserrano.com/CS/webapps/SE2020_02_18_sol/EmployeesListJS.html">Ex2</a></p>
+<p><a href="http://www.nicolasserrano.com/CS/webapps/SE2021_02_12/2021-02-12_v4.pdf" target="_blank" rel="noopener">Evaluation Test 1 - February 12, 2021</a>&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/tree/master/webapps/SE2021_02_12_sol">Solution</a></p>
+</td>
+<td style="width: 167.333px;"><a href="https://www.nicolasserrano.com/CS/JavaScript/JavascriptOnePage.pdf" target="_blank" rel="noopener">JavaScript in One Page</a></td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong>Databases - JDBC</strong></td>
+<td style="width: 170.667px;">
+<p><a href="https://josuneha.github.io/JDBC/" title="JDBC" target="_blank" rel="noopener">JDBC</a></p>
+</td>
+<td style="width: 234.667px;">
+<p><a href="https://josuneha.github.io/JDBC/ExercisesLab" title="JDBC Lab" target="_blank" rel="noopener">JDBC Lab</a></p>
+</td>
+<td style="width: 167.333px;">&nbsp;</td>
+<td style="width: 104.667px;"><a href="https://github.com/josuneha/JDBC/tree/master/LabSolution" title="JDBC Lab Solution" target="_blank" rel="noopener">JDBC Lab Solution</a></td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong>Web Applications and Databases (MVC)</strong></td>
+<td style="width: 170.667px;">
+<p><a href="http://www.nicolasserrano.com/CS/MVC">MVC (JDBC and Web Applications)</a></p>
+</td>
+<td style="width: 234.667px;">
+<p><a href="https://josuneha.github.io/SoftEng/" title="Exercises">Exercises</a></p>
+</td>
+<td style="width: 167.333px;"><a href="https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick3" title="northbric3 application" target="_blank" rel="noopener">northbric3 application</a></td>
+<td style="width: 104.667px;"><a href="https://github.com/josuneha/SoftEng/tree/master/northbrick3LabSolution" title="Solution">Solution</a></td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong>JDBC Evaluation test March 2020</strong></td>
+<td style="width: 170.667px;">&nbsp;</td>
+<td style="width: 234.667px;">
+<p><a target="_blank" href="https://aula-virtual.unav.edu/bbcswebdav/pid-1541702-dt-content-rid-3448027_1/xid-3448027_1" rel="noopener">Mar&nbsp;10,&nbsp;2020</a>&nbsp;</p>
+<p><a href="https://github.com/josuneha/SoftEng/tree/master/FicherosTest2" title="Exam Files">Exam Files</a></p>
+</td>
+<td style="width: 167.333px;">&nbsp;</td>
+<td style="width: 104.667px;"><a href="https://github.com/josuneha/SoftEng/tree/master/northbrick3Test2Solucion" title="Examen solution">Exam solution</a></td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong> <strong style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none;">CSS</strong> </strong></td>
+<td style="width: 170.667px;"><a rel="noopener" style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-size: 13px; color: #4c4d4f; text-decoration: underline; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-shadow: none;" target="_blank" href="https://nicolasserrano.github.io/CS/CSS/CSS.pdf">CSS structure</a></td>
+<td style="width: 234.667px;">Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=56e387b0-afee-4036-a761-acea00ad1eb5" target="_blank" rel="noopener">02 Introduction</a>&nbsp;-&nbsp;doc <a rel="noopener" target="_blank" href="http://nicolasserrano.github.io/viscom/CSS.html#/0">CSS presentationci&oacute;n</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=659f3253-6fb7-4116-8808-acea00ad903d" target="_blank" rel="noopener">03 Fonts</a>&nbsp;- web <a rel="noopener" target="_blank" href="http://www.typetester.org/">typetester</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=889d1de0-4bb2-4904-829c-acea00ae9330" target="_blank" rel="noopener">04 Color</a>&nbsp;-&nbsp;web <a rel="noopener" target="_blank" href="http://paletton.com/">Paletton</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=21730ef2-d1b4-4382-b6a2-acea00afa4d9" target="_blank" rel="noopener">05 Apply CSS</a>&nbsp;- docs: <a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/CSS/TestCSS_ini.html">html initial </a>-&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/CSS/TestCSS_fin.html">html final</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04d5e3c3-4e99-499c-a9aa-acea00afb02e" target="_blank" rel="noopener">06 Box Model</a>&nbsp;-&nbsp;web <a target="_blank" href="https://hicks.design/journal/3d-css-box-model" rel="noopener">Box Model</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=049e137b-b23d-4580-829f-acea00b15c8a" target="_blank" rel="noopener">07 Utilities</a>&nbsp;-&nbsp;web <a rel="noopener" target="_blank" href="http://www.csszengarden.com/">CSS Zen Garden</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aff2d9f4-63e6-4ddf-aefc-acea00b30e60" target="_blank" rel="noopener">08 Frameworks</a> &nbsp;-&nbsp;web <a rel="noopener" target="_blank" href="https://www.w3schools.com/w3css/">W3.CSS</a></td>
+<td style="width: 167.333px;"><a rel="noopener" style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: 13px; color: #4c4d4f; text-decoration: underline; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-shadow: none;" target="_blank" href="https://www.cheatography.com/davechild/cheat-sheets/css2/">Properties</a></td>
+<td style="width: 104.667px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong> <strong style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none;">Session in Web Applications </strong> </strong></td>
+<td style="width: 170.667px;"><a rel="noopener" style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-size: 13px; color: #4c4d4f; text-decoration: underline; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-shadow: none;" target="_blank" href="http://www.nicolasserrano.com/CS/Servlets#session-in-web-applications">Sessions</a></td>
+<td style="width: 234.667px;">Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8bdae41f-9b07-4f90-8a48-acf6009c5ab8" target="_blank" rel="noopener">01 Http Protocol</a><br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8f19d520-94ed-45aa-83ce-acf6009cadbb" target="_blank" rel="noopener">02 Hidden fields</a> &nbsp;-&nbsp;doc&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/webapps/sesiones/WEB-INF/classes/ShoppingCart.java">ShoppingCart.java</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=15366bb6-b4d9-4584-b381-acf6009cb1d3" target="_blank" rel="noopener">03 Cookies</a> -&nbsp;doc&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/webapps/sesiones/WEB-INF/classes/ShowSession.java">ShowSession</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b01d568-e72f-4fb0-a3a2-acf6009cb627" target="_blank" rel="noopener">04 Servlet ShowSession</a> -&nbsp;<a style="font-family: Roboto, sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-size: 13px; color: #4c4d4f; text-decoration-line: underline; text-align: left; background-color: #ffffff; text-shadow: none;" rel="noopener" target="_blank" href="https://javaee.github.io/javaee-spec/javadocs/">doc Java EE API</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=78599f13-38b6-40af-b3b3-acf6009cba99" target="_blank" rel="noopener">05 Servlets Documentation</a> -&nbsp;doc&nbsp;<a style="font-family: Roboto, sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-size: 13px; color: #4c4d4f; text-decoration-line: underline; text-align: left; background-color: #ffffff; text-shadow: none;" rel="noopener" target="_blank" href="https://nicolasserrano.github.io/CS/Servlets#example-of-session-in-applications">Example of Session in application</a> <br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=60a21726-e117-482c-a68e-acf6009ec0c9" target="_blank" rel="noopener">06 Session in Northbrick application</a></td>
+<td style="width: 167.333px;">&nbsp;</td>
+<td style="width: 104.667px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong><strong style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none;"> Ajax</strong></strong></td>
+<td style="width: 170.667px;"><a href="https://nicolasserrano.github.io/CS/AJAX/" target="_blank" rel="noopener">Ajax</a></td>
+<td style="width: 234.667px;">Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2834bf0b-d3d0-463a-9107-ad04012529f3" target="_blank" rel="noopener">01 Ajax Architecture</a> -&nbsp;doc&nbsp;<a rel="noopener" target="_blank" href="https://nicolasserrano.github.io/CS/AJAX/">Ajax</a><br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=25ce4abd-b3ec-4b8f-a713-ad0401252f44" target="_blank" rel="noopener">02 Ajax example</a><br />Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=644fefa1-e867-4d74-8248-ad0401253368" target="_blank" rel="noopener">03 Ajax with JSON</a> -&nbsp;doc&nbsp;<a rel="noopener" target="_blank" href="https://nicolasserrano.github.io/CS/AJAX/bookForm2.html">bookForm2</a></td>
+<td style="width: 167.333px;">&nbsp;</td>
+<td style="width: 104.667px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 202.667px;"><strong><strong style="font-family: Roboto, sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none;"><strong style="font-family: 'Open Sans', sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-weight: bold; font-size: 13px; color: #000000; background-color: #ffffff; text-shadow: none;"><strong style="font-family: 'Open Sans', sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-weight: bold; font-size: 13px; color: #000000; text-align: left; background-color: #ffffff; text-shadow: none;">Version Control Systems</strong></strong> </strong></strong></td>
+<td style="width: 170.667px;">Slides:&nbsp;<a style="font-family: Roboto, sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-size: 13px; color: #4c4d4f; text-decoration-line: underline; text-align: left; background-color: #ffffff; text-shadow: none;" target="_blank" href="https://drive.google.com/file/d/10lx92OI539mFQwRh7Ixs3T-pQ0xOh1rZ/view?usp=sharing" rel="noopener">Version Control Systems</a></td>
+<td style="width: 234.667px;">
+<p>Video:&nbsp;<a style="font-family: Roboto, sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-size: 13px; color: #4c4d4f; text-decoration-line: underline; text-align: left; background-color: #ffffff; text-shadow: none;" target="_blank" href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db80c480-4915-46ea-b4aa-ab8d010dd48d" rel="noopener">Version Control Systems</a></p>
+<p style="font-family: inherit; margin: 0px 0px 1em; padding: 0px; border-width: 0px; outline-width: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; overflow-wrap: break-word; text-shadow: none;">Document:&nbsp;<a style="font-family: 'Open Sans', sans-serif; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-size: 13px; color: #1874a4; text-decoration-line: underline; text-align: left; background-color: #ffffff; text-shadow: none;" target="_blank" href="https://drive.google.com/file/d/1TAqVwMZ9wWZ6AX1WxqtayeOzAD4-1j9v/view?usp=sharing" rel="noopener">&nbsp;GitHub Lab</a><br style="font-family: Roboto, sans-serif; text-shadow: none;" />Video:&nbsp;<a style="font-family: inherit; margin: 0px; padding: 0px; border-width: 0px; outline-width: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #4c4d4f; text-decoration-line: underline; text-shadow: none;" target="_blank" href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=37540a7a-c545-4f80-8327-ab8e008cbb87" rel="noopener">&nbsp;GitHub Lab</a></p>
+<p style="font-family: inherit; margin: 0px 0px 1em; padding: 0px; border-width: 0px; outline-width: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; overflow-wrap: break-word; text-shadow: none;"></p>
+</td>
+<td style="width: 167.333px;">&nbsp;</td>
+<td style="width: 104.667px;">&nbsp;</td>
+</tr>
+<tr>
+<td><b>Exams</b></td>
+<td colspan="4"><a href="https://nicolasserrano.github.io/CS/SoftwareEngineering/Exams/SoftIng-2019-05-24.pdf" title="May 24, 2019" target="_blank" rel="noopener">May 24, 2019</a>&nbsp;&nbsp; <a href="https://github.com/nicolasserrano/CS/tree/master/webapps/northbrick_2019_05" target="_blank" rel="noopener">Solution</a> <br /><a href="https://nicolasserrano.github.io/CS/SoftwareEngineering/Exams/SoftIng-2020-05-18.pdf" title="May 24, 2019" target="_blank" rel="noopener">May 18, 2020</a>&nbsp;&nbsp; <a href="https://github.com/nicolasserrano/CS/tree/master/webapps/SE2020_05_18_sol" target="_blank" rel="noopener">Solution</a></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+<p></p>
+<table border="1" style="border-collapse: collapse; width: 100%; height: 317px;">
+<tbody>
+<tr style="height: 159px;">
+<td style="width: 31.6118%; height: 159px;"><strong><strong style="font-family: 'Open Sans', sans-serif; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-align: start; background-color: #ffffff; text-shadow: none;">Other resources</strong> </strong></td>
+<td style="width: 68.3882%; height: 159px;">
+<p>Example of using Dates with Access: <a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/JDBC_Date.java">java file</a>,&nbsp;use with <a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick3/northbrick.mdb">Northbrick </a>database</p>
+<p>Use of Ucanaccess driver with SQuirreL SQL:&nbsp;<a rel="noopener" target="_blank" href="https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/UcanAccess.md">page</a></p>
+<p>Upload an image or file to the server: <a rel="noopener" style="font-size: 13px;" target="_blank" href="https://stackoverflow.com/questions/2422468/how-to-upload-files-to-server-using-jsp-servlet">post</a></p>
+<p>and save in the database:&nbsp;<a rel="noopener" target="_blank" href="https://stackoverflow.com/questions/7033676/how-to-upload-an-image-and-save-it-in-database?noredirect=1&amp;lq=1">post</a></p>
+<p><strong style="font-size: 13px;">Debugging</strong>: <a rel="noopener" style="font-size: 13px;" target="_blank" href="https://nicolasserrano.github.io/CS/tools/CheckList">Check List</a></p>
+<p><a rel="noopener" target="_blank" href="https://books.trinket.io/thinkjava2/chapter1.html#sec17">Section 1.9</a><br /><a rel="noopener" target="_blank" href="https://books.trinket.io/thinkjava2/chapter4.html#sec53">Section 4.8</a>&nbsp;(example optional)<strong></strong></p>
+</td>
+</tr>
+<tr style="height: 79px;">
+<td style="width: 31.6118%; height: 79px;"><strong>Installation on Mac OSX</strong></td>
+<td style="width: 68.3882%; height: 79px;">
+<p><strong><a rel="noopener" target="_blank" href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=11ee4964-22ac-49f0-8d93-ab8400c2b5d2">How to install Java,&nbsp;Tomcat and connect with databases on Mac OS<br /></a></strong></p>
+<p><strong><a rel="noopener" href="https://github.com/josuneha/JDBC/tree/master/UcanAccess/UCanAccess-5.0_JarFiles" target="_blank">UcanAccess Driver </a></strong></p>
+<p><strong> <a rel="noopener" href="https://github.com/josuneha/JDBC/blob/master/UcanAccess/ConnectionUtils.java" target="_blank">ConnectionUtils file using UcanAccess driver</a></strong></p>
+</td>
+</tr>
+<tr style="height: 79px;">
+<td style="width: 31.6118%; height: 79px;"><strong>Eclipse installation&nbsp;</strong></td>
+<td style="width: 68.3882%; height: 79px;">
+<p><strong><a rel="noopener" target="_blank" href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=533925d5-7f41-47e7-8b0c-ab880069e167">How to install Eclipse<br /></a></strong></p>
+<p><strong><a rel="noopener" href="https://github.com/josuneha/JDBC/tree/master/UcanAccess/UCanAccess-5.0_JarFiles" target="_blank">UcanAccess Driver </a></strong></p>
+<p><strong><a rel="noopener" target="_blank" href="https://github.com/josuneha/JDBC/blob/master/UcanAccess/ConnectionUtils.java">ConnectionUtils file using UcanAccess driver</a></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div></div>
