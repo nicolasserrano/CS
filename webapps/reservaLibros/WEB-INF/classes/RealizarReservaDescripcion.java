@@ -10,14 +10,21 @@ class Libro {
 }
 
 public class RealizarReservaDescripcion extends HttpServlet {
-    public static final long serialVersionUID = 1L;
-
+    public static final long serialVersionUID = 4L;
+    String fileName;
+    public void init(ServletConfig config) throws ServletException {
+        // Llamada al método init() de la superclase (GenericServlet)
+        // Así se asegura una correcta inicialización del servlet
+        super.init(config);
+        System.out.println("Iniciando RealizarReservaDescripcion...");
+        fileName = config.getServletContext().getRealPath("lista.txt");
+    } // fin del método init()
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
 
         Vector<Libro> listaLibros = new Vector<Libro>();
         HttpSession session = req.getSession(true);
         
-        Vector<String> vec = (Vector<String>)session.getAttribute("lista");
+        @SuppressWarnings("unchecked") Vector<String> vec = (Vector<String>)session.getAttribute("lista");
         String user = (String)session.getAttribute("user");
     
         if (vec == null) { 
@@ -34,7 +41,7 @@ public class RealizarReservaDescripcion extends HttpServlet {
 
         //Leemos los libros del fichero
 
-        File file = new File("lista.txt");
+        File file = new File(fileName);
         Scanner scanner = new Scanner(file);
     //    BufferedReader input = new BufferedReader(new FileReader(file));
         String line = null;
