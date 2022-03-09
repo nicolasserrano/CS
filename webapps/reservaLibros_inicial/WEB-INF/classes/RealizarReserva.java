@@ -10,7 +10,7 @@ public class RealizarReserva extends HttpServlet {
      
         HttpSession session = req.getSession(true);
         
-        Vector<String> vec = (Vector<String>)session.getAttribute("lista");
+        @SuppressWarnings("unchecked") Vector<String> vec = (Vector<String>)session.getAttribute("lista");
         String user = (String)session.getAttribute("user");
     
         if (vec == null) { 
