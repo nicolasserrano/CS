@@ -107,7 +107,7 @@
   <tr>
     <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
  method=&quot;GET&quot;  name=&quot;checks&quot;&gt;
-      &lt;p&gt;Indique los idiomas que hablar:&lt;/p&gt;
+      &lt;p&gt;Indique los idiomas que habla:&lt;/p&gt;
       &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;euskera&quot;&gt; Euskera &lt;br&gt;
       &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;ingles&quot;&gt; Inglés &lt;br&gt;
       &lt;input TYPE=&quot;checkbox&quot; NAME=&quot;Idioma&quot; VALUE=&quot;frances&quot;&gt; Francés &lt;br&gt;
@@ -115,7 +115,7 @@
 &lt;/form&gt;</pre>
     </td>
     <td WIDTH="50%"><form action="query.html" method="GET" name="checks" target="res2">
-      <p>Indique los idiomas que hablar:</p>
+      <p>Indique los idiomas que habla:</p>
       <p><input type="checkbox" name="Idioma" value="euskera"> Euskera <br>
       <input type="checkbox" name="Idioma" value="ingles"> Inglés <br>
       <input type="checkbox" name="Idioma" value="frances"> Francés <br>
