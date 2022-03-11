@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeText() {
+  var xmlhttp =new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("id1").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","text.txt",true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body>
+<div id="id1">Original text</div>
+<button type="button" onclick="changeText()">Change with Ajax</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeText() {
+  var xmlhttp =new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("id1").innerHTML=xmlhttp.responseText;
+	  obEmployees = JSON.parse(xmlhttp.responseText);
+	  numberEmployees = obEmployees.records.length;
+	  document.getElementById("numberEmployees").innerHTML = numberEmployees;
+	  
+    }
+  }
+  xmlhttp.open("GET","Servlet?sql=Select employeeID, FirstName, LastName, Extension from employees",true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body>
+<div id="id1">Original text</div>
+<button type="button" onclick="changeText()">Change with Ajax (v2.01)</button>
+<div id=numberEmployees></div>
+<table id=employeesTable></table>
+</body>
+</html>
