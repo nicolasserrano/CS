@@ -4,7 +4,7 @@
 
 ## Http request:
 - enter a URL, click a link, submit a form or any event in the broswer: example: <http://www.amazon.com>
-- crete the HTTP request: Developer tool -> Network, click on <http://www.amazon.com>, see Headers, Request header.
+- create the HTTP request: Developer tool -> Network, click on <http://www.amazon.com>, see Headers, Request header.
   - Search for amazon. Open a cookie.
   - Remove all shown
   - New request (F5) to www.amazon.com with "Developer tool -> Network" open
