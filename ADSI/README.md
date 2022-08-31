@@ -26,6 +26,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227e9-d170-4471-84b1-ad9c00f4227c' target='_blank'>05 b. Abrir fichero de texto en Access 2019</a><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     (Pestaña "External Data" -> New Data Source -> From File -> Text File)<BR>
 
+- [Práctica 0](https://calm-mars-439.notion.site/Pr-ctica-tipos-de-bases-de-datos-407cbf67be8844539f0a1fc950b453f8)
 - [Práctica 1](Practica1.md) <!-- - [Solución](Soluciones/Practica1.md) -->
 
 <hr>
