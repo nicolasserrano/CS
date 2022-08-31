@@ -26,7 +26,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e493a
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227e9-d170-4471-84b1-ad9c00f4227c' target='_blank'>05 b. Abrir fichero de texto en Access 2019</a><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     (Pestaña "External Data" -> New Data Source -> From File -> Text File)<BR>
 
-- [Práctica 1](Practica1.md) - [Solución](Soluciones/Practica1.md)
+- [Práctica 1](Practica1.md) <!-- - [Solución](Soluciones/Practica1.md) -->
 
 <hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/clint-adair-BW0vK-FA3eg-unsplash_400_225.jpg">
@@ -42,7 +42,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b77880
 
 Documento [Modelo Entidad Relacion](ModeloER.md)
 
-- [Práctica 2](Practica2.md) - [Solución]( https://aula-virtual.unav.edu/bbcswebdav/pid-1773358-dt-content-rid-5636579_1/xid-5636579_1)
+- [Práctica 2](Practica2.md) <!-- - [Solución]( https://aula-virtual.unav.edu/bbcswebdav/pid-1773358-dt-content-rid-5636579_1/xid-5636579_1) -->
 
 <hr>
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/marvin-meyer-SYTO3xs06fU-unsplash_400_225.jpg">
@@ -54,7 +54,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed4051
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1985e07a-f74c-47da-9de9-ac3600f0e24d' target='_blank'>04. Consultas</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df9697-ef6f-41dd-b2c4-ac3d01093feb' target='_blank'>05. Tipos de consultas</a><BR>
 
-- [Práctica 3](Practica3.md) - [Solución pdf](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1777180_1&course_id=_31221_1&launch_in_new=true) - [Solución Access](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_1777237_1&course_id=_31221_1)  
+- [Práctica 3](Practica3.md) <!-- - [Solución pdf](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&content_id=_1777180_1&course_id=_31221_1&launch_in_new=true) - [Solución Access](https://aula-virtual.unav.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_1777237_1&course_id=_31221_1)  -->
 
 <br><br>
 
@@ -69,7 +69,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9296af
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ebc4e2a8-3b96-4f46-b4f4-adb1011cea04' target='_blank'>05. Subformulario en modo tabular</a><BR> 
 
  
-- [Práctica 4](files/Practica Formularios.pdf) - [Solución Access](https://aula-virtual.unav.edu/bbcswebdav/pid-1780922-dt-content-rid-5862044_1/xid-5862044_1)  
+- [Práctica 4](files/Practica Formularios.pdf) <!-- - [Solución Access](https://aula-virtual.unav.edu/bbcswebdav/pid-1780922-dt-content-rid-5862044_1/xid-5862044_1)  --> 
 
 <br><br>
 
@@ -84,7 +84,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f807a
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc29bc4b-6538-4d67-9ac9-aae2011448e2' target='_blank'>05. Consulta para informe</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f423-2366-49d1-bce8-aae2010eeb69' target='_blank'>06. Creacion de informe</a><BR> 
 
-- [Práctica 5](files/Practica Informes.pdf) - [Solución Access](https://aula-virtual.unav.edu/bbcswebdav/pid-1784587-dt-content-rid-5908630_1/xid-5908630_1)  
+- [Práctica 5](files/Practica Informes.pdf) <!-- - [Solución Access](https://aula-virtual.unav.edu/bbcswebdav/pid-1784587-dt-content-rid-5908630_1/xid-5908630_1)  -->
 
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
