@@ -29,7 +29,7 @@ Consulta que muestre el camión que ha repostado más veces en una misma gasolin
 
 ##	Ejercicio 2. Consultas en Northbrick
 La base de datos [Northbrick](https://aula-virtual.unav.edu/bbcswebdav/pid-1774529-dt-content-rid-5781408_1/xid-5781408_1) contiene una implementación del caso de Northbrick.
-Realizr las siguientes consultas
+Realizar las siguientes consultas
 ### 1. Consulta de agrupación
 Consulta en la que se obtenga para cada Categoría de producto, el número de productos de la categoría y el precio mayor de un producto en esa categoría.
 ### 3. Consulta de comprobación
