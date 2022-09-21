@@ -28,7 +28,7 @@ Consulta que borre los albaranes del año 2020 y anteriores (realizar primero un
 Consulta que muestre el camión que ha repostado más veces en una misma gasolinera, y el número de veces que lo ha hecho. Esta consulta requiere construir más de una consulta.
 
 ##	Ejercicio 2. Consultas en Northbrick
-La base de datos [Northbrick](https://aula-virtual.unav.edu/bbcswebdav/pid-1774529-dt-content-rid-5781408_1/xid-5781408_1) contiene una implementación del caso de Northbrick.
+La base de datos [Northbrick](https://github.com/nicolasserrano/CS/raw/master/webapps/northbrick3/northbrick_2019.mdb) contiene una implementación del caso de Northbrick.
 Realizar las siguientes consultas
 ### 1. Consulta de agrupación
 Consulta en la que se obtenga para cada Categoría de producto, el número de productos de la categoría y el precio mayor de un producto en esa categoría.
@@ -39,3 +39,5 @@ Consulta que muestre el importe vendido en cada mes. La función que obtiene el 
 
 ##	Ejercicio 3. Consultas del trabajo A de la asignatura
 Describir el enunciado y realizar las 2 consultas que debe realizar cada miembro del equipo para el trabajo A de la asignatura. Se debe procurar que sean consultas elaboradas y que su ejecución muestre un resultado relevante para el Sistema de información creado.
+
+<!--[Northbrick](https://aula-virtual.unav.edu/bbcswebdav/pid-1774529-dt-content-rid-5781408_1/xid-5781408_1)  -->
