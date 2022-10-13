@@ -90,7 +90,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 <br><br>
 
 <hr>
-<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src=" caspar-camille-rubin-fPkvU7RDmCo-unsplash_400_225.jpg">
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/caspar-camille-rubin-fPkvU7RDmCo-unsplash_400_225.jpg">
 </figure>
 ## Tema 6. SQL  
 Introucción<BR>
