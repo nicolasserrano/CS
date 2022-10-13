@@ -90,10 +90,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 <br><br>
 
 <hr>
-<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="">
+<figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src=" caspar-camille-rubin-fPkvU7RDmCo-unsplash_400_225.jpg">
 </figure>
-## Tema 6. SQL
-
+## Tema 6. SQL  
 Introucción<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95cfe8dd-94a6-4d0a-9c64-af2b00fa86e7' target='_blank'>02. Configuración</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39d7adaa-1b0d-49f9-b5be-af2b00fa8c05' target='_blank'>03. Operadores</a><BR>
