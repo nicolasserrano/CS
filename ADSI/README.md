@@ -110,6 +110,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b656b3
 - XML tutorial [w3schools](https://www.w3schools.com/xml/default.asp)
 - JSON tutorial [w3schools](https://www.w3schools.com/js/js_json_intro.asp)
 - Practica ficheros [github](http://www.nicolasserrano.com/practicaDatos/)
+- Practica Java csv [Código]( https://www.notion.so/Pr-ctica-Java-csv-60d3a53e735f4cbf93ea53ef4d471485)  
 
 ## Recursos
 - [Fuentes de datos](https://www.nicolasserrano.com/practicaDatos/#datos)  
