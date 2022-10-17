@@ -96,7 +96,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 Introucción<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95cfe8dd-94a6-4d0a-9c64-af2b00fa86e7' target='_blank'>02. Configuración</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39d7adaa-1b0d-49f9-b5be-af2b00fa8c05' target='_blank'>03. Operadores</a><BR>
-Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4909fb29-1c18-4e06-800e-af2b0102c564' target='_blank'>04. Select</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4909fb29-1c18-4e06-800e-af2b0102c564' target='_blank'>04. Select subordinados</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=32c06ce0-7907-4bd1-82aa-af2b0102c593' target='_blank'>4b. DISTINCT</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b656b3f9-9208-4199-b9c6-af2b0110de42' target='_blank'>05. Funciones de agrupación</a><BR>
  
