@@ -100,7 +100,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4909fb
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=32c06ce0-7907-4bd1-82aa-af2b0102c593' target='_blank'>4b. DISTINCT</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b656b3f9-9208-4199-b9c6-af2b0110de42' target='_blank'>05. Funciones de agrupación</a><BR>
  
-- [Práctica 6. SQL 1](https://www.notion.so/Pr-ctica-1-de-SQL-441dc7ecec294b73aab925f1e6a6adb2)
+- [Práctica 6. SQL 1](https://calm-mars-439.notion.site/Pr-ctica-1-de-SQL-441dc7ecec294b73aab925f1e6a6adb2)
  
  
 ## Data
@@ -110,7 +110,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b656b3
 - XML tutorial [w3schools](https://www.w3schools.com/xml/default.asp)
 - JSON tutorial [w3schools](https://www.w3schools.com/js/js_json_intro.asp)
 - Practica ficheros [github](http://www.nicolasserrano.com/practicaDatos/)
-- Practica Java csv [Código]( https://www.notion.so/Pr-ctica-Java-csv-60d3a53e735f4cbf93ea53ef4d471485)  
+- Practica Java csv [Código](https://calm-mars-439.notion.site/Pr-ctica-Java-csv-60d3a53e735f4cbf93ea53ef4d471485)  
 
 ## Programación de Excel con VBA
 [Presentación VBA](https://www.nicolasserrano.com/tools/hojas/Excel_VBA.pdf)
