@@ -99,7 +99,11 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39d7ad
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4909fb29-1c18-4e06-800e-af2b0102c564' target='_blank'>04. Select subordinados</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=32c06ce0-7907-4bd1-82aa-af2b0102c593' target='_blank'>4b. DISTINCT</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b656b3f9-9208-4199-b9c6-af2b0110de42' target='_blank'>05. Funciones de agrupación</a><BR>
- 
+
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b5a77bae-50dd-4512-a1d0-af2b0110de71' target='_blank'>06. Agrupación con GROUP BY</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=82fe196f-0d1f-4827-b648-af2b0110de1c' target='_blank'>07. Producto cartesiano</a><BR>
+Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=19a1fbea-45fb-4f29-8a5a-af2b0110de90' target='_blank'>08. Consulta de varias tablas</a><BR>
+
 - [Práctica 6. SQL 1](https://calm-mars-439.notion.site/Pr-ctica-1-de-SQL-441dc7ecec294b73aab925f1e6a6adb2)
  
  
