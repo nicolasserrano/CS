@@ -105,7 +105,7 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=82fe19
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=19a1fbea-45fb-4f29-8a5a-af2b0110de90' target='_blank'>08. Consulta de varias tablas</a><BR>
 
 - [Práctica 6. SQL 1](https://calm-mars-439.notion.site/Pr-ctica-1-de-SQL-441dc7ecec294b73aab925f1e6a6adb2)
- 
+- [Práctica 7. SQL 2](https://calm-mars-439.notion.site/Enunciado-Pr-ctica-2-de-SQL-88f72a1bdd1746b089f2f897b36a2afd)
  
 ## Data
 - Video Babbage Difference Engine: [video](https://www.youtube.com/watch?v=KBuJqUfO4-w&feature=youtu.be&t=51)
