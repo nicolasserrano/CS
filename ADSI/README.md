@@ -13,9 +13,9 @@
 
 
 <hr>
+## Tema 1. Datos y tablas
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash_400_225.jpg">
 </figure>
-## Tema 1. Datos y tablas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9e30b99-3124-4f6d-a830-ac2c00f48444' target='_blank'>00a. Sistemas de numeración. Decimal, octal, hexadecimal, binario</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=afc3be34-cc60-4c0a-8ef0-ac2c00e9b6d0' target='_blank'>00b. ASCII</a> - [Tabla ASCII](http://www.nicolasserrano.com/CS/tools/ASCII.html) - Hexadecimal editor [editor](https://hexed.it/?hl=en)<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4db44598-a189-49af-be71-ac2900a4b12c' target='_blank'>01. Ficheros CSV</a><BR>
@@ -30,9 +30,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80e227
 - [Práctica 1](Practica1.md) <!-- - [Solución](Soluciones/Practica1.md) -->
 
 <hr>
+## Tema 2. Relaciones
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/clint-adair-BW0vK-FA3eg-unsplash_400_225.jpg">
 </figure>
-## Tema 2. Relaciones
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e37673bc-0b0f-4c54-a76b-ac30009336ba' target='_blank'>01. Modelo Entidad Relación</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f258a0b2-fee3-4df9-80dd-ac30009effee' target='_blank'>02. Caso de Laboratorio medico</a> - [Enunciado](files/Laboratorio.pdf)<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=66dfee85-4502-4e85-847b-ac3000af90d6' target='_blank'>03. Modelo relacional</a><BR>
@@ -46,9 +46,9 @@ Documento [Modelo Entidad Relacion](ModeloER.md)
 - [Práctica 2](Practica2.md) <!-- - [Solución]( https://aula-virtual.unav.edu/bbcswebdav/pid-1773358-dt-content-rid-5636579_1/xid-5636579_1) -->
 
 <hr>
+## Tema 3. Consultas
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/marvin-meyer-SYTO3xs06fU-unsplash_400_225.jpg">
 </figure>
-## Tema 3. Consultas
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ec0c034b-920d-453e-a616-ac3600e3d1b3' target='_blank'>01. Operaciones Unarias</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dbba1b30-bd46-487e-a1fa-ac3600e634f1' target='_blank'>02. Operaciones Binarias</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ed405147-6fce-41bb-a608-ac3600ea10ff' target='_blank'>03. Operaciones Derivadas</a><BR>
@@ -60,9 +60,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=20df96
 <br><br>
 
 <hr>
+## Tema 4. Formularios
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-5077045_form_400_225.jpg">
 </figure>
-## Tema 4. Formularios
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3122c769-c66f-4bfa-86da-ac3e01112217' target='_blank'>01. Formularios para Sistemas de Informacion</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a37d2fc0-7237-483e-96c7-aae2010d1a7b' target='_blank'>02. Crear formulario</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=28db62dd-7d6f-481c-a52c-ac3d011257f0' target='_blank'>03. Menu desplegable</a><BR>
@@ -75,9 +75,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ebc4e2
 <br><br>
 
 <hr>
+## Tema 5. Informes
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/pexels-cottonbro-3201783_400_225.jpg">
 </figure>
-## Tema 5. Informes
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=de347665-c362-4e41-9b7c-ac45010ed27a' target='_blank'>01. Indices</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bd09b1f8-df03-4a92-ab12-ac45011088d1' target='_blank'>02. Creacion de indice</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=333d9e3a-c927-4904-87c9-ac450110d0cc' target='_blank'>03. Eleccion de claves</a><BR>
@@ -90,9 +90,9 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b8e0f4
 <br><br>
 
 <hr>
+## Tema 6. SQL  
 <figure style="float: right; margin-left: 2em;"><img width="400px" height="225px" src="//nicolasserrano.github.io/tools/images/ADSI/caspar-camille-rubin-fPkvU7RDmCo-unsplash_400_225.jpg">
 </figure>
-## Tema 6. SQL  
 Introucción<BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95cfe8dd-94a6-4d0a-9c64-af2b00fa86e7' target='_blank'>02. Configuración</a><BR>
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39d7adaa-1b0d-49f9-b5be-af2b00fa8c05' target='_blank'>03. Operadores</a><BR>
