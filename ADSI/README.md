@@ -166,6 +166,8 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a45c1b
 - Instrucciones para [comandos de Prácticas 2 a 4 de Access](http://www.nicolasserrano.com/ADSI/ComandosPracticas2-4Access.pdf)
 
 **SQL**
+ - [Tutorial Derby ij](https://db.apache.org/derby/papers/DerbyTut/ij_intro.html)
+ - [Tutorial SQuirreL SQL con Derby ij](https://db.apache.org/derby/integrate/SQuirreL_Derby.html), no es necesario los apartados de driver Client.
  - [Oracle representation](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_10002.htm#i2126435)
  - [Select sentence (w3schools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
