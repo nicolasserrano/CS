@@ -155,6 +155,7 @@ DbEngine
 Bases de datos  
 Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a45c1b86-3ef5-4238-98d8-ac6e0131e756' target='_blank'>05. Conexión a internet</a><BR>
 
+- [Prácticas de VBA](https://calm-mars-439.notion.site/Pr-ctica-de-VBA-1-f3f33c0bbbb04c959ebf65b456101948)
  
 ## Recursos
 - [Fuentes de datos](https://www.nicolasserrano.com/practicaDatos/#datos)  
