@@ -164,14 +164,14 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a45c1b
 - [Socrative](https://b.socrative.com/login/teacher/)
  
 ## Ejemplos de hojas de cálculo y macros  
- - [Inversión](CloruroVinilo.xls) (sin macros)
- - [Matrices de transformación y cámara](graficos/matrix2.xls) (macros solo parapulsar botones)
+ - [Inversión](https://github.com/nicolasserrano/tools/blob/master/hojas/CloruroVinilo.xls) (sin macros)
+ - [Matrices de transformación y cámara](https://github.com/nicolasserrano/tools/blob/master/hojas/graficos/matrix2.xls) (macros solo parapulsar botones)
  - [Gestión de tareas](http://www.nicolasserrano.com/TimeManagement)
- - [Generación de imágenes](graficos/light.xls)
- - [Dibujo de líneas](graficos/lines.xls)
- - [Redes neuronales (en ADI -> Contenidos -> VBA)](https://aula-virtual.unav.edu/bbcswebdav/pid-1506931-dt-content-rid-4485541_1/xid-4485541_1)
+ - [Generación de imágenes](https://github.com/nicolasserrano/tools/blob/master/hojas/graficos/light.xls)
+ - [Dibujo de líneas](https://github.com/nicolasserrano/tools/blob/master/hojas/graficos/lines.xls)
+ <!--- [Redes neuronales (en ADI -> Contenidos -> VBA)](https://aula-virtual.unav.edu/bbcswebdav/pid-1506931-dt-content-rid-4485541_1/xid-4485541_1) -->
  - [Dibujo de cuadrados](https://calm-mars-439.notion.site/Macro-dibujar-cuadrados-a96ff6fdf8ee4b438677a9150ac6412b)
- - [Otras macros](Macros.md)
+ - [Otras macros](https://github.com/nicolasserrano/tools/blob/master/hojas/Macros.md)
  
 **Access**
 - Instrucciones para [comandos de Prácticas 2 a 4 de Access](http://www.nicolasserrano.com/ADSI/ComandosPracticas2-4Access.pdf)
