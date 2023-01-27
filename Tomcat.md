@@ -4,27 +4,21 @@ Note: instructions with jdk1.8.0_131, instructions with jdk1.7.0_80 in [Tomcat_j
 
 **Start Tomcat**
 
-1. Copy the folder Q:\Java8\apache-tomcat-8.5.24 to folder P:\
+1. Copy the folder Java8 to a local folder
 
-2. Define the environment variables in the MS-DOS console:
+2. Go to the Java8 folder: >cd path/Java8
 
-   ```batch  
-   SET JAVA_HOME=Q:\Java8\jdk1.8.0_131
-   SET CATALINA_HOME=P:\apache-tomcat-8.5.24
-   SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-   SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\Jama-1.0.2.jar;.
-   ```  
-   It's recommended to save the previous statements in a bat file (example: sv.bat) 
-    
-3. Start the Tomcat server with the command:
+3. Execute the sp.bat file: >sp  
+
+4. Start the Tomcat server with the command:
 ```
 startup
 ```
 
-4. Start the browser and write the address:  
+6. Start the browser and write the address:  
 [http://localhost:8082](http://localhost:8082)  
 
-5. Close the Tomcat server with the command:
+7. Close the Tomcat server with the command:
 ```
 shutdown
 ```
@@ -99,26 +93,13 @@ javac HelloWorld.java
 [http://localhost:8082/Servlet1/start](http://localhost:8082/Servlet1/start)
 
 ## Run from pendrive 
+With variables for Java, Derby, Squirrel and Apache Tomca
+
 To execute the Java programs from a pendrive follow the next steps:
-1. Copy the Q:\Java8 folder to your pendrive
+1. Copy the Java8 folder to your pendrive (or any drive)
 2. Insert the pendrive into your computer.
 3. See the letter asigned to your pendrive. Example: F
-4. Change to that drive: >F:
-5. Execute the .bat file with the definition of the variables
-
-The content of the .bat file, for example s.bat, can be:  
-
-```
-SET DRIVE=%cd:~0,3%
-SET JAVA_HOME=%DRIVE%Java8\jdk1.8.0_131
-SET CATALINA_HOME=%DRIVE%Java8\apache-tomcat-8.5.24
-SET PATH=%JAVA_HOME%\bin;%CATALINA_HOME%\bin;%PATH%
-SET CLASSPATH=%CLASSPATH%;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\Jama-1.0.2.jar;.
-```
-
-Or a complete file with variables for Java, Derby, Squirrel and Apache Tomcat are found in: Q:\Java8\sp.bat
-To execute this sp file:
-1. Open a Command Prompt Window (type CMD after clicking in the Start button of Windows)
-2. Change to the drive whre the file is. Example: >F:
-3. Change to the Java8 folder: >cd Java8
-4. Type the name of the file: >sp
+4. Open a Command Prompt Window (type CMD after clicking in the Start button of Windows)
+5. Change to the drive whre the file is. Example: >F:
+6. Change to the Java8 folder: >cd Java8
+7. Type the command sp: >sp
