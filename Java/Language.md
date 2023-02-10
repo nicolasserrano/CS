@@ -68,6 +68,7 @@ public class Circulo {
     public double area() {
         return PI * r * r;
     }
+}
 ```
 ## Clase Circulo (parte 2)
 
@@ -93,6 +94,12 @@ public class Circulo {
         return "x: " + x + " y: " + y + " r: " + r;
     }
 } // fin de la clase Circulo
+```
+[Ver en Java Tutor](https://pythontutor.com/visualize.html#code=public%20class%20Circulo%20%20%7B%0A%20%20%20%20public%20static%20void%20main%28String%5B%5D%20args%29%20%7B%0A%20%20%20%20%20%20Circulo%20c1%20%3D%20new%20Circulo%281,2,3%29%3B%0A%20%20%20%20%20%20Circulo%20c2%20%3D%20c1%3B%0A%20%20%20%20%20%20Circulo%20c3%20%3D%20new%20Circulo%28c1%29%3B%0A%0A%20%20%20%20%7D%0A%20%20%20%20static%20int%20numCirculos%20%3D%200%3B%0A%20%20%20%20public%20static%20final%20double%20PI%3D3.14159265358979323846%3B%0A%20%20%20%20public%20double%20x%3B%0A%20%20%20%20public%20double%20y%3B%0A%20%20%20%20public%20double%20r%3B%0A%0A%20%20%20%20public%20Circulo%28double%20x,%20double%20y,%20double%20r%29%20%7B%0A%20%20%20%20%20%20%20%20this.x%3Dx%3B%0A%20%20%20%20%20%20%20%20this.y%3Dy%3B%0A%20%20%20%20%20%20%20%20this.r%3Dr%3B%0A%20%20%20%20%20%20%20%20numCirculos%2B%2B%3B%0A%20%20%20%20%7D%0A%20%20%20%20public%20Circulo%28double%20r%29%20%7B%0A%20%20%20%20%20%20%20%20this%280.0,%200.0,%20r%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20public%20Circulo%28Circulo%20c%29%20%7B%0A%20%20%20%20%20%20%20%20this%28c.x,%20c.y,%20c.r%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20public%20Circulo%28%29%20%7B%0A%20%20%20%20%20%20%20%20this%280.0,%200.0,%201.0%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20public%20double%20perimetro%28%29%20%7B%0A%20%20%20%20%20%20%20%20return%202.0%20*%20PI%20*%20r%3B%0A%20%20%20%20%7D%0A%20%20%20%20public%20double%20area%28%29%20%7B%0A%20%20%20%20%20%20%20%20return%20PI%20*%20r%20*%20r%3B%0A%20%20%20%20%7D%0A%7D&cumulative=false&curInstr=29&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=java&rawInputLstJSON=%5B%5D&textReferences=false)
+```
+3	      Circulo c1 = new Circulo(1,2,3);
+4	      Circulo c2 = c1;
+5	      Circulo c3 = new Circulo(c1);
 ```
 
 
