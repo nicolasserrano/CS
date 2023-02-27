@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html><head><title>Books</title>
+<link rel='stylesheet' href='style.css'></head>
+
+<body>
+<div class='menu'><a href='index.html'>Home</a><a href='ProductList'>Products</a><a href='ProductEdit?id=95646c01'>Last product</a><a href='#'>Orders</a><a href='OrderEdit?id=10273'>Last order</a><a href='ProductList?id=45'>Category 45</a></div><H2 align="center">Books by nserranob</H2>
+<script>
+books = [{"title":"Java Servlet Programming: Help for Server Side Java Developers","author":"Jason Hunter","year":"2001","code":"dsU4Lk-Gwk0C"},{"title":"Java for the Web with Servlets, JSP, and EJB - Page xxvii","author":"Budi Kurniawan","year":"2002","code":"ZFplJ5Sjo2oC"},{"title":"Using Java Server Pages and Servlets - Page 668","author":"Mark Wutka","year":"2000","code":"REQ2Kw0UZv4C"},{"title":"Java Servlet & JSP Cookbook: Practical Solutions to Real ...","author":"Bruce W. Perry","year":"2004","code":"j8wSW13lHh4C"},{"title":"Java Servlets","author":"Karl Moss","year":"1999","code":"ToBGAAAAYAAJ"},{"title":"Java Servlets Developer's Guide","author":"Karl Moss","year":"2002","code":"eNnYAQAACAAJ"},{"title":"Java Servlet Programming","author":"Jason Hunter","year":"2001","code":"u9WbAgAAQBAJ"},{"title":"Java Servlets by Example","author":"Alan R. Williamson","year":"1999","code":"9RIEAAAACAAJ"},{"title":"Understanding SIP Servlets 1.1 - Page 91","author":"Chris Boulton","year":"2009","code":"6XJEscQGcSwC"},{"title":"Grid Computing: Techniques and Applications - Page 237","author":"Barry Wilkinson","year":"2009","code":"vf6h3nbE3owC"},{"title":"Sun Java 2 Enterprise Edition (J2EE) Web Component Developer ...","author":"Alain Trottier","year":"2002","code":"mTbNYFg9QrwC"},{"title":"Java Servlets - Page 343","author":"Karl Moss","year":"1998","code":"aFUPAQAAMAAJ"},{"title":"Sams Teach Yourself CGI in 24 Hours - Page 214","author":"Rafe Colburn","year":"2003","code":"GkdEn-VewaQC"},{"title":"Head First Java - Page 556","author":"Kathy Sierra","year":"2003","code":"nzhxR1spWEYC"},{"title":"Enterprise Java Servlets - Page 2","author":"Jeff M. Genender","year":"2002","code":"MbhQAAAAMAAJ"},{"title":"Programming with Java - Page 390","author":"Khurana Rohit","year":"2014","code":"8qFDDAAAQBAJ"},{"title":"Java Programming with CORBA: Advanced Techniques for ... - Page 8","author":"Andreas Vogel","year":"2001","code":"Vk3REMF9lIAC"},{"title":"Instant Java Servlets - Page 531","author":"Phil Hanna","year":"2000","code":"aYFGAAAAYAAJ"},{"title":"Jython for Java Programmers - Page 369","author":"Robert W. Bill","year":"2002","code":"-7MMHfZ8bc8C"},{"title":"Java 2 Enterprise Edition (J2EE) Web Component Developer Exam","author":"Alain Trottier","year":"2002","code":"wq5E1eVcAE8C"}]
+</script>
+<script>
+/*
+    page = books[i].title.indexOf("- Page");
+    if (page > 0) {
+        title = books[i].title.substr(0, page - 1);
+    } else {
+        title = books[i].title;
+    }
+    console.log(i+1 + ", \"" + title + "\", \"" + books[i].author + "\", " + books[i].year + ", \"" + books[i].code + "\"));");
+}
+*/
+</script>
+    <div id='table2Content'>
+    </div>
+    <script type="text/javascript">
+    function createTable2(id, rows, cols) {
+        parentNode = document.getElementById(id);
+        
+        var tableEl = document.createElement("TABLE");
+        tableEl.setAttribute("id", "table2");
+        tableEl.setAttribute("border", "1");
+        parentNode.appendChild(tableEl);
+
+        for (i = 0; i < books.length; i++) {
+        page = books[i].title.indexOf("- Page");
+        if (page > 0) {
+            title = books[i].title.substr(0, page - 1);
+        } else {
+            title = books[i].title;
+        }
+            var tr1 = document.createElement("TR");
+            tableEl.appendChild(tr1);
+
+            var td1 = document.createElement("TD");
+            var img1 = document.createElement("IMG");
+            img1.src = "https://books.google.com/books/content?printsec=frontcover&img=1&zoom=1&id=" + books[i].code
+            td1.appendChild(img1);
+            tr1.appendChild(td1);
+
+            var td1 = document.createElement("TD");
+            var h3 = document.createElement("H3");
+            var textNode = document.createTextNode(title);
+            h3.appendChild(textNode);
+            td1.appendChild(h3);
+            var div1 = document.createElement("DIV");
+            var textNode2 = document.createTextNode(books[i].author);
+            div1.appendChild(textNode2);
+            td1.appendChild(div1);
+            var div2 = document.createElement("DIV");
+            var textNode3 = document.createTextNode(books[i].year);
+            div2.appendChild(textNode3);
+            td1.appendChild(div2);
+            tr1.appendChild(td1);
+        }
+    }
+    createTable2('table2Content', 1, 1)
+    </script>
+</body>
+</html>
