@@ -18,6 +18,7 @@ In the Drivers tab, create a new driver with the next values:
   - hsqldb-2.5.0.jar
   - commons-lang3-3.8.1.jar
   - commons-logging-1.2.jar
+- Class Name: net.ucanaccess.jdbc.UcanaccessDriver
 
 Restart the application. 
   
@@ -29,3 +30,23 @@ In the Aliasses tab, create a new alias with the next values:
 - jdbc:ucanaccess://drive:\path\northbrick.mdb;showSchema=true
 
 Restart the application. 
+
+## Run a Java application
+Add the jar files to the classpath:
+
+```
+set classpath=%classpath%;D:\Java8\ucanaccess\ucanaccess-5.0.0.jar
+set classpath=%classpath%;D:\Java8\ucanaccess\jackcess-3.0.1.jar
+set classpath=%classpath%;D:\Java8\ucanaccess\hsqldb-2.5.0.jar
+set classpath=%classpath%;D:\Java8\ucanaccess\commons-logging-1.2.jar
+set classpath=%classpath%;D:\Java8\ucanaccess\commons-lang3-3.8.1.jar
+```
+
+Change the rows:
+```
+Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+
+String url="jdbc:ucanaccess://D:/JDBC/northwind.mdb;showSchema=true";
+
+
+```
