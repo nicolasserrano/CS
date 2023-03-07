@@ -30,7 +30,7 @@ With Windows 32 bits: C:\Windows\SysWOW64\odbcad32.exe (WOW64 means Windows on W
    
 ## JDBC architecture  
 
-![JDBC Architecture](https://www.nicolasserrano.com/CS/images/JDBC_blue.png)
+![JDBC Architecture](/images/JDBC_blue.png)
 
 Oracle tutorial:  <http://docs.oracle.com/javase/tutorial/jdbc/overview/index.html>
 
@@ -58,21 +58,11 @@ class basicJDBC {
 }
 ```
 
-[Access mdb file](https://aula-virtual.unav.edu/bbcswebdav/pid-427603-dt-content-rid-886758_1/xid-886758_1)  
-
-Lab sessions:
-- [Data base (books.mdb)](https://aula-virtual.unav.edu/bbcswebdav/pid-427603-dt-content-rid-886758_1/xid-886758_1)
-- [Lab-DDBB](https://aula-virtual.unav.edu/bbcswebdav/pid-427603-dt-content-rid-886759_1/xid-886759_1)
-- [Lab-JDBC](https://aula-virtual.unav.edu/bbcswebdav/pid-427603-dt-content-rid-886760_1/xid-886760_1)
-JDBC  Files Wildcard characters in MS Access
-
-Lab: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica5.pdf>
-
 ## JDBC and Dates
 - Example of using Dates with Access [java file](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/JDBC_Date.java)
 - Database for the example: [northbrick database](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick3/northbrick.mdb)
 ### References
--  SimpleDateFormat explained in tutorial [Java SimpleDateFormat](http://tutorials.jenkov.com/java-internationalization/simpledateformat.html)
+- SimpleDateFormat explained in tutorial [Java SimpleDateFormat](http://tutorials.jenkov.com/java-internationalization/simpledateformat.html)
 - Adding and substracting dates in [question at stackoverflow](https://stackoverflow.com/questions/3581258/adding-n-hours-to-a-date-in-java)
 - Calendar and GregorianCalendar in [question at stackoverflow](https://stackoverflow.com/questions/46705472/difference-between-gregoriancalendar-class-and-calendar-class-in-java)
 
