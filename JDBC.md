@@ -28,13 +28,7 @@ Windows odbc manager: odbcad32
 With Windows 64 bits: C:\Windows\System32\odbcad32.exe (yes, System32 is for 64 bits systems)  
 With Windows 32 bits: C:\Windows\SysWOW64\odbcad32.exe (WOW64 means Windows on Windows 64, so it's for 32 bits systems)  
    
-## JDBC architecture  
-
-![JDBC Architecture](/images/JDBC_blue.png)
-
-Oracle tutorial:  <http://docs.oracle.com/javase/tutorial/jdbc/overview/index.html>
-
-## JDBC architecture (2)
+## JDBC architecture
 
 <img src="https://raw.githubusercontent.com/nicolasserrano/CS/master/images/JDBC_blue.png" alt="JDBC Architecture" width="60%">
 
@@ -67,7 +61,8 @@ class basicJDBC {
 ## JDBC and Dates
 - Example of using Dates with Access [java file](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/JDBC_Date.java)
 - Database for the example: [northbrick database](https://github.com/nicolasserrano/CS/blob/master/webapps/northbrick3/northbrick.mdb)
-### References
+
+**References**
 - SimpleDateFormat explained in tutorial [Java SimpleDateFormat](http://tutorials.jenkov.com/java-internationalization/simpledateformat.html)
 - Adding and substracting dates in [question at stackoverflow](https://stackoverflow.com/questions/3581258/adding-n-hours-to-a-date-in-java)
 - Calendar and GregorianCalendar in [question at stackoverflow](https://stackoverflow.com/questions/46705472/difference-between-gregoriancalendar-class-and-calendar-class-in-java)
@@ -87,8 +82,9 @@ class basicJDBC {
 
 ###   jdbc:odbc without DSN
 ODBC driver in JDBC:
-java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
 ```
+java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
+
 ServletContext context = getServletConfig( ).getServletContext();
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
