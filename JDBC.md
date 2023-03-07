@@ -22,19 +22,20 @@ ODBC is an API for accessing DBMS (Database Management Systems)
 - ODBC driver
 - DBMS
 
-Example with DB2 (IBM): <http://os2ports.os2site.com/docs/db2/db2l0/db2l0244.htm#FIGFGINTA>  
-Other examples of using ODBC: <http://docs.oracle.com/cd/E16655_01/appdev.121/e17620/adfns_odbc.htm#ADFNS1115>
+ODBC Model (Oracle): https://docs.oracle.com/database/121/ADFNS/adfns_odbc.htm#BABEIGEE
 
 Windows odbc manager: odbcad32  
 With Windows 64 bits: C:\Windows\System32\odbcad32.exe (yes, System32 is for 64 bits systems)  
 With Windows 32 bits: C:\Windows\SysWOW64\odbcad32.exe (WOW64 means Windows on Windows 64, so it's for 32 bits systems)  
    
 ## JDBC architecture  
-Laboratory practice: <http://www.tecnun.es/asignaturas/Informat2/Material/Libro/IngSoft/Practica4.pdf>
+
+![JDBC Architecture](https://www.nicolasserrano.com/CS/images/JDBC_blue.png)
 
 Oracle tutorial:  <http://docs.oracle.com/javase/tutorial/jdbc/overview/index.html>
 
-Examples:
+## Examples:
+
 - [basicJDBC.java](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/basicJDBC.java)  
 - [firstJDBC.java](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/firstJDBC.java)
 
