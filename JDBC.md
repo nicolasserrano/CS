@@ -34,6 +34,12 @@ With Windows 32 bits: C:\Windows\SysWOW64\odbcad32.exe (WOW64 means Windows on W
 
 Oracle tutorial:  <http://docs.oracle.com/javase/tutorial/jdbc/overview/index.html>
 
+## JDBC architecture (2)
+
+<img src="https://raw.githubusercontent.com/nicolasserrano/CS/master/images/JDBC_blue.png" alt="JDBC Architecture" width="60%">
+
+Oracle tutorial:  <http://docs.oracle.com/javase/tutorial/jdbc/overview/index.html>
+
 ## Examples:
 
 - [basicJDBC.java](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/basicJDBC.java)  
