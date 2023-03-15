@@ -23,13 +23,29 @@ startup
 shutdown
 ```
 
+**Create a Web page on the server**
+
+1. Steps 1 to 3 of Start Tomcat  (done)
+
+2. Create a folder called 'firstWeb' in the webapps folder of the Tomcat.
+
+3. Create the index.html file in the webapps\firstWeb folder with some html content
+
+4. Start the Tomcat server as in step 4 of Start Tomcat:  
+
+   ```
+   startup
+   ```
+
+7. Start the browser and write the address:  
+[http://localhost:8082/firstWeb](http://localhost:8082/firstWeb)
+
+
 **Create a Servlet**
 
-1. Step 1 of Start Tomcat  (done)
+1. Steps 1 to 3 of Start Tomcat  (done)
 
-2. Step 2 of Start Tomcat  (type sv + return)
-
-3. Create the folder structure of  "Servlet1" application in the Tomcat installation  
+2. Create the folder structure of  "Servlet1" application in the Tomcat installation  
 - Create folder "Servlet1" in webapps folder of Tomcat  
 - Create folder WEB-INF in webapps\Servlet1\ folder  
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
@@ -43,7 +59,7 @@ shutdown
                └── classes
    ```
 
-4. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
+3. Create the  HelloWorld.java file in the webapps\Servlet1\WEB-INF\classes folder.
 HelloWorld.java
 
    ```java
@@ -60,12 +76,12 @@ HelloWorld.java
    }
    ```  
 
-5. Compile with the command javac:  
+4. Compile with the command javac:  
 ```
 javac HelloWorld.java
 ```  
 
-6. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
+5. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
 
    ```xml
    <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -83,13 +99,13 @@ javac HelloWorld.java
    </web-app>
    ```
 
-7. Start the Tomcat server as in step 3 of Start Tomcat:  
+6. Start the Tomcat server as in step 4 of Start Tomcat:  
 
    ```
    startup
    ```
 
-8. Start the browser and write the address:  
+7. Start the browser and write the address:  
 [http://localhost:8082/Servlet1/start](http://localhost:8082/Servlet1/start)
 
 ## Run from pendrive 
