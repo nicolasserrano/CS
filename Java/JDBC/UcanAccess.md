@@ -22,9 +22,9 @@ In the Drivers tab, create a new driver with the next values:
 
 Restart the application. 
   
-## Add the Aliass for the database
+## Add the Alias for the database
 Open the Squirrel application.  
-In the Aliasses tab, create a new alias with the next values:
+In the Aliases tab, create a new alias with the next values:
 - Name: Ucanaccess Northwind
 - Driver: Ucanaccess
 - jdbc:ucanaccess://drive:\path\northbrick.mdb;showSchema=true
