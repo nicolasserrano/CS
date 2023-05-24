@@ -50,3 +50,28 @@ String url="jdbc:ucanaccess://D:/JDBC/northwind.mdb;showSchema=true";
 
 
 ```
+
+Or use current path with ```System.getProperty("user.dir");```
+
+Example:
+```
+import java.sql.*;
+class basicJDBC {
+    public static void main(String args[]) throws ClassNotFoundException, SQLException {
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+        String path = System.getProperty("user.dir");
+        System.out.println("path: " + path);
+        Connection connection = DriverManager.getConnection("jdbc:ucanaccess://" + path + "/northbrick.mdb");
+        
+        Statement statement = connection.createStatement();
+        ResultSet result = statement.executeQuery("Select * from Shippers");
+        while(result.next()) {
+            System.out.print(  result.getString("ShipperID")+", ");
+            System.out.println(result.getString("CompanyName"));
+        }
+        connection.close();
+    }
+}
+
+```
+
