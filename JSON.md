@@ -7,8 +7,9 @@
 a={}
 a.b=55
 JSON.stringify(a)
-as=JSON.stringify(a)
-JSON.parse(as)
+aText = JSON.stringify(a)
+aObj  = JSON.parse(aText)
+console.log(a, aText, aObj)
 ```
 Result (as): "{"b":55}"
 
