@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Page</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1 id="greeting">Hello</h1>
+    <p>Select language:</p>
+    <button id="englishBtn">English</button>
+    <button id="spanishBtn">Spanish</button>
+
+    <script>
+        const greeting = document.getElementById('greeting');
+        const englishBtn = document.getElementById('englishBtn');
+        const spanishBtn = document.getElementById('spanishBtn');
+
+        englishBtn.addEventListener('click', () => {
+            greeting.textContent = 'Hello';
+        });
+
+        spanishBtn.addEventListener('click', () => {
+            greeting.textContent = 'Hola';
+        });
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch(error => {
+                    console.error('Service Worker registration failed:', error);
+                });
+        }
+    </script>
+</body>
+</html>
