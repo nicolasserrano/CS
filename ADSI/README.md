@@ -2,7 +2,7 @@
 
 **TI**  
 
-[ADI](https://tserver.tecnun.es/plan/asignatura?id=1000025605) - [Codex](https://q-server.tecnun.es/codex/) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - Socrative [student](https://b.socrative.com/login/student/) / [teacher](https://b.socrative.com/login/teacher/)
+[ADI](https://tserver.tecnun.es/plan/asignatura?id=1000025605) - [Codex](https://q-server.tecnun.es/codex/) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - Socrative [student](https://b.socrative.com/login/student/) / [teacher](https://b.socrative.com/login/teacher/) - [Calendario](https://www.nicolasserrano.com/CS/TecnologiaInformacion/Programa_TI_2023-2024.pdf) - [Recursos](https://calm-mars-439.notion.site/Recursos-Tecnolog-a-de-la-Informaci-n-2023-95aace150a884338a54a66b7ecbe7cb9?pvs=4)
 <!-- - [Piazza](https://piazza.com/tecnun.es/fall2020/adsi)  -->
 
 <style>
