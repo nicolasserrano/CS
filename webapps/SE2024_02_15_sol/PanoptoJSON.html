@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head><title>Videos</title>
+<link rel='stylesheet' href='style.css'></head>
+
+<body>
+<div class='menu'><a href='index.html'>Home</a><a href='ProductList'>Products</a><a href='ProductEdit?id=95646c01'>Last product</a><a href='#'>Orders</a><a href='OrderEdit?id=10273'>Last order</a><a href='ProductList?id=45'>Category 45</a></div><H2 align="center">Videos by Name Surname</H2>
+<script src='listVideos.js'></script>
+    <div id='table2Content'>
+    </div>
+    <script type="text/javascript">
+    function createTable2(id, rows, cols) {
+        parentNode = document.getElementById(id);
+        
+        var tableEl = document.createElement("TABLE");
+        tableEl.setAttribute("id", "table2");
+        tableEl.setAttribute("border", "1");
+        parentNode.appendChild(tableEl);
+
+        for (i = 0; i < videos.length; i++) {
+            var tr1 = document.createElement("TR");
+            tableEl.appendChild(tr1);
+
+            var td1 = document.createElement("TD");
+            var bElement = document.createElement("B");
+            var textNode = document.createTextNode(videos[i].title);
+            bElement.appendChild(textNode);
+            td1.appendChild(bElement);
+            tr1.appendChild(td1);
+
+            var td2 = document.createElement("TD");
+            var img1 = document.createElement("IMG");
+            img1.src = "https://nicolasserrano.github.io/CS/webapps/auxiliary/images/cover" + videos[i].id + ".jpg"
+            img1.setAttribute("width", "280px");
+            td2.appendChild(img1);
+            tr1.appendChild(td2);
+
+            var td3 = document.createElement("TD");
+            var div1 = document.createElement("DIV");
+            var textNode1 = document.createTextNode("Link: ");
+            div1.appendChild(textNode1);
+            var link1 = document.createElement("a");
+            link1.setAttribute("href", "https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=" + videos[i].uuid);
+            link1.setAttribute("target", "_blank");
+            var textNodeLink = document.createTextNode("Video in new tab");
+            link1.appendChild(textNodeLink);
+            div1.appendChild(link1);
+            td3.appendChild(div1);
+            var div2 = document.createElement("DIV");
+            var textNode2 = document.createTextNode("Order: ");
+            div2.appendChild(textNode2);
+            var textNode3 = document.createTextNode(videos[i].id);
+            div2.appendChild(textNode3);
+            td3.appendChild(div2);
+            var div3 = document.createElement("DIV");
+            var textNode4 = document.createTextNode("Lenght: ");
+            div3.appendChild(textNode4);
+            var textNode5 = document.createTextNode(videos[i].duration);
+            div3.appendChild(textNode5);
+            td3.appendChild(div3);
+            tr1.appendChild(td3);
+        }
+    }
+    createTable2('table2Content', 1, 1)
+    </script>
+</body>
+</html>
