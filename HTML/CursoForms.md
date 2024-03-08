@@ -209,8 +209,9 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
   <tr>
     <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
 method=&quot;GET&quot; name=&quot;lista&quot;&gt;
-&lt;p&gt;Bot&oacute;n: &lt;input type="button" value="Click me" onclick="alert('clicked')"&gt;&lt;/p&gt;<br /> &lt;p&gt;Color: &lt;input type="color" name="colorInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Date: &lt;input type="date" name="dateInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Date time: &lt;input type="datetime-local" name="datetimeInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Email: &lt;input type="email" name="emailInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;File: &lt;input type="file" name="fileInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Hidden:&lt;input type="hidden" value="hiddenValue" name="hiddenInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;More in &lt;/p&gt;
+&lt;p&gt;Bot&oacute;n: &lt;input type="button" value="Click me" onclick="alert('clicked')"&gt;&lt;/p&gt;<br />&lt;p&gt;Color: &lt;input type="color" name="colorInput"&gt;&lt;/p&gt;<br />&lt;p&gt;Date: &lt;input type="date" name="dateInput"&gt;&lt;/p&gt;<br />&lt;p&gt;Date time: &lt;input type="datetime-local" name="datetimeInput"&gt;&lt;/p&gt;<br />&lt;p&gt;Email: &lt;input type="email" name="emailInput"&gt;&lt;/p&gt;<br />&lt;p&gt;File: &lt;input type="file" name="fileInput"&gt;&lt;/p&gt;<br />&lt;p&gt;Hidden:&lt;input type="hidden" value="hiddenValue" name="hiddenInput"&gt;&lt;/p&gt;
 &lt;p&gt;Range:&lt;input type="range" min="0" max="100" name="rangeInput"&gt;&lt;/p&gt;
+&lt;p&gt;More in &lt;a href="https://www.w3schools.com/tags/att_input_type.asp" target="_blank" &gt;HTML input&lt;/a&gt; &lt;/p&gt;
 &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt; &lt;/p&gt;
 &lt;/form&gt;</pre>
     </td>
@@ -223,7 +224,7 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
       <p>File:  <input type="file" name="fileInput"></p>
       <p>Hidden:<input type="hidden" value="hiddenValue" name="hiddenInput"></p>
       <p>Range:<input type="range" min="0" max="100" name="rangeInput"></p>
-      <p>More in HTML <a target='_blank' href='https://www.w3schools.com/tags/att_input_type.asp'>&lt;input&gt;</a></p>
+      <p>More in <a target='_blank' href='https://www.w3schools.com/tags/att_input_type.asp'> HTML input</a></p>
        <input type="SUBMIT" value="Enviar">
     </form>
     </td>
