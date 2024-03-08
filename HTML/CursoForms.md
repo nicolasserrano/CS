@@ -13,6 +13,7 @@
     <td VALIGN="BASELINE"><ul>
       <li><a href="#ventana">Ventana de selección</a></li>
       <li><a HREF="#lista">Listas</a>&nbsp;</li>
+      <li><a HREF="#otros">Otros elementos</a>&nbsp;</li>
      </ul>
     </td>
   </tr>
@@ -195,7 +196,41 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
 
 <iframe name="res5"></iframe>
 
-&Uacute;ltima actualizaci&oacute;n: 20 de Marzo de 2019
+<hr WIDTH="100%">
+
+<a NAME="otros"></a>
+## Otros elementos
+
+<table BORDER="1" WIDTH="100%">
+  <tr>
+    <th><b>Así se escribe:</b></th>
+    <th><b>Así se ve:</b>&nbsp;</th>
+  </tr>
+  <tr>
+    <td WIDTH="50%"><pre>&lt;form action=&quot;query.html&quot;
+method=&quot;GET&quot; name=&quot;lista&quot;&gt;
+&lt;p&gt;Bot&oacute;n: &lt;input type="button" value="Click me" onclick="alert('clicked')"&gt;&lt;/p&gt;<br /> &lt;p&gt;Color: &lt;input type="color" name="colorInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Date: &lt;input type="date" name="dateInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Date time: &lt;input type="datetime-local" name="datetimeInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Email: &lt;input type="email" name="emailInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;File: &lt;input type="file" name="fileInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;Hidden:&lt;input type="hidden" value="hiddenValue" name="hiddenInput"&gt;&lt;/p&gt;<br /> &lt;p&gt;More in &lt;/p&gt;
+
+      &lt;input TYPE=&quot;SUBMIT&quot; VALUE=&quot;Enviar&quot;&gt; &lt;/p&gt;
+&lt;/form&gt;</pre>
+    </td>
+    <td WIDTH="50%"><form action="query.html" method="GET" name="lista" target="res6">
+      <p>Botón: <input type="button" value="Click me" onclick="alert('clicked')"></p>
+      <p>Color: <input type="color" name="colorInput"></p>
+      <p>Date:  <input type="date" name="dateInput"></p>
+      <p>Date time:  <input type="datetime-local" name="datetimeInput"></p>
+      <p>Email: <input type="email" name="emailInput"></p>
+      <p>File:  <input type="file" name="fileInput"></p>
+      <p>Hidden:<input type="hidden" value="hiddenValue" name="hiddenInput"></p>
+      <p>More in </p>
+    </form>
+    </td>
+  </tr>
+</table>
+<iframe name="res6"></iframe>
+<hr WIDTH="100%">
+
+&Uacute;ltima actualizaci&oacute;n: 08 de Marzo de 2024
 
 <style>
 iframe {
