@@ -222,7 +222,8 @@ method=&quot;GET&quot; name=&quot;lista&quot;&gt;
       <p>Email: <input type="email" name="emailInput"></p>
       <p>File:  <input type="file" name="fileInput"></p>
       <p>Hidden:<input type="hidden" value="hiddenValue" name="hiddenInput"></p>
-      <p>More in </p>
+      <p>More in HTML <a target='_blank' href='https://www.w3schools.com/tags/att_input_type.asp'>&lt;input&gt;</a></p>
+       <input type="SUBMIT" value="Enviar">
     </form>
     </td>
   </tr>
