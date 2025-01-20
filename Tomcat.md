@@ -153,4 +153,6 @@ javac HelloWorld.java
 [http://localhost:8082/Servlet1/start](http://localhost:8082/Servlet1/start)
 
 ## Run from pendrive 
-Use the pendrive instead of your user folder or C:\Temp
+- Copy the C:\Programs\JavaStack forlder to your pendrive, for example: E:\Programs\JavaStack
+- Use the pendrive instead of your user folder or C:\Temp
+- Do the same process
