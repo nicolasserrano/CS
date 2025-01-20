@@ -1,14 +1,58 @@
-**_Steps to create a servlet and start it in Tomcat:_**
+**Steps to use JavaStack in your computer:**
 
-Note: instructions with jdk1.8.0_131, instructions with jdk1.7.0_80 in [Tomcat_jdk1_7](Tomcat_jdk1_7)
+Create a folder with permission to write (in your user folder or in C:\Temp). For example:
+C:\temp\Tomcat
+
+Copy the following folders from C:\Programs\JavaStack\apache-tomcat-9.0.89 to C:\temp\Tomcat
+- conf
+- logs
+- temp
+- webapps
+- work
+
+Note: to reduce space, you can delete the folders _docs_ and _examples_ from webapps.
+
+Define:
+
+```bash
+set CATALINA_HOME=C:\Programs\JavaStack\apache-tomcat-9.0.89
+set CATALINA_BASE=C:\Users\name\Documents\Tomcat
+set JAVA_HOME=C:\Programs\JavaStack\jdk1.8.0_131
+```
+
+Or you can create the file [sj.bat](sj.bat) in C:\temp\Tomcat:
+
+To start Tomcat type:
+
+```bash
+startup
+```
+
+To test Tomcat, write in the browser
+
+http://localhost:8082/
+
+To stop Tomcat type:
+
+```bash
+shutdown
+```
+
+To try other apps, download CS repository from [https://github.com/nicolasserrano/CS](https://github.com/nicolasserrano/CS) and copy some webapps to your webapps
+
+To compile:
+
+set CLASSPATH=%CLASSPATH%;.;%CATALINA_HOME%\lib\servlet-api.jar;
+
+**_Summary of steps to create a servlet and start it in Tomcat:_**
 
 **Start Tomcat**
 
-1. Copy the folder Java8 to a local folder
+1. Follow the steps to use JavaStack in your computer
 
-2. Go to the Java8 folder: >cd path/Java8
+2. Go to your Tomcat folder: >C:\temp\Tomcat
 
-3. Execute the sp.bat file: >sp  
+3. Execute the sj.bat file: >sj  
 
 4. Start the Tomcat server with the command:
 ```
@@ -109,13 +153,4 @@ javac HelloWorld.java
 [http://localhost:8082/Servlet1/start](http://localhost:8082/Servlet1/start)
 
 ## Run from pendrive 
-With variables for Java, Derby, Squirrel and Apache Tomca
-
-To execute the Java programs from a pendrive follow the next steps:
-1. Copy the Java8 folder to your pendrive (or any drive)
-2. Insert the pendrive into your computer.
-3. See the letter asigned to your pendrive. Example: F
-4. Open a Command Prompt Window (type CMD after clicking in the Start button of Windows)
-5. Change to the drive whre the file is. Example: >F:
-6. Change to the Java8 folder: >cd Java8
-7. Type the command sp: >sp
+Use the pendrive instead of your user folder or C:\Temp
