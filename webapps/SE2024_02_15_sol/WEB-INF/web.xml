@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app>
-
     <servlet>
         <servlet-name>PanoptoList</servlet-name>
         <servlet-class>PanoptoList</servlet-class>
     </servlet>
-
     <servlet-mapping>
-        <servlet-name>VideoList</servlet-name>
-        <url-pattern>/VideoList</url-pattern>
+        <servlet-name>PanoptoList</servlet-name>
+        <url-pattern>/PanoptoList</url-pattern>
     </servlet-mapping>
-    
 </web-app>
