@@ -1,4 +1,5 @@
 # MVC (JDBC and Web Aplications)
+This page has been replaced by [JDBC page](JDBC.md)
 
 ## JDBC architecture  
 - [Architecture](https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html#teir)  
