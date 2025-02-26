@@ -152,7 +152,7 @@ url:  jdbc:derby://localhost:1527/d:/folderpath//Java/ClientDB;create=true
 
 
 ---
-[Edit](https://github.com/nicolasserrano/CS/edit/master/JDBC.md)
+[Edit](https://github.com/nicolasserrano/CS/edit/master/JDBC.md) - [file](https://github.com/nicolasserrano/CS/blob/master/JDBC.md) - [view](https://nicolasserrano.github.io/CS/JDBC) - [presentation](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/JDBC.md?breakTitlesWith#1)
 <style>
 div.container ul, div.container ol {
     padding-left: 1.4em;
