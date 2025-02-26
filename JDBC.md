@@ -66,10 +66,20 @@ class basicJDBC {
 - [ExecuteSQL.java](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/ExecuteSQL.java)
 
 ###   jdbc:odbc without DSN
-ODBC driver in JDBC:
+We can avoid the definition of the DSN using the following syntax. It is differente in a console application and in a servlet.
+
+- In a console application (an application that has a main() method):
+
 ```
+String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + "Libros.mdb");
+```
+
+It can be tested with [firstJDBC application](Java/JDBC/firstJDBC.java)
 java firstJDBC "Driver={Microsoft Access Driver (*.mdb)};Dbq=Libros.mdb" "Select * from datos" autor titulo  
 
+- In a servlet:
+
+```
 ServletContext context = getServletConfig( ).getServletContext();
 String url=new String("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=" + context.getRealPath("Libros.mdb"));
 ```
@@ -131,6 +141,7 @@ url:  jdbc:derby://localhost:1527/d:/folderpath//Java/ClientDB;create=true
 - Calendar and GregorianCalendar in [question at stackoverflow](https://stackoverflow.com/questions/46705472/difference-between-gregoriancalendar-class-and-calendar-class-in-java)
 
 ## JDBC and Servlets  
+![Web Applications](images/ClientServer50.png)
 
 ### Servlet structure with JDBC (methods init and doGet)  
 - [Presentation](https://www.dropbox.com/s/kbrt9acq38m8py8/ServletsDB.ppt?dl=0), and [example](http://www4.tecnun.es/asignaturas/Informat3/Apoyo_Clases/Ejemplos_Servlets_JDBC/Ejemplo2.html)
