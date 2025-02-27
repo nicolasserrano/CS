@@ -61,7 +61,7 @@ class basicJDBC {
 ### API java.sql  
 [API java.sql](http://docs.oracle.com/javase/6/docs/api/index.html?java/sql/package-summary.html)
 
-### Metadate  
+### Metadata  
 - [ResultAppSQL](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/ResultAppSQL.java)
 - [ExecuteSQL.java](https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/ExecuteSQL.java)
 
