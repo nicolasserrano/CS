@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard - Gestión de Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+
+        .nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: #007bff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+            z-index: 1000;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 60px;
+        }
+
+        section {
+            padding: 50px 0;
+            min-height: 90vh;
+        }
+
+        .machine-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .machine {
+            background: #ddd;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #007bff;
+            color: white;
+        }
+
+        .chart-placeholder {
+            height: 200px;
+            background: #ccc;
+            margin: 20px 0;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="nav">
+        <a href="#machines">Máquinas</a>
+        <a href="#production">Producción</a>
+        <a href="#incidents">Incidencias</a>
+    </div>
+
+    <div class="container">
+        <!-- Sección de Máquinas -->
+        <section id="machines">
+            <h2>Gestión de Máquinas</h2>
+            <p>Seleccione qué máquinas están activas.</p>
+            <table>
+                <tr>
+                    <th>Máquina</th>
+                    <th>Estado</th>
+                    <th>Producción (unidades/hora)</th>
+                </tr>
+                <tr>
+                    <td>Máquina 1</td>
+                    <td>🟢 Activa</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Máquina 2</td>
+                    <td>🔴 Inactiva</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Máquina 3</td>
+                    <td>🟢 Activa</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>Máquina 4</td>
+                    <td>🟡 Mantenimiento</td>
+                    <td>50</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Sección de Producción -->
+        <section id="production">
+            <h2>Producción en el Tiempo</h2>
+            <p>Gráfico de producción de las máquinas.</p>
+            <div class="chart-placeholder">[Gráfico de Producción]</div>
+
+            <table>
+                <tr>
+                    <th>Hora</th>
+                    <th>Máquina 1</th>
+                    <th>Máquina 2</th>
+                    <th>Máquina 3</th>
+                    <th>Máquina 4</th>
+                </tr>
+                <tr>
+                    <td>08:00 - 09:00</td>
+                    <td>120</td>
+                    <td>0</td>
+                    <td>140</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>09:00 - 10:00</td>
+                    <td>115</td>
+                    <td>0</td>
+                    <td>135</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>122</td>
+                    <td>0</td>
+                    <td>142</td>
+                    <td>49</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Sección de Incidencias -->
+        <section id="incidents">
+            <h2>Incidencias</h2>
+            <p>Lista de problemas en la línea de producción.</p>
+            <table>
+                <tr>
+                    <th>Máquina</th>
+                    <th>Tipo de Incidencia</th>
+                    <th>Tiempo Reportado</th>
+                </tr>
+                <tr>
+                    <td>Máquina 2</td>
+                    <td>Baja temperatura del motor</td>
+                    <td>Hace 15 min</td>
+                </tr>
+                <tr>
+                    <td>Máquina 4</td>
+                    <td>Fallo en sensor de presión</td>
+                    <td>Hace 30 min</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+</body>
+</html>

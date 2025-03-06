@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta model=4o>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard - Gestión de Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background: #007bff;
+            padding: 10px;
+        }
+        .nav button {
+            background: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .screen {
+            display: none;
+            padding: 20px;
+        }
+        .active {
+            display: block;
+        }
+        .machine-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .machine {
+            background: #ddd;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .active-machine {
+            background: #28a745;
+            color: white;
+        }
+        .chart-placeholder {
+            height: 200px;
+            background: #ccc;
+            margin: 20px 0;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="nav">
+        <button onclick="showScreen('machines')">Máquinas</button>
+        <button onclick="showScreen('production')">Producción</button>
+        <button onclick="showScreen('incidents')">Incidencias</button>
+    </div>
+
+    <div class="container">
+        <!-- Pantalla de Máquinas -->
+        <div id="machines" class="screen active">
+            <h2>Gestión de Máquinas</h2>
+            <p>Seleccione qué máquinas están activas.</p>
+            <div class="machine-list">
+                <div class="machine" onclick="toggleMachine(this)">Máquina 1</div>
+                <div class="machine" onclick="toggleMachine(this)">Máquina 2</div>
+                <div class="machine" onclick="toggleMachine(this)">Máquina 3</div>
+                <div class="machine" onclick="toggleMachine(this)">Máquina 4</div>
+            </div>
+        </div>
+
+        <!-- Pantalla de Producción -->
+        <div id="production" class="screen">
+            <h2>Producción en el Tiempo</h2>
+            <p>Gráfico de producción simulada.</p>
+            <div class="chart-placeholder">[Gráfico de Producción]</div>
+        </div>
+
+        <!-- Pantalla de Incidencias -->
+        <div id="incidents" class="screen">
+            <h2>Incidencias</h2>
+            <p>Lista de problemas en la línea de producción.</p>
+            <ul>
+                <li><strong>Máquina 2</strong>: Baja temperatura del motor (hace 15 min)</li>
+                <li><strong>Máquina 4</strong>: Fallo en sensor de presión (hace 30 min)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showScreen(screenId) {
+            document.querySelectorAll('.screen').forEach(screen => {
+                screen.classList.remove('active');
+            });
+            document.getElementById(screenId).classList.add('active');
+        }
+
+        function toggleMachine(machineElement) {
+            machineElement.classList.toggle('active-machine');
+        }
+    </script>
+
+</body>
+</html>

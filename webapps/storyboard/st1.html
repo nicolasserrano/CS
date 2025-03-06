@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Máquinas de Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .screen {
+            display: none;
+        }
+        .screen.active {
+            display: block;
+        }
+        .nav-button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestión de Máquinas de Producción</h1>
+    <div>
+        <button class="nav-button" onclick="showScreen('overview')">Vista General</button>
+        <button class="nav-button" onclick="showScreen('active-machines')">Máquinas Activas</button>
+        <button class="nav-button" onclick="showScreen('production')">Producción en el Tiempo</button>
+        <button class="nav-button" onclick="showScreen('incidents')">Detalles de Incidencias</button>
+    </div>
+
+    <div id="overview" class="screen active">
+        <h2>Vista General</h2>
+        <p>Aquí puedes ver un resumen de todas las máquinas y su estado actual.</p>
+        <!-- Contenido de la vista general -->
+    </div>
+
+    <div id="active-machines" class="screen">
+        <h2>Máquinas Activas</h2>
+        <p>Selecciona las máquinas que están activas en la línea de producción.</p>
+        <!-- Contenido para seleccionar máquinas activas -->
+    </div>
+
+    <div id="production" class="screen">
+        <h2>Producción en el Tiempo</h2>
+        <p>Visualiza la producción a lo largo del tiempo.</p>
+        <!-- Gráficos y datos de producción -->
+    </div>
+
+    <div id="incidents" class="screen">
+        <h2>Detalles de Incidencias</h2>
+        <p>Accede a los detalles de las incidencias reportadas.</p>
+        <!-- Lista de incidencias y detalles -->
+    </div>
+
+    <script>
+        function showScreen(screenId) {
+            document.querySelectorAll('.screen').forEach(screen => {
+                screen.classList.remove('active');
+            });
+            document.getElementById(screenId).classList.add('active');
+        }
+    </script>
+</body>
+</html>

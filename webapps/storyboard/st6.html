@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Línea de Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+        .navigation {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .navigation a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: #007bff;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .navigation a:hover {
+            background-color: #f1f1f1;
+        }
+        .screen {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            scroll-margin-top: 80px;
+        }
+        .screen-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .machine-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .machine-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .machine-card.active {
+            background-color: #e6f3e6;
+            border-color: #4CAF50;
+        }
+        .machine-card.inactive {
+            background-color: #f3e6e6;
+            border-color: #F44336;
+        }
+        .production-timeline {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .incident-details {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .performance-chart {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .performance-bar {
+            height: 20px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <a href="#machine-overview">Vista General</a>
+        <a href="#production-timeline">Timeline</a>
+        <a href="#incident-details">Detalles Incidencias</a>
+        <a href="#machine-details">Detalles Máquinas</a>
+        <a href="#production-analysis">Análisis Producción</a>
+    </div>
+
+    <div class="screen" id="machine-overview">
+        <div class="screen-header">
+            <h1>Gestión de Línea de Producción</h1>
+            <button>Cerrar Sesión</button>
+        </div>
+
+        <h2>Estado de Máquinas</h2>
+        <div class="machine-grid">
+            <div class="machine-card active">
+                <h3>Máquina 1</h3>
+                <p>Estado: Activa</p>
+                <p>Producción: 95%</p>
+            </div>
+            <div class="machine-card active">
+                <h3>Máquina 2</h3>
+                <p>Estado: Activa</p>
+                <p>Producción: 88%</p>
+            </div>
+            <div class="machine-card inactive">
+                <h3>Máquina 3</h3>
+                <p>Estado: Inactiva</p>
+                <p>Motivo: Mantenimiento</p>
+            </div>
+            <div class="machine-card active">
+                <h3>Máquina 4</h3>
+                <p>Estado: Activa</p>
+                <p>Producción: 92%</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen" id="production-timeline">
+        <div class="screen-header">
+            <h2>Timeline de Producción</h2>
+        </div>
+
+        <div class="production-timeline">
+            <div>
+                <h3>Máquina 1</h3>
+                <div style="width:200px;height:100px;background:linear-gradient(to right, green 95%, red 5%);"></div>
+            </div>
+            <div>
+                <h3>Máquina 2</h3>
+                <div style="width:200px;height:100px;background:linear-gradient(to right, green 88%, red 12%);"></div>
+            </div>
+            <div>
+                <h3>Máquina 4</h3>
+                <div style="width:200px;height:100px;background:linear-gradient(to right, green 92%, red 8%);"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen" id="incident-details">
+        <div class="screen-header">
+            <h2>Detalles de Incidencia - Máquina 3</h2>
+        </div>
+
+        <div class="incident-details">
+            <h3>Información de la Incidencia</h3>
+            <p><strong>Fecha:</strong> 05/03/2025</p>
+            <p><strong>Tipo:</strong> Mantenimiento Preventivo</p>
+            <p><strong>Descripción:</strong> Revisión de sistemas hidráulicos y calibración de componentes principales</p>
+            <p><strong>Técnico Responsable:</strong> Juan Martínez</p>
+            <p><strong>Estado:</strong> En Proceso</p>
+        </div>
+    </div>
+
+    <div class="screen" id="machine-details">
+        <div class="screen-header">
+            <h2>Detalles Técnicos de Máquinas</h2>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Máquina</th>
+                    <th>Modelo</th>
+                    <th>Año Instalación</th>
+                    <th>Última Revisión</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Máquina 1</td>
+                    <td>PM-2500X</td>
+                    <td>2022</td>
+                    <td>15/02/2025</td>
+                    <td>Operativa</td>
+                </tr>
+                <tr>
+                    <td>Máquina 2</td>
+                    <td>PM-2500Y</td>
+                    <td>2022</td>
+                    <td>20/02/2025</td>
+                    <td>Operativa</td>
+                </tr>
+                <tr>
+                    <td>Máquina 3</td>
+                    <td>PM-2500Z</td>
+                    <td>2021</td>
+                    <td>Pendiente</td>
+                    <td>Mantenimiento</td>
+                </tr>
+                <tr>
+                    <td>Máquina 4</td>
+                    <td>PM-2500W</td>
+                    <td>2023</td>
+                    <td>28/02/2025</td>
+                    <td>Operativa</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="screen" id="production-analysis">
+        <div class="screen-header">
+            <h2>Análisis de Producción</h2>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Máquina</th>
+                    <th>Producción Diaria</th>
+                    <th>Rendimiento</th>
+                    <th>Gráfico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Máquina 1</td>
+                    <td>1200 unidades</td>
+                    <td>95%</td>
+                    <td>
+                        <div class="performance-chart">
+                            <span>95%</span>
+                            <div class="performance-bar" style="width:250px;background:linear-gradient(to right, green 95%, red 5%);height:20px;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Máquina 2</td>
+                    <td>1100 unidades</td>
+                    <td>88%</td>
+                    <td>
+                        <div class="performance-chart">
+                            <span>88%</span>
+                            <div class="performance-bar" style="width:250px;background:linear-gradient(to right, green 88%, red 12%);height:20px;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Máquina 3</td>
+                    <td>0 unidades</td>
+                    <td>0%</td>
+                    <td>
+                        <div class="performance-chart">
+                            <span>0%</span>
+                            <div class="performance-bar" style="width:250px;background:red;height:20px;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Máquina 4</td>
+                    <td>1150 unidades</td>
+                    <td>92%</td>
+                    <td>
+                        <div class="performance-chart">
+                            <span>92%</span>
+                            <div class="performance-bar" style="width:250px;background:linear-gradient(to right, green 92%, red 8%);height:20px;"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
