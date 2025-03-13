@@ -1,4 +1,4 @@
-**Install JavaStack in your computer:**
+**Installation of JavaStack**
 
 1. Create a folder with permission to write (in your user folder or in C:\temp). For example:
 C:\temp\Tomcat
@@ -28,7 +28,7 @@ set JAVA_HOME=C:\Programs\JavaStack\jdk1.8.0_131
 
 **Start Tomcat**
 
-1. Steps of "Install JavaStack in your computer"
+1. Steps of "Installion of JavaStack"
 
 2. Go to your Tomcat folder and execute the sj.bat file:
 ```
@@ -50,7 +50,7 @@ shutdown
 
 **Create a Web page on the server**
 
-1. Steps of "Install JavaStack in your computer"
+1. Steps of "Installation of JavaStack"
 
 2. Go to your Tomcat folder and execute the sj.bat file:
 ```
@@ -73,7 +73,7 @@ C:\temp\Tomcat>sj
 
 **Create a Servlet**
 
-1. Steps of "Install JavaStack in your computer"
+1. Steps of "Installation of JavaStack"
 
 2. Go to your Tomcat folder and execute the sj.bat file:
 ```
