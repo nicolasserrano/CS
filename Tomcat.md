@@ -1,9 +1,9 @@
-**Steps to use JavaStack in your computer:**
+**Install JavaStack in your computer:**
 
-Create a folder with permission to write (in your user folder or in C:\Temp). For example:
+1. Create a folder with permission to write (in your user folder or in C:\temp). For example:
 C:\temp\Tomcat
 
-Copy the following folders from C:\Programs\JavaStack\apache-tomcat-9.0.89 to C:\temp\Tomcat
+2. Copy the following folders from C:\Programs\JavaStack\apache-tomcat-9.0.89 to C:\temp\Tomcat
 - conf
 - logs
 - temp
@@ -12,15 +12,19 @@ Copy the following folders from C:\Programs\JavaStack\apache-tomcat-9.0.89 to C:
 
 Note: to reduce space, you can delete the folders _docs_ and _examples_ from webapps.
 
-Define:
+3. Create the file [sj.bat](sj.bat) in C:\temp\Tomcat
 
-```bash
-set CATALINA_HOME=C:\Programs\JavaStack\apache-tomcat-9.0.89
-set CATALINA_BASE=C:\Users\name\Documents\Tomcat
-set JAVA_HOME=C:\Programs\JavaStack\jdk1.8.0_131
+4. Execute the file:
+```
+C:\temp\Tomcat>sj
 ```
 
-Or you can create the file [sj.bat](sj.bat) in C:\temp\Tomcat:
+ This will have defined the variables:
+```bash
+set CATALINA_BASE=C:\temp\Tomcat
+set CATALINA_HOME=C:\Programs\JavaStack\apache-tomcat-9.0.89
+set JAVA_HOME=C:\Programs\JavaStack\jdk1.8.0_131
+```
 
 To start Tomcat type:
 
@@ -95,7 +99,7 @@ shutdown
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
 
    ```
-   apache-tomcat-8.5.24
+   apache-tomcat-9.0.89
    └── webapps
        └── Servlet1
            └── WEB-INF
@@ -125,7 +129,7 @@ HelloWorld.java
 javac HelloWorld.java
 ```  
 
-5. Create the **web.xml** file in P:\apache-tomcat-8.5.24\webapps\Servlet1\WEB-INF folder:  
+5. Create the **web.xml** file in C:\temp\Tomcat\webapps\Servlet1\WEB-INF folder:  
 
    ```xml
    <?xml version="1.0" encoding="ISO-8859-1"?>
