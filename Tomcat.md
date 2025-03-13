@@ -57,7 +57,7 @@ shutdown
 C:\temp\Tomcat>sj
 ```
 
-3. Create a folder called 'firstWeb' in the webapps folder of the Tomcat.
+3. Create a folder called 'firstWeb' in the webapps folder of the CATALINA_BASE folder.
 
 4. Create the index.html file in the webapps\firstWeb folder with some html content
 
@@ -86,7 +86,7 @@ C:\temp\Tomcat>sj
 - Create folder classes in webapps\Servlet1\WEB-INF folder  
 
    ```
-   apache-tomcat-9.0.89
+  CATALINA_BASE
    └── webapps
        └── Servlet1
            └── WEB-INF
