@@ -12,7 +12,7 @@ C:\temp\Tomcat
 
 Note: to reduce space, you can delete the folders _docs_ and _examples_ from webapps.
 
-3. Create the file [sj.bat](sj.bat) in C:\temp\Tomcat
+3. Create the file [sj.bat](https://github.com/nicolasserrano/CS/blob/master/sj.bat) in C:\temp\Tomcat
 
 4. Execute the sj file:
 ```
