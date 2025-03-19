@@ -38,9 +38,23 @@ campoUrl.addEventListener("paste", function(evento) {
 });
 
 function obtenerIdVideo(url) {
-  const regex = /[?&]v=([a-zA-Z0-9_-]{11})/;
-  const match = url.match(regex);
-  return match ? match[1] : null;
+  if (url.includes('youtu.be/')) {
+    // Obtiene la parte de la URL después de 'youtu.be/'
+    const afterYoutuBe = url.split('youtu.be/')[1];
+    
+    // Si hay parámetros (como '?si=...'), extrae solo el ID del video
+    // que es la parte antes del primer '?'
+    if (afterYoutuBe.includes('?')) {
+      return afterYoutuBe.split('?')[0];
+    } else {
+      // Si no hay parámetros, toda la parte después de 'youtu.be/' es el ID
+      return afterYoutuBe;
+    }
+  } else {
+    const regex = /[?&]v=([a-zA-Z0-9_-]{11})/;
+    const match = url.match(regex);
+    return match ? match[1] : null;
+  }
 }
 </script>
 
