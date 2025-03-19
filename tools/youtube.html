@@ -38,10 +38,14 @@ campoUrl.addEventListener("paste", function(evento) {
 });
 
 function obtenerIdVideo(url) {
-  if (url.includes('youtu.be/')) {
+  if (url.includes('youtu.be/') || url.includes('youtube.com/')) {
     // Obtiene la parte de la URL después de 'youtu.be/'
-    const afterYoutuBe = url.split('youtu.be/')[1];
-    
+    var afterYoutuBe;
+    if (url.includes('youtu.be/')) {
+      afterYoutuBe = url.split('youtu.be/')[1];
+    } else {
+      afterYoutuBe = url.split('youtube.com/')[1];
+    }
     // Si hay parámetros (como '?si=...'), extrae solo el ID del video
     // que es la parte antes del primer '?'
     if (afterYoutuBe.includes('?')) {
