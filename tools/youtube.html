@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insertar vídeo de YouTube</title>
+</head>
+<body>
+
+<h1>Insertar vídeo de YouTube</h1>
+
+<p>Pega la URL del vídeo de YouTube aquí:</p>
+
+<input type="text" id="urlVideo" size="50">
+
+<div id="contenedorVideo">
+  </div>
+
+<script>
+const campoUrl = document.getElementById("urlVideo");
+const contenedorVideo = document.getElementById("contenedorVideo");
+
+campoUrl.addEventListener("paste", function(evento) {
+  const urlVideo = evento.clipboardData.getData("text");
+  const idVideo = obtenerIdVideo(urlVideo);
+
+  if (idVideo) {
+    const iframe = document.createElement("iframe");
+    iframe.width = "560";
+    iframe.height = "315";
+    iframe.src = `https://www.youtube.com/embed/${idVideo}`;
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    iframe.allowFullscreen = true;
+
+    contenedorVideo.innerHTML = ""; // Limpiar el contenedor antes de insertar el nuevo iframe
+    contenedorVideo.appendChild(iframe);
+  } else {
+    contenedorVideo.innerHTML = "<p>URL de YouTube no válida.</p>";
+  }
+});
+
+function obtenerIdVideo(url) {
+  const regex = /[?&]v=([a-zA-Z0-9_-]{11})/;
+  const match = url.match(regex);
+  return match ? match[1] : null;
+}
+</script>
+
+</body>
+</html>
