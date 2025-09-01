@@ -1,6 +1,6 @@
 # Tecnología de la Información  
 
-[ADI](https://aula-virtual.unav.edu/ultra/courses/_48407_1/outline) - [Codex](https://q-server.tecnun.es/codex/) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - [Calendario](https://www.nicolasserrano.com/CS/TecnologiaInformacion/Programa_TI_2024-2025.pdf) - [Trabajo A](https://www.nicolasserrano.com/CS/TecnologiaInformacion/EnunciadoTrabajoA.pdf) - [Recursos](https://calm-mars-439.notion.site/Recursos-Tecnolog-a-de-la-Informaci-n-2024-95aace150a884338a54a66b7ecbe7cb9)
+[ADI](https://aula-virtual.unav.edu/ultra/courses/_49745_1/outline) - [Codex](https://q-server.tecnun.es/codex/) - [GitHub](https://nicolasserrano.github.io/CS/ADSI) - [Calendario](https://www.nicolasserrano.com/CS/TecnologiaInformacion/Programa_TI.pdf) - [Trabajo A](https://www.nicolasserrano.com/CS/TecnologiaInformacion/EnunciadoTrabajoA.pdf) - [Recursos](https://calm-mars-439.notion.site/Recursos-Tecnolog-a-de-la-Informaci-n-2024-95aace150a884338a54a66b7ecbe7cb9)
 
 <style>
  figure img {
@@ -180,4 +180,4 @@ Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a45c1b
  - [Select sentence (w3schools)](https://www.w3schools.com/sql/sql_and_or.asp)
 
 [Créditos de imágenes](http://www.nicolasserrano.com/tools/images/ADSI/)
-<small>v1.09</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
+<small>v2025.01</small> [Edit](https://github.com/nicolasserrano/CS/edit/master/ADSI/README.md) - [File](https://github.com/nicolasserrano/CS/tree/master/ADSI/README.md) - [Folder](https://github.com/nicolasserrano/CS/tree/master/ADSI) - [View](https://nicolasserrano.github.io/CS/ADSI) - [Slides](https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/ADSI/README.md?breakTitlesWith#1)
