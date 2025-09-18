@@ -4,7 +4,7 @@
 Computer Science [files](https://github.com/nicolasserrano/CS)
 
 - [Material de Tecnología Digital](http://www.nicolasserrano.com/CS/material)
-- [ADSI](ADSI)
+- [Material de Tecnología de la Información](ADSI)
 - [El ordenador](https://nicolasserrano.github.io/c5i/Notas)
 - [HTML](http://www.nicolasserrano.com/CS/HTML/CursoHTML.html) and [Forms](http://www.nicolasserrano.com/CS/HTML/CursoForms)
 - [CSS](http://nicolasserrano.github.io/viscom/CSS.html#/0) and [reference (pdf)](https://nicolasserrano.github.io/CS/CSS/CSS.pdf)
