@@ -26,11 +26,11 @@ La informaci&oacute;n de como abrir y utilizar Command Prompt se encuentra en la
 ### 4. PATH
   Se introducirá el PATH al desarrollar Servlets (instalación con pendrive o JavaStack), para esta práctica se utiliza la configuración por defecto.
 
-### 5. Situarse en el directorio en el que se ha guardado el fichero PrimerPrograma.java, por ejemplo, si se ha guardado en” P:\Infor2\practicaJava”, se realiza con los comandos:
+### 5. Situarse en el directorio en el que se ha guardado el fichero PrimerPrograma.java, por ejemplo, si se ha guardado en” C:\temp\practicaJava”, se realiza con los comandos:
 
 ```
 E:
-cd \infor2
+cd \temp
 cd practicaJava
 ```
 
