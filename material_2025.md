@@ -1,0 +1,484 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+  onload="resizeIframe(this)";
+  window.addEventListener('message', event => {
+    // IMPORTANT: check the origin of the data! 
+    if (event.origin.startsWith('https://aula-virtual.unav.edu')) { 
+        // The data was sent from your site.
+        // Data sent with postMessage is stored in event.data:
+        console.log(event.data); 
+    } else {
+        // The data was NOT sent from your site! 
+        // Be careful! Do not use it. This else branch is
+        // here just for clarity, you usually shouldn't need it.
+        return; 
+    } 
+}); 
+</script>
+<script type="text/javascript" src="https://www.nicolasserrano.com/tools/libraries/setIframesForPanopto.js"></script>
+<style>
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}	
+div#centeredContainer {
+    display: table-row;
+}
+h2 {
+    margin-bottom: 0.2em;
+}
+a {
+    color: #4C4D4F;
+}
+a:hover {
+    background-color: #68d9ff;
+}
+#initialLinks a {
+    border: 1px solid darkblue;
+    border-radius: 6px;
+    padding: 3px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+#initialLinks a:hover {
+    background-color: #68d9ff;
+}
+div#initialLinks {
+    margin-top: .4em;
+    margin-bottom: 0.8em;
+}
+	
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://www.nicolasserrano.com/tools/libraries/material.css" />
+<!-- HTML code to edit
+  --
+  --
+  --
+  -->
+<div align="center">
+  <h2>Material docente de Tecnolog&iacute;a Digital</h2>
+		 <HR>
+<!--  Encuestas
+	<a href="https://forms.gle/cfAWvd4TLW4Wx3EeA">Encuesta final de caractarísticas de aprendizaje</a><BR>
+		 <HR>
+	<h3>Encuestas Tecnun</h3>
+	<a href="https://forms.gle/YNG2sLrTH4Pvkatj7">Tecnología Digital</a><BR>
+	<a href="https://forms.gle/iuQH8P488fhQwioX7">ProfesorNicolás Serrano</a><BR>
+		 <HR>
+-->
+
+  <div id="centeredContainer">
+    <div align="left" id="initialLinks">
+<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Objetivos.pdf" target="_blank">Objetivos</a>
+&nbsp;<a href="https://nicolasserrano.github.io/CS" target="_blank">CS</a>
+&nbsp;<a href="https://aula-virtual.unav.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_262_1" target="_blank">ADI</a>
+&nbsp;<a href="https://q-server.tecnun.es/codex/" target="_blank">Codex</a>
+&nbsp;<a href="https://github.com/mentor-tecnun/TD_2025/discussions" target="_blank">Foro</a>
+<!-- &nbsp;<a href="https://piazza.com/tecnun.es/spring2020/cs201" target="_blank">Piazza</a> -->
+&nbsp;<a href="https://www.nicolasserrano.com/CS/TecnologiaDigital/Programa_TD_2024-2025.pdf" target="_blank">Calendario 2025</a>
+<!-- &nbsp;<a href="https://www.nicolasserrano.com/CS/TecnologiaDigital/CalendarioParteB.pdf" target="_blank">Calendario pruebas parte B</a> -->
+&nbsp;<a href="https://www.nicolasserrano.com/CS/TecnologiaDigital/EvaluacionAmpliada_2025.pdf" target="_blank">Evaluación ampliada 2025</a>
+&nbsp;<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Libro-Informatica II-2010v1.pdf" target="_blank">Libro</a>
+&nbsp;<a href="https://books.trinket.io/thinkjava2/" target="_blank">Libro Think java, 2nd Edition</a>
+<!-- &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSf-8DAf7ALMFFKTbI1SBYtUZyPQR1BKZrg8QdnbNlWbnKgc2g/viewform?usp=sf_link">Encuesta Codex 2024</a> -->
+</div>
+<table onload="alignDivs" border="1" cellpadding="6" cellspacing="1" id="material">
+	<tbody>
+		<tr>
+			<td>Tema</td>
+			<td>Contenido</td>
+			<td>Materiales&nbsp;&nbsp;&nbsp;<a href="javascript:void(0);" onclick="setVideoIcons(this)">Mostrar vista previa de videos</a><select id="iframeSize" name="iframeSize" size="1"><option value="100">100</option><option value="200">200</option><option selected="selected" value="400">400</option><option value="600">600</option><option value="800">800</option><option value="1080">1080</option> </select></td>
+			<td width=20%>Pr&aacute;cticas</td>
+		</tr>
+		<tr>
+			<td>Java y Command Prompt</td>
+			<td>
+			<p>Java</p>
+
+			<p>JDK</p>
+			</td>
+			<td>
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5580c266-29f7-42f1-a765-ab5600bf0d64" target="_blank">Proceso de crear un programa en Java</a>&nbsp;&nbsp;<a href="https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html" target="_blank">doc (from Oracle)</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61c19a31-7ad8-4f30-b181-ab5600c04ad9" target="_blank">Command Prompt</a>&nbsp;&nbsp;<a href="https://nicolasserrano.github.io/CS/Cmd" target="_blank">doc CMD</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f46d80f5-b7e0-46a0-99e9-ab5600c09238" target="_blank">Compilar y ejectutar en Java con JDK</a>&nbsp;&nbsp;<a href="https://nicolasserrano.github.io/CS/JDK" target="_blank">doc JDK</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=60d0526b-4477-4e1b-a4e2-ab5600c2bac7" target="_blank">Hello World desde cero</a>&nbsp;&nbsp;<a href="https://nicolasserrano.github.io/CS/Hello" target="_blank">doc Hello World</a></p>
+
+			<p>Opcional<br />
+			Video&nbsp;<a href="https://www.youtube.com/watch?v=DcQPtlFlgzY" target="_blank">History of Java</a>&nbsp;&nbsp;<a href="https://www.javatpoint.com/history-of-java" target="_blank">doc</a><a href="https://www.javatpoint.com/history-of-java" target="_blank">&nbsp;(from javaTpoint)</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0e64e2fd-d163-4eb9-8112-acd800f16a32" target="_blank">Compilar en unidad C en carpeta Temp</a></br>
+			Lectura:&nbsp;<a href="https://xkcd.com/505/" target="_blank">A Bunch of Rocks (o un ordenador de arena)</a>&nbsp;&nbsp;<br />
+			Lectura:&nbsp;<a href="https://www.deeplearning.ai/the-batch/how-to-learn-coding/">Tip about copying code (until "Keep learning!")</a>&nbsp;&nbsp;
+			</p>
+			</td>
+			<td>
+			<p><a href="https://nicolasserrano.github.io/CS/BasicPrograms" target="_blank">Basic Programs</a>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Variables y sentencias de control</td>
+			<td>
+			<p><a href="https://nicolasserrano.github.io/CS/Java/Java16_9.pdf" target="_blank">Presentaci&oacute;n Java</a><br />
+			<a href="http://www.oracle.com/technetwork/java/codeconventions-150003.pdf" target="_blank">Code Conventions</a></p>
+			</td>
+			<td>
+			<p>Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=55930f38-1d57-4d89-88b8-ab59010d7821" target="_blank">Tipos de variables</a>&nbsp;&nbsp;<a href="https://nicolasserrano.github.io/CS/Java/Language" target="_blank">doc Lenguaje Java</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9196c71-f877-440d-8b76-ab59010e99d8" target="_blank">Declaraci&oacute;n de variables y arrays</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=60d7d998-9fbb-4853-93a4-ab59010fe61f" target="_blank">Elementos de la gu&iacute;a de estilo</a><br />
+			Documento <a href="https://www.oracle.com/technetwork/java/codeconventions-150003.pdf" target="_blank">Style Guide</a>:<br />
+			&nbsp;&nbsp;p 4&nbsp;Indentation:&nbsp;Four spaces should be used as the unit of indentation<br />
+			&nbsp;&nbsp;pp 7,8:&nbsp;5.1 Implementation Comment Formats<br />
+			&nbsp; pp&nbsp;11-13:&nbsp;7.&nbsp;Statements (7.1&nbsp;-&nbsp;7.7)&nbsp;-&nbsp;opcional:&nbsp;<a href="https://introcs.cs.princeton.edu/java/13flow/" target="_blank">1.3 Conditionals and Loops</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ba85d84d-ba17-46a7-a6ef-ab590111b3c7" target="_blank">Configuraci&oacute;n del editor</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d8d00722-7e97-4b40-98b2-ab590115da78" target="_blank">Desarrollo incremental</a><br />
+			Documento&nbsp;<a href="https://books.trinket.io/thinkjava2/chapter4.html#sec55" target="_blank">4.9&nbsp; Incremental development</a> (ejemplo opcional)</p>
+
+			<p>Opcional<br />
+			Documento p&aacute;ginas 193-196 197&nbsp;(sin apartado&nbsp;Terminology) de <a href="http://ptgmedia.pearsoncmg.com/images/9780134076423/samplepages/9780134076423.pdf#page=24" target="_blank">Computer Science</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7a073129-b487-42f2-97e4-ab5d011f6cd2" target="_blank">Funci&oacute;n factorial</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7ff33c7-1d1c-40dc-a611-ae3600ac5714" target="_blank">Enunciado TwoWordsMatrix</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=49164d2b-9555-4214-bc9e-ae3600ba698e" target="_blank">Resoluci&oacute;n TwoWordsMatrix</a></p>
+			</td>
+			<td><a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica1.pdf" target="_blank">Pr&aacute;ctica 1</a><br />
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica2.pdf" target="_blank">Pr&aacute;ctica&nbsp;2</a><br />
+			<a href="https://codebeautify.org/javaviewer" target="_blank">Code beautify</a></td>
+		</tr>
+		<tr>
+			<td>Clases y objetos</td>
+			<td>
+			<p><a href="https://nicolasserrano.github.io/CS/Java/Java16_9.pdf#page=16" target="_blank">Presentaci&oacute;n Java (clases)</a></p>
+			</td>
+			<td>
+			<p>Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bbb1cb16-c125-46d0-b78e-ab6000c7bbc0" target="_blank">Concepto de clases y objetos</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=affde42b-488d-441b-ac45-ab6000c901d1" target="_blank">Creaci&oacute;n de objetos</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=739f9e90-c505-427f-a11d-ab6000cb65ca" target="_blank">Arrays de objetos</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3b743624-58ce-4e82-8132-ab6000ccad45" target="_blank">Definicion de una clase</a>&nbsp;-&nbsp;<a href="http://www.nicolasserrano.com/CS/Java/JavaClasses.html#programa-circulo" target="_blank">Ejemplos</a>&nbsp;- keyword&nbsp;<a href="https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html" target="_blank">this</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04bda51d-a234-40da-8c1d-ab64012082ed" target="_blank">Clase Circulo completa</a>&nbsp;-&nbsp;<a href="https://github.com/nicolasserrano/CS/blob/master/Java/Language.md#clase-circulo" target="_blank">Clase Circulo</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ca7ac69-27c8-48fe-8ae1-ab6401246353" target="_blank">Declaraciones</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b1704a1-adc9-447a-acc4-ab6401259c4d" target="_blank">Clase Complex</a>&nbsp;- <a href="https://introcs.cs.princeton.edu/java/32class/Complex.java.html" target="_blank">Clase Complex</a><br />
+			Documento&nbsp;<a href="https://books.trinket.io/thinkjava2/chapter1.html#sec17" target="_blank">1.9&nbsp;&nbsp;Debugging program</a><br />
+			Debugging:&nbsp;&nbsp;<a href="https://nicolasserrano.github.io/CS/tools/CheckList" target="_blank">Check List</a>&nbsp;</p>
+
+			<p>Opcional:<br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6d5b2347-d763-4813-bc82-ae36011f6538" target="_blank">Resoluci&oacute;n Ejercicio 1 de Pr&aacute;ctica 3 P1</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=875c478c-a9db-4cea-9efa-ab68011d1f55" target="_blank">Creaci&oacute;n de la clase P2</a></p>
+			</td>
+			<td>
+			<p><a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica3.pdf" target="_blank">Pr&aacute;ctica&nbsp;3</a><br />
+			Documento&nbsp;<a href="http://blog.thefirehoseproject.com/posts/the-14-things-you-should-never-do-while-learning-to-code/" target="_blank">The 14 Things You Should Never Do While Learning To Code (2 and 3)</a><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Librer&iacute;as, herencia y API de Java</td>
+			<td>
+			<p><a href="https://docs.oracle.com/javase/8/docs/api/" target="_blank">API de Java</a><br />
+			<a href="https://docs.oracle.com/javase/8/docs/api/index.html?java/util/Vector.html" target="_blank">Class Vector</a></p>
+		        <hr>
+				<a href="https://nicolasserrano.github.io/CS/Cmd" target="_blank">doc CMD</a><br />
+				<a href="https://nicolasserrano.github.io/CS/JDK" target="_blank">doc JDK</a><br />
+				<a href="https://nicolasserrano.github.io/CS/Hello" target="_blank">doc Hello World</a><br />
+				<a href="https://nicolasserrano.github.io/CS/BasicPrograms" target="_blank">doc Basic Programs</a><br />
+				<a href="https://nicolasserrano.github.io/CS/Java/Language" target="_blank">doc Lenguaje Java</a><br />
+				<a href="https://nicolasserrano.github.io/CS/Java/JavaClasses" target="_blank">doc Clases en Java</a><br />
+			</td>
+			<td>
+			<p>Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2f2bd457-bd47-4733-8149-ab640122edd1" target="_blank">Variable y m&eacute;todos static</a>&nbsp;-&nbsp;opcional: <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html" target="_blank">doc</a>&nbsp;<br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cf543a88-add9-4918-8c29-ae3e00e12d12" target="_blank">Herencia</a> en OOP<br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2faefca9-4e7d-44f4-a7a6-ab680120970b" target="_blank"> Clase Esfera</a>&nbsp;-&nbsp;<a href="http://www.nicolasserrano.com/CS/Java/JavaClasses#class-esfera" target="_blank">c&oacute;digo</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=973734fe-57fc-40a5-9f55-ae3e00e12d11" target="_blank">Packages</a> - opcional:&nbsp;<a href="https://docs.oracle.com/javase/tutorial/java/package/summary-package.html" target="_blank">Packages</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95a4cc8e-5e8e-40e7-ab9b-ae3e00e12d0a" target="_blank">Clase Vector</a>&nbsp;-&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html" target="_blank">clase Vector</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ccbce746-e333-456f-b7a5-ab6800fb6499" target="_blank">Uso de la clase Vector</a>&nbsp;-&nbsp;<a href="http://www.nicolasserrano.com/CS/Java/JavaClasses#class-vector" target="_blank">c&oacute;digo</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ae8e9929-7b91-4eb2-87d6-ab6b011f4f2f" target="_blank">Acceso a clases</a> - doc&nbsp;<a href="https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html" target="_blank">Acceso a clases</a></p>
+
+			<p>Opcional:<br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=35d04385-0224-483a-b337-ae3e00947d12" target="_blank">Resoluci&oacute;n Ejercicio 1 de Pr&aacute;ctica 4 P1</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8eadb3a-5517-442e-9942-ae3e0097f1ae" target="_blank">Resoluci&oacute;n Ejercicio 6 de Ejemplo prueba evaluada</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=770bd1b9-8126-4b2e-9eef-ae4a0090f361" target="_blank">Resoluci&oacute;n Ejercicio 6 de Prueba Evaluada A 2022</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=510a2013-bdf0-423d-9711-ab6800c9d6c4" target="_blank">Uso de la memoria</a>&nbsp;-&nbsp;<a href="http://www.nicolasserrano.com/CS/Java/JavaClasses#uso-de-la-memoria" target="_blank">c&oacute;digo</a><br />
+			Video <a href="https://www.youtube.com/watch?v=450maTzSIvA" target="_blank">Java Stack and Heap</a>&nbsp;-&nbsp;<a href="https://www.guru99.com/java-stack-heap.html" target="_blank">doc</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ac321671-3c41-4210-a6a2-ab6b01212c17" target="_blank">Path y Classpath</a></p>
+			</td>
+			<td><a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica4.pdf" target="_blank">Pr&aacute;ctica 4</a><br />
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica5.pdf" target="_blank">Pr&aacute;ctica&nbsp;5&nbsp;</a></td>
+		</tr>
+		<tr>
+			<td>Internet y lenguaje HTML</td>
+			<td>
+			<!--<p><a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2907375_1/xid-2907375_1" target="_blank">Presentaci&oacute;n HTML</a><a href="http://info.cern.ch/hypertext/WWW/WhatIs.html" target="_blank"> </a></p> -->
+			<p><a href="http://www.nicolasserrano.com/CS/HTML/CursoHTML.html" target="_blank">HTML</a></p>
+				
+			</td>
+			<td>
+			<p>Documento&nbsp;(p&aacute;ginas 3b,&nbsp;5a y 7b):<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/El%20camino%20a%20la%20Era%20Digital.pdf" target="_blank">El camino a la Era Digital</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2ef91361-131f-436f-beb4-ab6d011ad559" target="_blank">Elementos de la Web</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=86e27b00-6515-49d2-a5f5-ab6e00f0cd08" target="_blank">Estructura de un navegador</a><br />
+			Video y documento opcional:&nbsp;<a href="https://www.youtube.com/watch?v=ebVS4ALcx78" target="_blank">&nbsp;Aniversario de la Web</a> - <a href="https://www.w3.org/History/1989/proposal.html" target="_blank">Propuesta</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64afd13a-4aea-47dc-8593-ab7601767302" target="_blank">Primera p&aacute;gina web (CERN)</a>&nbsp;-&nbsp;doc&nbsp;<a href="http://info.cern.ch/hypertext/WWW/WhatIs.html" target="_blank">First web page</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2fb95719-4ed6-4259-91fb-ab7600fb3d59" target="_blank">Crear primera p&aacute;gina Web</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e8c18503-3cf7-4d7f-ab45-ab7600fc04ad" target="_blank">Curso b&aacute;sico de HTML</a>&nbsp;-&nbsp; doc&nbsp;&nbsp;<a href="http://www.nicolasserrano.com/CS/HTML/CursoHTML.html" target="_blank">Curso HTML</a></p>
+
+			<p>Otros documentos opcionales y de referencia:<br />
+			Documento&nbsp;<a href="http://philip.greenspun.com/seia/html" target="_blank">HTML in SEIA course</a><br />
+			Noticia <a href="https://www.antena3.com/noticias/tecnologia/aniversario-internet-doodle-google_201903125c8760ff0cf2118e3d4c0d1b.html" target="_blank">Aniversario </a><a href="https://www.antena3.com/noticias/tecnologia/aniversario-internet-doodle-google_201903125c8760ff0cf2118e3d4c0d1b.html" target="_blank">Antena 3</a>&nbsp;<a href="https://www.google.com/doodles/30th-anniversary-of-the-world-wide-web" target="_blank">Doodle web</a><br />
+                        Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a613a1e5-4d82-42de-8a41-ace50089aae6' target='_blank'>Disable cache</a><BR>
+                        Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9211884c-49a4-46f4-985b-ace200f200b3' target='_blank'>6. Cuenta y página Web en GitHub</a><BR>
+			</p>
+			</td>
+			<td>
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Practica6.pdf" target="_blank">Pr&aacute;ctica&nbsp;6</a><br />
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/practica6.zip" target="_blank">ficheros</a><br />
+			Editor online: <a href="https://www.tiny.cloud/docs-4x/demo/full-featured/" target="_blank">TinyMCE v4</a><br />
+			Editor online: <a href="https://www.tiny.cloud/docs/demo/full-featured/" target="_blank">TinyMCE v5</a><br />
+			Editor html online: <a href="https://htmlg.com/html-editor/" target="_blank">htmlg.com</a><br />
+			Editor html online w3scools: <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" target="_blank">Try it</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Formularios en HTML</td>
+			<td>
+			<!--<p><a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2907359_1/xid-2907359_1" target="_blank">Presentaci&oacute;n Forms</a></p>-->
+			<p><a href="http://www.nicolasserrano.com/CS/HTML/CursoForms" target="_blank">Forms HTML</a></p>
+			
+			</td>
+			<td>
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57779bc4-f8ea-4fc0-b348-ab7c016a54ce" target="_blank">1. Introducci&oacute;n a formularios</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1703221-8247-4cfb-9800-ab76012434ef" target="_blank">2. Curso de formularios</a>&nbsp;-&nbsp;doc&nbsp;<a href="http://www.nicolasserrano.com/CS/HTML/CursoForms" target="_blank">Curso Forms</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d49ef0db-efcf-4e45-b79d-ab760127269d" target="_blank">3. Caracteres especiales de HTML</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f73e882d-ea0b-4ecf-886b-ab7c016a5eaa" target="_blank">4. Metodos GET y POST</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=09a5a2ba-0852-4ff9-a6e8-ab870091ef41" target="_blank">5. Escribir HTML desde Java</a>&nbsp;- file <a href="https://github.com/nicolasserrano/CS/blob/master/Java/HTML/HelloWorld.java" target="_blank">HelloWorld.java</a><br />
+			Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c4013225-4360-4397-9041-ab8700c96c8f" target="_blank">6. Escribir HTML en fichero</a>&nbsp;- file&nbsp;<a href="https://github.com/nicolasserrano/CS/blob/master/Java/HTML/HelloWorldFile.java" target="_blank">HelloWorldFile.java</a><br />
+                        Video opcional ejercicio 1: <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4f3a4547-8e23-47c6-81a7-ace200ba1bed' target='_blank'>7. Ejemplo formulario en HTML</a><BR>
+		        Video opcional ejercicio 7: <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=45e1e959-3ad5-49fa-ae15-ace500b2c4d1' target='_blank'>8. Ejemplo Form.java</a><BR>
+			</td><BR>
+			<td>
+			Editor online: <a href="https://ckeditor.com/docs/ckeditor4/latest/examples/fullpreset.html" target="_blank">ckEditor</a> Sitio alternativo: <a href="https://www.quackit.com/html/html_editors/ck_editor_full.cfm" target="_blank">quackit.com</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Introducci&oacute;n a los servlets</td>
+			<td>
+			<!--	<a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2907360_1/xid-2907360_1" target="_blank">Presentaci&oacute;n Servlets</a> -->
+				<a href="https://nicolasserrano.github.io/CS/Tomcat" target="_blank">Tomcat server</a>
+			</td>
+			<td>Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e644bdbd-0a69-4ddb-9854-ab7c016ace3c" target="_blank">1. Servlets</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5e68cff8-4147-4b40-a099-b29f00cd3f25" target="_blank">2. Instalaci&oacute;n e inicio de Apache-Tomcat</a>&nbsp;- doc <a href="https://nicolasserrano.github.io/CS/Tomcat" target="_blank">Tomcat server</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=90372bf1-7c63-4071-9948-ab8700a9023e" target="_blank">3. Creaci&oacute;n de un servlet</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ef63c37c-054e-4da2-8f53-ab8700aca645" target="_blank">4. Estructura de un servlet</a>&nbsp;- file <a href="https://github.com/nicolasserrano/CS/blob/master/webapps/Servlet1/WEB-INF/classes/HelloWorld.java" target="_blank">HelloWorld.java</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aeba034e-3f2f-464f-b473-ab8700aedd8d" target="_blank">5. Estructura de un fichero web.xml</a>&nbsp;- file <a href="https://github.com/nicolasserrano/CS/blob/master/webapps/Servlet1/WEB-INF/web.xml" target="_blank">web.xml</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc7e9be7-6837-4514-a7e6-ab870100c8d9">6. Lectura de parametros</a> - folder <a href="https://github.com/nicolasserrano/CS/tree/master/webapps/Servlet2">Servlet2</a><br />
+			Video opcional <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7726d3b0-0b21-432c-a43c-ad0600ceeec7">7 Ejercicios 5, 6 y 7</a></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Servlets y clases</td>
+			<td>
+			<!--	<a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2906507_1/xid-2906507_1" target="_blank">Pr&aacute;ctica&nbsp;8</a> -->
+			<a href="https://docs.oracle.com/javase/8/docs/api/" target="_blank">Java 8 API</a>
+			</td>
+			<td>Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=37e7e59e-ed63-4040-a7d6-ab870103586c" target="_blank">1. Fichero index.html</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9887314c-38b5-4dad-af1d-ab8701046d05" target="_blank">2. Servlet Opinion</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c43a0e63-c382-464e-b787-ab87010d9f19" target="_blank">3. Aplicaciones con servlets</a><br />
+			Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=86000c63-e976-4f7c-b359-ab8700ccacc8" target="_blank">4. Documentaci&oacute;n de Java y Servlets</a>&nbsp;- doc <a href="https://docs.oracle.com/javase/8/docs/api/" target="_blank">Java 8 API</a> - doc <a href="https://javaee.github.io/javaee-spec/javadocs/" target="_blank">Java EE</a><br />
+			Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=10c97ed2-caeb-467a-9523-ab8700a5f631" target="_blank">5. Variables de entorno para Apache-Tomcat</a><br />
+			Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=544f7b34-58fa-4fb3-9270-ab9700c55f73" target="_blank">6. Descarga e instalacion de una aplicacion desde Github</a>&nbsp;- doc <a href="https://github.com/nicolasserrano/CS" target="_blank">CS files (GitHub)</a></td>
+			<td><a href="https://github.com/nicolasserrano/CS/tree/master/webapps/ServletOpinion" target="_blank">ficheros Servlet Opinion</a><br />
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/Flowchart.pdf" target="_blank">storyboard1</a><br />
+			<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/FlowchartReservaLibros.pdf" target="_blank">storyboard2</a><br />
+			<a href="https://github.com/nicolasserrano/CS/tree/master/webapps/matrices" target="_blank">Ficheros aplicacion matrices</a><br />
+			<a href="https://github.com/nicolasserrano/CS/tree/master/webapps/reservaLibros" target="_blank">Ficheros aplicacion reservaLibros</a><br />
+			<a href="https://github.com/nicolasserrano/CS/tree/master/webapps/panel" target="_blank">Ficheros aplicacion panel</a><br />
+</td>
+		</tr>
+		<tr>
+			<td colspan=4>Opción 1</td>
+		</tr>
+		<tr>
+			<td>Conceptos de computaci&oacute;n</td>
+			<td>
+			<p><a href="https://nicolasserrano.github.io/c5i/Notas" target="_blank">Ordenador</a><br />
+			<a href="https://nicolasserrano.github.io/c5i/c5i-ui.html" target="_blank">Simulador</a></p>
+			</td>
+			<td>Documento (p&aacute;ginas 1,&nbsp;3a y 4):&nbsp;<a href="https://nicolasserrano.github.io/CS/TecnologiaDigital/Apuntes/El%20camino%20a%20la%20Era%20Digital.pdf" target="_blank">El camino a la Era Digital</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8ad7e65-f5b7-4cca-b2b2-ab4c00a7e031" target="_blank">Calculadora mec&aacute;nica - Sumas, restas y multiplicaciones</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1fcebddf-0404-44a0-bdb2-ab4c00a9743b" target="_blank">Calculadora mec&aacute;nica - Divisi&oacute;n</a><br />
+			Video&nbsp;<a href="https://www.youtube.com/watch?v=KBuJqUfO4-w" target="_blank">Charles Babbage and His Difference Engine #2</a><br />
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a783414c-a720-4659-879d-ab4c00acf702" target="_blank">Modelo del archivador</a><br />
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4c022e03-0279-43e3-ab40-ab4b0124cf79" target="_blank">Simulador c5i</a><br />
+			<p>Opcional:<br />
+			Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=affc0064-608f-4bf9-a104-ad0b010fb16a" target="_blank">Ejercicio 5 de c5i</a><br />
+			Documento&nbsp;(Introducci&oacute;n y&nbsp;4.1&nbsp;de cap&iacute;tulo&nbsp;4,&nbsp;pp.&nbsp;57-62):<br />
+			&nbsp; <a href="https://b1391bd6-da3d-477d-8c01-38cdf774495a.filesusr.com/ugd/44046b_7ef1c00a714c46768f08c459a6cab45a.pdf" target="_blank">The Elements of Computing Systems</a>&nbsp;from <a href="https://www.nand2tetris.org/course" target="_blank">Nand to Tetris</a><br />
+			Simuladores del libro Code de Charles Petzold en <a href=https://www.codehiddenlanguage.com/ target="_blank">website</a><br />
+			</td>
+			<td><a href="https://nicolasserrano.github.io/c5i/ejercicios" target="_blank">Ejercicios</a></td>
+
+		</tr>
+		<tr>
+			<td>JavaScript</td>
+			<td>JavaScript</td>
+			<td>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=14071372-9a58-447d-9f03-ab97009e688e' target='_blank'>1. Expresiones y variables en JavaScript</a>
+				- doc <a href="https://nicolasserrano.github.io/CS/JavaScript/JavascriptOnePage.pdf" target="_blank">JavaScript in One Page</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c5d6f172-88c8-4436-a858-ab9700a10100' target='_blank'>2. Funciones en JavaScript</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=129ce087-a908-4eac-8a94-ab9700a38c83' target='_blank'>3. Ejemplo función en JavaScript</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72e81449-e01b-4772-b539-ab9700a65831' target='_blank'>4. Condiciones en JavaScript</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=45cae973-875b-4858-96d7-ab9700a789c0' target='_blank'>5. Bucles en JavaScript</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=33caebdd-5482-400e-9c1b-ab9700a8ab81' target='_blank'>6. Vectores en JavaScript</a>
+			<HR>
+			Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=233e2018-ead2-4657-b7d2-ab9700a9f852' target='_blank'>7. Objetos en JavaScript</a><BR>
+			Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8f538e51-d1e3-4271-b38b-ab9700af34c7' target='_blank'>8. JavaScript en ficheros HTML</a>
+				- <a href=https://github.com/nicolasserrano/CS/blob/master/JavaScript/secant.html target="_blank">code secant.html</a>
+				- <a href=https://nicolasserrano.github.io/CS/JavaScript/secant.html target="_blank">execute secant.html</a><BR>
+			Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=14966b44-c83c-46ae-b636-ab9700b19203' target='_blank'>9. Ejemplos JavaScrip en pagina HTML</a>
+				- <a href=https://github.com/nicolasserrano/CS/blob/master/JavaScript/JavaScript1.html target="_blank">examples code</a>
+				- <a href="https://nicolasserrano.github.io/CS/JavaScript/JavaScript1.html" target="_blank">examples execute</a><BR>
+			Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e7106efb-9654-4e62-9aca-ab9700b39d08' target='_blank'>10. Ejemplos manipulacion DOM</a><BR>
+			Video opcional <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=69b3a602-fcbc-435d-a099-ab9700ba5248' target='_blank'>11. JSON</a>
+				- <a href="https://nicolasserrano.github.io/CS/JavaScript#json" target="_blank">JSON</a><BR>
+				</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan=4>Opción 2</td>
+		</tr>
+		<tr>
+			<td>Introducción a Excel</td>
+			<td><a href="https://github.com/nicolasserrano/tools/tree/master/hojas#videos-de-introducci%C3%B3n-a-excel">Excel</a></td>
+			<td>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=672b939a-4394-4148-8e89-ac2900b92617' target='_blank'>01. Contenido y referencias absolutas y relativas</a><BR>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2dc1baee-d335-4a78-b136-ac2901014a8c' target='_blank'>02. Estilo en hojas de datos</a><BR>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e9361d78-acf8-43ba-bcb7-ac29010587cd' target='_blank'>03. Utilizacion de funciones</a><BR>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3e3bfbcb-57b9-4e3c-a590-ac2901087fac' target='_blank'>04. Funcion buscar objetivo</a><BR>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=faa4f545-3e17-449a-a512-ac29010a610f' target='_blank'>05. Nombres de celdas</a><BR>
+				Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d1e0ff9c-b80b-4c97-a90e-ac29010c55a9' target='_blank'>06. Formulas matriciales</a><BR>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr id=MetodosNumericos>
+			<td>Métodos numéricos con Excel</td>
+			<td>
+      			    <a href="http://johndfenton.com/Lectures/Numerical-Methods/Numerical-Methods.pdf" target="_blank" rel="noopener">Métodos numéricos</a><br>
+			</td>
+			<td>
+ 			    <a href="http://johndfenton.com/Lectures/Numerical-Methods/Numerical-Methods.pdf" target="_blank" rel="noopener">Métodos numéricos (páginas 7 a 18)</a>
+				- <a href="http://johndfenton.com/Lectures/Numerical-Methods/" target="_blank" rel="noopener">Ficheros</a><br>
+			    <a href="https://johndfenton.com/Lectures/Computations+Hydraulics/index.html" target="_blank" rel="noopener">Página de referencia</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan=4>Opción 3</td>
+		</tr>
+		<tr>
+			<td>Introducción a Blender</td>
+			<td>
+      			    <a href="https://www.blender.org/" target="_blank" rel="noopener">Blender</a><br>
+			</td>
+			<td>
+			  Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=51b459c2-7d90-4137-8e53-abed00c50cdd" target="_blank">1. Instalación</a><br>
+			  Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=18b4760c-d8c1-4663-91ee-abed00c510bd" target="_blank">2. Interface</a><br>
+			  Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=43d12940-d75b-45b7-8336-abed00c50ca5" target="_blank">3. Modo objeto</a><br>
+			  Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=64ee8966-dc17-427f-b141-abed00c50c4f" target="_blank">4. Modo edición</a><br>
+			  Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d48338ee-a3d0-42aa-828e-ac63010a5195" target="_blank">5. Importación de objetos</a><br>
+		          Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c097d4d9-6959-469d-9ee3-ac630116e40f" target="_blank">6. Materiales</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Python en Blender</td>
+			<td>
+      			    Python
+			</td>
+			<td>
+       		            Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e733142-41d3-4207-9e39-abfe016618ec" target="_blank">Blender con Python</a> - doc <a href="https://sinestesia.co/blog/tutorials/python-2d-grid/" target="_blank">Meshes with Python</a><br>
+                            Otros tutoriales: <a href="https://www.youtube.com/c/Olav3D" target="_blank">Olav3D Tutorials</a><br>
+			</td>
+			<td>&nbsp;</td>
+		</tr>	
+		<tr>
+			<td colspan=4>Otros temas</td>
+		</tr>
+		<tr>
+			<td>CSS</td>
+			<td><a href="https://www.nicolasserrano.com/viscom/CSS.html" target="_blank">Presentaci&oacute;n CSS</a></td>
+			<td>
+				Documento de referencia:  <a href="http://www.nicolasserrano.com/CS/CSS/CSS.pdf" target="_blank">Referencia CSS<br></a>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8cec7bab-8eb9-4c8f-8f4f-ab7f00bbf5f6" target="_blank">2. Introducción</a>&nbsp;-&nbsp;doc <a href="http://nicolasserrano.github.io/viscom/CSS.html#/0" target="_blank">presentación&nbsp;</a><a href="http://nicolasserrano.github.io/viscom/CSS.html#/0" target="_blank">CSS</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b8eadc2-9e6a-4258-b374-ab7f00c2d74e" target="_blank">3. Fuentes</a>&nbsp;- web <a href="http://www.typetester.org/" target="_blank">typetester</a> ,<a href="https://typeanatomy.com/" target="_blank" shape="rect" rel="noopener">The Anatomy of Type</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a77c0239-87f0-4ee9-9b62-ab7f00cbdb6e" target="_blank">4. Color</a>&nbsp;-&nbsp;web <a href="http://paletton.com/" target="_blank">Paletton</a> &nbsp;, web <a href="https://color.adobe.com/">Adobe Color</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=882d4808-b7f3-419a-956a-ab7f00c6b86c" target="_blank">5. Aplicación estilo CSS en página Web</a>&nbsp;- docs: <a href="https://github.com/nicolasserrano/CS/blob/master/CSS/TestCSS_ini.html" target="_blank">html initial </a>-&nbsp;<a href="https://github.com/nicolasserrano/CS/blob/master/CSS/TestCSS_fin.html" target="_blank">html final</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8a9ec0ed-de77-4d10-91d7-ab7f00cf2a17" target="_blank">6. Modelo de cajas</a>&nbsp;-&nbsp;web <a href="https://hicks.design/journal/3d-css-box-model" target="_blank">boxmodel</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9bb839a7-1466-4106-900a-ab7f00cdc1e9" target="_blank">7. Utilidades</a>&nbsp;-&nbsp;web <a href="http://www.csszengarden.com/" target="_blank">CSS Zen Garden</a><br>
+   				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b1c192a3-5125-43a7-a501-ab7f00d3d296" target="_blank">8. Frameworks</a>&nbsp;-&nbsp;web <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a><br>
+				<br>
+				Video opcional <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/typography/1/" target="_blank">Typography</a>&nbsp;(video 6' y página Web)<br>
+				Video opcional <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/color/1/" target="_blank">Color</a> (video 6' y página Web)<br>
+				Video opcional <a href="https://edu.gcfglobal.org/en/beginning-graphic-design/layout-and-composition/1/" target="_blank">Composition &amp; layout</a><br>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Sesi&oacute;n con servlets</td>
+			<td><a href="https://aula-virtual.unav.edu/bbcswebdav/pid-1218284-dt-content-rid-2906508_1/xid-2906508_1" target="_blank">Pr&aacute;ctica&nbsp;10</a></td>
+			<td>
+				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d0c48fb7-6078-4cf4-8aed-ab87011301fa" target="_blank">1. Http procolo stateless</a><br />
+				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3e7dca32-3931-4763-8c80-ab8701163c45" target="_blank">2. Campos ocultos</a>&nbsp;-&nbsp;doc <a href="https://github.com/nicolasserrano/CS/blob/master/webapps/sesiones/WEB-INF/classes/ShoppingCart.java" target="_blank">ShoppingCart.java</a><br />
+				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5eb80a66-afda-4e0c-8993-ab870118818d" target="_blank">3. Cookies</a><br />
+				Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3c2b1c6a-0fc2-441a-816d-ab87011c9021" target="_blank">4. Servlet ShowSession</a>&nbsp;-&nbsp;doc <a href="https://github.com/nicolasserrano/CS/blob/master/webapps/sesiones/WEB-INF/classes/ShowSession.java" target="_blank">ShowSession</a><br />
+				Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=073be94a-a2e0-4ece-b648-ab87011ede73" target="_blank">5. Documentacion clase HttpSession</a>&nbsp;- <a href="https://javaee.github.io/javaee-spec/javadocs/" target="_blank">doc Java EE API</a><br />
+				Video opcional&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6f1cdea0-8e1c-492b-8e1f-ab8a00b6a300" target="_blank">6. Sesion en aplicacion Northbrick</a><br />
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Ajax</td>
+			<td>Ajax</td>
+			<td>
+			Video&nbsp;<a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f2a17061-2cd1-488e-a4ab-ab8a010a6575" target="_blank" rel="noopener">1.&nbsp;AJAX</a> -&nbsp;doc <a href="https://nicolasserrano.github.io/CS/AJAX/" target="_blank" rel="noopener">AJAX</a><br>
+			Video <a href="https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6eff6d16-12ca-4427-8127-ab8a01106b81" target="_blank" rel="noopener">2. AJAX con JSON</a>&nbsp;-&nbsp;doc <a href="https://nicolasserrano.github.io/CS/AJAX/bookForm2.html" target="_blank" rel="noopener">bookForm2</a>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>JDBC</td>
+			<td><a href='https://www.nicolasserrano.com/r?https://www.nicolasserrano.com/CS/JDBC.md?breakTitlesWith#1' target='_blank'>JDBC</a>
+			<td>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cef95b50-ffa0-4f3e-b3bf-b29100acec04' target='_blank'>01. Uso de Drivers</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b68ed7e3-267d-4804-904e-b29100f6cade' target='_blank'>02. OBDC y DSN</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e6e94b35-6a8f-4389-bf0d-b29100f8fc8d' target='_blank'>03. Arquitectura JDBC</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9e8bccdb-7929-4e29-aa3f-b29100f4a879' target='_blank'>04. Ejemplo de Oracle</a> -&nbsp;doc <a href="https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html" target="_blank" rel="noopener">page</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=71925bdc-4848-464f-98cc-b29100f64591' target='_blank'>05. basicJDBC</a> -&nbsp;doc <a href="https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/basicJDBC.java" target="_blank" rel="noopener">basicJDBC</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=85c344d9-c50a-4af0-9b72-b29100fa0b7f' target='_blank'>06: Ejemplo firstJDBC</a> -&nbsp;doc <a href="https://github.com/nicolasserrano/CS/blob/master/Java/JDBC/firstJDBC" target="_blank" rel="noopener">firstJDBC</a><BR>
+			<p>Opcional<br />
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b48b39e9-781c-4d13-9e9f-b29100fb4f0b' target='_blank'>11. Jdbc-odbc sin DSN</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b1751026-8c43-4d41-a2e5-b29100fbd186' target='_blank'>12. UcanAccess driver</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=655c44af-dcc7-443c-be13-b29100facf6f' target='_blank'>13. API JDBC</a><BR>
+			Video <a href='https://unav.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=625e5120-9bf2-4241-add8-b29101019916' target='_blank'>14. Metadata</a><BR>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	        <tr>
+			<td colspan=1>Otros recursos</td>
+			<td colspan=1></td>
+			<td colspan=1>Instalación en Mac: https://www.youtube.com/watch?v=Hmm9Q-T0oTo<br />
+			Ver también en recursos de Ingeniería del Software
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a href="//nicolasserrano.github.io/CS/images/digital.png" target="_blank"><img src="//nicolasserrano.github.io/CS/images/digital_50.jpg" width="100%" /></a></p>
+
+<p><a href="https://github.com/nicolasserrano/CS/edit/master/material.html">Edit v1.94</a></p>
