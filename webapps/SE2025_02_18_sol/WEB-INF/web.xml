@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+  <servlet-name>RobotListMockup</servlet-name>
+  <servlet-class>RobotListMockup</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+  <servlet-name>RobotListMockup</servlet-name>
+  <url-pattern>/RobotListMockup</url-pattern>
+</servlet-mapping>
+
+</web-app>
