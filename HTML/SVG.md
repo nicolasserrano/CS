@@ -19,9 +19,7 @@
 
 Para entender cómo las librerías como D3.js funcionan "bajo el capó", visualizaremos un set de datos simple: `[40, 80, 150, 100]`.
 
-| Código | Resultado |
-|--------|-----------|
-| ``` <svg width="200" height="200" style="border: 1px solid #ccc">
+``` <svg width="200" height="200" style="border: 1px solid #ccc">
   <!-- Barra 1 (Valor 40) -->
   <rect x="10" y="160" width="30" height="40" fill="steelblue" />
   <!-- Barra 2 (Valor 80) -->
@@ -31,7 +29,9 @@ Para entender cómo las librerías como D3.js funcionan "bajo el capó", visuali
   <!-- Barra 4 (Valor 100) -->
   <rect x="130" y="100" width="30" height="100" fill="steelblue" />
 </svg>
-``` | <svg width="200" height="200" style="border: 1px solid #ccc">
+```
+
+ <svg width="200" height="200" style="border: 1px solid #ccc">
   <!-- Barra 1 (Valor 40) -->
   <rect x="10" y="160" width="30" height="40" fill="steelblue" />
   <!-- Barra 2 (Valor 80) -->
@@ -40,7 +40,8 @@ Para entender cómo las librerías como D3.js funcionan "bajo el capó", visuali
   <rect x="90" y="50" width="30" height="150" fill="steelblue" />
   <!-- Barra 4 (Valor 100) -->
   <rect x="130" y="100" width="30" height="100" fill="steelblue" />
-</svg> |
+</svg>
+
 ## 3. Interacción: JavaScript + SVG
 
 Como ingenieros de IA, vuestras visualizaciones deben responder a cambios en los modelos o datos en tiempo real.
