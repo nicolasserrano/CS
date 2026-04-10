@@ -21,7 +21,8 @@
 
 Para entender cómo las librerías como D3.js funcionan "bajo el capó", visualizaremos un set de datos simple: `[40, 80, 150, 100]`.
 
-``` <svg width="200" height="200" style="border: 1px solid #ccc">
+```
+ <svg width="200" height="200" style="border: 1px solid #ccc">
   <!-- Barra 1 (Valor 40) -->
   <rect x="10" y="160" width="30" height="40" fill="steelblue" />
   <!-- Barra 2 (Valor 80) -->
