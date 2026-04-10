@@ -17,9 +17,9 @@
  
   [SVG_Elements](SVG_Elements.html)
 
-## 2. Caso Práctico: Creación de un Gráfico de Barras Manual
+## 2. Ejemplo: Creación de un Gráfico de Barras
 
-Para entender cómo las librerías como D3.js funcionan "bajo el capó", visualizaremos un set de datos simple: `[40, 80, 150, 100]`.
+Visualización de un set de datos simple: `[40, 80, 150, 100]`.
 
 ```
  <svg width="200" height="200" style="border: 1px solid #ccc">
@@ -44,10 +44,50 @@ Para entender cómo las librerías como D3.js funcionan "bajo el capó", visuali
   <!-- Barra 4 (Valor 100) -->
   <rect x="130" y="100" width="30" height="100" fill="steelblue" />
 </svg>
+
+## 3. Ejemplo con canvas
+
+'''
+<div id="vis-container" class="">
+<canvas id="c" width="200" height="200" style="border:1px solid var(--color-border-tertiary);display:block"></canvas>
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const bars = [
+  { x: 10, value: 40 },
+  { x: 50, value: 80 },
+  { x: 90, value: 150 },
+  { x: 130, value: 100 },
+];
+const h = canvas.height;
+ctx.fillStyle = 'steelblue';
+bars.forEach(({ x, value }) => {
+  ctx.fillRect(x, h - value, 30, value);
+});
+</script>
+</div>
+'''
+
+<canvas id="c" width="200" height="200" style="border:1px solid var(--color-border-tertiary);display:block"></canvas>
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const bars = [
+  { x: 10, value: 40 },
+  { x: 50, value: 80 },
+  { x: 90, value: 150 },
+  { x: 130, value: 100 },
+];
+const h = canvas.height;
+ctx.fillStyle = 'steelblue';
+bars.forEach(({ x, value }) => {
+  ctx.fillRect(x, h - value, 30, value);
+});
+</script>
 
 ## 3. Interacción: JavaScript + SVG
 
-Como ingenieros de IA, vuestras visualizaciones deben responder a cambios en los modelos o datos en tiempo real.
+Par interaccionar y responder a cambios en los modelos o datos en tiempo real.
 
 ### 3.1. Selección y Modificación
 
@@ -72,7 +112,7 @@ rect.addEventListener('mouseover', () => {
 
 ## 4. Animación e Interactividad Avanzada
 
-En este bloque demostramos cómo usar JavaScript para inyectar datos dinámicamente y animar la transición.
+En este ejemplo se utiliza JavaScript para añadir datos dinámicamente y animar la transición.
 
 ### Ejemplo: Gráfico de Dispersión Dinámico
 
@@ -94,7 +134,7 @@ datos.forEach(punto => {
 
     svg.appendChild(circulo);
 
-    // Disparar animación
+    // comenzar animación
     setTimeout(() => circulo.setAttribute("r", 10), 100);
 });
 ```
