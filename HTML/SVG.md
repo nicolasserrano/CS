@@ -45,7 +45,7 @@ Visualización de un set de datos simple: `[40, 80, 150, 100]`.
   <rect x="130" y="100" width="30" height="100" fill="steelblue" />
 </svg>
 
-## 3. Ejemplo con canvas
+## 3. Ejemplo con Canvas
 
 '''
 <div id="vis-container" class="">
@@ -85,11 +85,11 @@ bars.forEach(({ x, value }) => {
 });
 </script>
 
-## 3. Interacción: JavaScript + SVG
+## 4. Interacción: JavaScript + SVG
 
 Par interaccionar y responder a cambios en los modelos o datos en tiempo real.
 
-### 3.1. Selección y Modificación
+### 4.1. Selección y Modificación
 
 ```
 // Seleccionar un elemento SVG por su ID
@@ -100,7 +100,7 @@ barra.setAttribute('height', '200');
 barra.style.fill = 'red';
 ```
 
-### 3.2. Eventos de Usuario
+### 4.2. Eventos de Usuario
 
 SVG permite "escuchar" al usuario directamente en los elementos gráficos:
 
@@ -110,7 +110,7 @@ rect.addEventListener('mouseover', () => {
 });
 ```
 
-## 4. Animación e Interactividad Avanzada
+## 5. Animación e Interactividad Avanzada
 
 En este ejemplo se utiliza JavaScript para añadir datos dinámicamente y animar la transición.
 
