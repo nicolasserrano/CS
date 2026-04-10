@@ -47,7 +47,7 @@ Visualización de un set de datos simple: `[40, 80, 150, 100]`.
 
 ## 3. Ejemplo con Canvas
 
-'''
+```
 <div id="vis-container" class="">
 <canvas id="c" width="200" height="200" style="border:1px solid var(--color-border-tertiary);display:block"></canvas>
 <script>
@@ -66,7 +66,7 @@ bars.forEach(({ x, value }) => {
 });
 </script>
 </div>
-'''
+```
 
 <canvas id="c" width="200" height="200" style="border:1px solid var(--color-border-tertiary);display:block"></canvas>
 <script>
