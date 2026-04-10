@@ -14,6 +14,8 @@
     - `<circle cx="" cy="" r="" />`
     - `<line x1="" y1="" x2="" y2="" />`
     - `<path d="..." />` (La base para gráficos complejos).
+ 
+  [SVG_Elements](SVG_Elements.html)
 
 ## 2. Caso Práctico: Creación de un Gráfico de Barras Manual
 
