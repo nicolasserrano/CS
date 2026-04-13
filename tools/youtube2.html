@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Insertar vídeo de YouTube</title>
+</head>
+
+<body>
+	<h1>Insertar vídeo de YouTube</h1>
+	<p>Pega la URL del vídeo de YouTube aquí:</p>
+	<input type="text" id="urlVideo" size="50">
+	<div id="contenedorVideo"> </div>
+	<script>
+	const campoUrl = document.getElementById("urlVideo");
+	const contenedorVideo = document.getElementById("contenedorVideo");
+
+	function cargarVideo(urlVideo) {
+		const idVideo = obtenerIdVideo(urlVideo);
+		if(idVideo) {
+			const iframe = document.createElement("iframe");
+			iframe.width = "560";
+			iframe.height = "315";
+			iframe.src = `https://www.youtube.com/embed/${idVideo}`;
+			iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+			iframe.allowFullscreen = true;
+			contenedorVideo.innerHTML = "";
+			contenedorVideo.appendChild(iframe);
+		} else {
+			contenedorVideo.innerHTML = "<p>URL de YouTube no válida.</p>";
+		}
+	}
+	campoUrl.addEventListener("paste", function(evento) {
+		const urlVideo = evento.clipboardData.getData("text");
+		cargarVideo(urlVideo);
+	});
+
+	function obtenerIdVideo(url) {
+		if(url.includes('youtu.be/') || url.includes('youtube.com/')) {
+			var afterYoutuBe;
+			if(url.includes('youtu.be/')) {
+				afterYoutuBe = url.split('youtu.be/')[1];
+			} else {
+				afterYoutuBe = url.split('youtube.com/')[1];
+			}
+			if(afterYoutuBe.includes('?')) {
+				return afterYoutuBe.split('?')[0];
+			} else {
+				return afterYoutuBe;
+			}
+		} else {
+			const regex = /[?&]v=([a-zA-Z0-9_-]{11})/;
+			const match = url.match(regex);
+			return match ? match[1] : null;
+		}
+	} // Cargar vídeo automáticamente si hay una URL tras el "?" de la página
+	const paramUrl = decodeURIComponent(window.location.search.slice(1));
+	if(paramUrl) {
+		campoUrl.value = paramUrl;
+		cargarVideo(paramUrl);
+	}
+	</script>
+</body>
+
+</html>
