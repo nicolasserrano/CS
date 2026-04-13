@@ -9,7 +9,7 @@
 
 <p>Pega la URL del vídeo de YouTube aquí:</p>
 
-<input type="text" id="urlVideo" size="50">
+<input type="text" id="urlVideo" size="50" value="https://youtu.be/ziUJgYzKNI8?si=yJ2k92ji0bkhbaHV">
 
 <div id="contenedorVideo">
   </div>
@@ -59,6 +59,12 @@ function obtenerIdVideo(url) {
     const match = url.match(regex);
     return match ? match[1] : null;
   }
+}
+// Cargar vídeo automáticamente si hay una URL tras el "?" de la página
+const paramUrl = decodeURIComponent(window.location.search.slice(1));
+if (paramUrl) {
+  campoUrl.value = paramUrl;
+  cargarVideo(paramUrl);
 }
 </script>
 
