@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Ajax</title>
+</head>
+<body>
+
+  <h2>Consulta de usuario</h2>
+
+  <select id="usuarioId">
+    <option value="1">Usuario 1</option>
+    <option value="2">Usuario 2</option>
+    <option value="3">Usuario 3</option>
+    <option value="4">Usuario 4</option>
+    <option value="5">Usuario 5</option>
+    <option value="6">Usuario 6</option>
+    <option value="7">Usuario 7</option>
+    <option value="8">Usuario 8</option>
+    <option value="9">Usuario 9</option>
+    <option value="10">Usuario 10</option>
+  </select>
+
+  <button onclick="obtenerUsuario()">Obtener usuario</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function obtenerUsuario() {
+      const id = document.getElementById("usuarioId").value;
+      const xhr = new XMLHttpRequest();
+
+      xhr.open("GET", "https://jsonplaceholder.typicode.com/users/" + id, true);
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            const usuario = JSON.parse(xhr.responseText);
+            document.getElementById("resultado").innerHTML = `
+              <p><strong>Nombre:</strong> ${usuario.name}</p>
+              <p><strong>Email:</strong> ${usuario.email}</p>
+              <p><strong>Teléfono:</strong> ${usuario.phone}</p>
+              <p><strong>Ciudad:</strong> ${usuario.address.city}</p>
+            `;
+          } else {
+            document.getElementById("resultado").innerText = "Error: " + xhr.status;
+          }
+        }
+      };
+
+      xhr.onerror = function () {
+        document.getElementById("resultado").innerText = "Error de red.";
+      };
+
+      xhr.send();
+    }
+  </script>
+
+</body>
+</html>
