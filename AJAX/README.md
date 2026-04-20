@@ -49,3 +49,5 @@ function changeText() {
     request.send();
   }
 ```
+
+### Example with jsonplaceholder ([execute](https://www.nicolasserrano.com/CS/AJAX/jsonplaceholder2.html))
