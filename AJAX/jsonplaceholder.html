@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Ajax</title>
+</head>
+<body>
+
+  <h2>Consulta de usuario</h2>
+  <button onclick="obtenerUsuario()">Obtener usuario</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function obtenerUsuario() {
+      const xhr = new XMLHttpRequest();
+
+      xhr.open("GET", "https://jsonplaceholder.typicode.com/users/1", true);
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            const usuario = JSON.parse(xhr.responseText);
+            document.getElementById("resultado").innerHTML = `
+              <p><strong>Nombre:</strong> ${usuario.name}</p>
+              <p><strong>Email:</strong> ${usuario.email}</p>
+              <p><strong>Teléfono:</strong> ${usuario.phone}</p>
+              <p><strong>Ciudad:</strong> ${usuario.address.city}</p>
+            `;
+          } else {
+            document.getElementById("resultado").innerText = "Error: " + xhr.status;
+          }
+        }
+      };
+
+      xhr.onerror = function () {
+        document.getElementById("resultado").innerText = "Error de red.";
+      };
+
+      xhr.send();
+    }
+  </script>
+
+</body>
+</html>
