@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="242.96806mm"
+   height="89.958336mm"
+   viewBox="0 0 242.96806 89.958336"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="242.96806"
+       height="89.958336"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#grid"
+       id="pattern8"
+       patternTransform="matrix(0.26084075,0,0,0.19920341,-47.306933,3.0142541)" />
+    <pattern
+       id="grid"
+       width="30"
+       height="30"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M 30 0 L 0 0 0 30"
+         fill="none"
+         stroke="#ffffff08"
+         stroke-width="0.5"
+         id="path1" />
+    </pattern>
+    <filter
+       id="glow"
+       x="-0.32391404"
+       y="-1.7815272"
+       width="1.6478281"
+       height="4.5630545">
+      <feGaussianBlur
+         stdDeviation="2.969212"
+         result="coloredBlur"
+         id="feGaussianBlur1" />
+      <feMerge
+         id="feMerge2">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter12"
+       x="-0.0024029029"
+       y="-0.0086730818"
+       width="1.0048058"
+       height="1.0173462">
+      <feGaussianBlur
+         stdDeviation="0.035672"
+         result="coloredBlur"
+         id="feGaussianBlur11" />
+      <feMerge
+         id="feMerge12">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode11" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode12" />
+      </feMerge>
+    </filter>
+    <marker
+       id="arrow"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#4ade80"
+         id="polygon4" />
+    </marker>
+    <filter
+       id="filter14"
+       x="-0.0001307291"
+       y="-0.00030435897"
+       width="1.0002615"
+       height="1.0006087">
+      <feGaussianBlur
+         stdDeviation="0.0015336839"
+         result="coloredBlur"
+         id="feGaussianBlur12" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode13" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode14" />
+      </feMerge>
+    </filter>
+    <marker
+       id="arrow2"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="10,3.5 0,7 0,0 "
+         fill="#4ade80"
+         id="polygon5" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(40.216668,-15.345832)">
+    <rect
+       width="238.125"
+       height="89.958336"
+       fill="#0f1117"
+       rx="4.2333331"
+       id="rect1"
+       x="-35.373592"
+       y="15.345833"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <rect
+       width="238.125"
+       height="89.958336"
+       fill="url(#grid)"
+       rx="4.2333331"
+       id="rect5"
+       x="-35.373592"
+       y="15.345833"
+       style="font-family:Georgia, 'Times New Roman', serif;display:inline;fill:url(#pattern8);stroke-width:0.264583" />
+    <text
+       x="83.688904"
+       y="25.4"
+       text-anchor="middle"
+       fill="#e2e8f0"
+       font-size="15px"
+       font-weight="bold"
+       letter-spacing="3"
+       font-family="Georgia, serif"
+       id="text5"
+       style="font-weight:bold;font-size:3.96875px;font-family:Georgia, serif;letter-spacing:0.79375;text-anchor:middle;fill:#e2e8f0;stroke-width:0.264583"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="84.085777"
+         y="25.4"
+         style="stroke-width:0.264583">PROCESO DE EDICIÓN</tspan></text>
+    <text
+       x="83.688904"
+       y="30.691666"
+       text-anchor="middle"
+       fill="#64748b"
+       font-size="2.91042px"
+       letter-spacing="2"
+       id="text6"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Presentación Web con JavaScript + SVG</text>
+    <line
+       x1="17.543074"
+       y1="33.337498"
+       x2="149.83473"
+       y2="33.337498"
+       stroke="#ffffff15"
+       stroke-width="0.264583"
+       id="line6"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <rect
+       x="-24.79026"
+       y="40.481251"
+       width="47.625"
+       height="47.625"
+       rx="3.175"
+       fill="#1e2433"
+       stroke="#4ade8044"
+       stroke-width="0.396875"
+       id="rect6"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <rect
+       x="40"
+       y="95"
+       width="180"
+       height="4"
+       rx="2"
+       fill="#4ade80"
+       filter="url(#glow)"
+       id="rect7"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <rect
+       x="-14.206926"
+       y="46.566666"
+       width="26.458332"
+       height="19.049999"
+       rx="2.1166666"
+       fill="#0f1117"
+       id="rect8"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <rect
+       x="-12.09026"
+       y="48.154167"
+       width="15.875"
+       height="7.4083333"
+       rx="1.5875"
+       fill="#4ade8033"
+       stroke="#4ade80"
+       stroke-width="0.3175"
+       id="rect9"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="118"
+       y="143"
+       text-anchor="middle"
+       fill="#4ade80"
+       font-size="14px"
+       filter="url(#glow)"
+       id="text9"
+       style="font-family:Georgia, 'Times New Roman', serif;filter:url(#filter12)"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)">LaLM</text>
+    <rect
+       x="-8.9152603"
+       y="57.149998"
+       width="13.229166"
+       height="5.8208332"
+       rx="1.3229166"
+       fill="#4ade8022"
+       stroke="#4ade8077"
+       stroke-width="0.264583"
+       id="rect10"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="-2.3006768"
+       y="61.118748"
+       text-anchor="middle"
+       fill="#4ade8099"
+       font-size="2.38125px"
+       id="text10"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">prompt</text>
+    <circle
+       cx="60"
+       cy="115"
+       r="11"
+       fill="#4ade80"
+       id="circle10"
+       filter="url(#glow)"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <text
+       x="-19.498592"
+       y="46.831249"
+       text-anchor="middle"
+       fill="#0f1117"
+       font-size="2.91042px"
+       font-weight="bold"
+       id="text11"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">1</text>
+    <text
+       x="-0.97776008"
+       y="71.4375"
+       text-anchor="middle"
+       font-size="3.43958px"
+       font-weight="bold"
+       id="text12"
+       fill="#e2e8f0"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Crear SVG</text>
+    <text
+       x="-0.97776008"
+       y="75.67083"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-size="2.64583px"
+       id="text13"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">con un LLM</text>
+    <text
+       x="-0.97776008"
+       y="80.962502"
+       text-anchor="middle"
+       fill="#4ade80"
+       font-size="2.38125px"
+       id="text14"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Claude · GPT · Gemini</text>
+    <text
+       x="-0.97776008"
+       y="84.666664"
+       text-anchor="middle"
+       fill="#4ade80"
+       font-size="2.38125px"
+       id="text15"
+       style="font-family:Georgia, 'Times New Roman', serif;display:inline;stroke-width:0.264583"
+       fill-opacity="0.9">genera imagen con código SVG</text>
+    <line
+       x1="24.157656"
+       y1="64.293747"
+       x2="42.67849"
+       y2="64.293747"
+       stroke="#4ade80"
+       stroke-width="0.529167"
+       marker-end="url(#arrow)"
+       stroke-dasharray="5, 3"
+       opacity="0.7"
+       id="line15"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="33.418072"
+       y="62.441666"
+       text-anchor="middle"
+       fill="#4ade8077"
+       font-size="2.38125px"
+       id="text16"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">.svg</text>
+    <rect
+       x="44.001408"
+       y="40.481251"
+       width="47.625"
+       height="47.625"
+       rx="3.175"
+       fill="#1e2433"
+       stroke="#38bdf844"
+       stroke-width="0.396875"
+       id="rect16"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <rect
+       x="300"
+       y="95"
+       width="180"
+       height="4"
+       rx="2"
+       fill="#38bdf8"
+       filter="url(#glow)"
+       id="rect17"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <rect
+       x="54.58474"
+       y="46.566666"
+       width="26.458332"
+       height="19.049999"
+       rx="2.1166666"
+       fill="#0f1117"
+       id="rect18"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <circle
+       cx="67.813904"
+       cy="54.504166"
+       fill="none"
+       stroke="#38bdf8"
+       stroke-width="0.396875"
+       opacity="0.4"
+       id="ellipse18"
+       r="7.4083333"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <circle
+       cx="67.813904"
+       cy="54.504166"
+       fill="#38bdf811"
+       stroke="#38bdf8"
+       stroke-width="0.3175"
+       id="ellipse19"
+       r="4.7624998"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="390"
+       y="153"
+       text-anchor="middle"
+       fill="#38bdf8"
+       font-size="16px"
+       font-weight="bold"
+       filter="url(#glow)"
+       id="text19"
+       style="font-family:Georgia, 'Times New Roman', serif;filter:url(#filter14)"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)">Ink</text>
+    <line
+       x1="72.576408"
+       y1="57.679165"
+       x2="75.222237"
+       y2="61.647915"
+       stroke="#38bdf877"
+       stroke-width="0.529167"
+       id="line19"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <polygon
+       points="418,175 412,172 421,168 "
+       fill="#38bdf8"
+       opacity="0.7"
+       id="polygon19"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <circle
+       cx="320"
+       cy="115"
+       r="11"
+       fill="#38bdf8"
+       filter="url(#glow)"
+       id="circle19"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <text
+       x="49.293072"
+       y="46.831249"
+       text-anchor="middle"
+       fill="#0f1117"
+       font-size="2.91042px"
+       font-weight="bold"
+       id="text20"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">2</text>
+    <text
+       x="67.813904"
+       y="71.4375"
+       text-anchor="middle"
+       fill="#e2e8f0"
+       font-size="3.43958px"
+       font-weight="bold"
+       id="text21"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Modificar SVG</text>
+    <text
+       x="67.813904"
+       y="75.67083"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-size="2.64583px"
+       id="text22"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">en Inkscape o editor SVG</text>
+    <text
+       x="67.813904"
+       y="80.962502"
+       text-anchor="middle"
+       fill="#38bdf8"
+       font-size="2.38125px"
+       id="text23"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">ajustar formas · colores</text>
+    <text
+       x="67.813904"
+       y="84.666664"
+       text-anchor="middle"
+       fill="#38bdf8"
+       font-size="2.38125px"
+       id="text24"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">edición vectorial</text>
+    <line
+       x1="92.949326"
+       y1="64.293747"
+       x2="111.47015"
+       y2="64.293747"
+       stroke="#4ade80"
+       stroke-width="0.529167"
+       marker-end="url(#arrow2)"
+       stroke-dasharray="5, 3"
+       opacity="0.7"
+       id="line24"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="102.20974"
+       y="62.441666"
+       text-anchor="middle"
+       fill="#4ade8077"
+       font-size="2.38125px"
+       id="text25"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">.svg</text>
+    <rect
+       x="112.79308"
+       y="40.481251"
+       width="47.625"
+       height="47.625"
+       rx="3.175"
+       fill="#1e2433"
+       stroke="#a78bfa44"
+       stroke-width="0.396875"
+       id="rect25"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <rect
+       x="560"
+       y="95"
+       width="180"
+       height="4"
+       rx="2"
+       fill="#a78bfa"
+       filter="url(#glow)"
+       id="rect26"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <rect
+       x="123.3764"
+       y="46.566666"
+       width="26.458332"
+       height="19.049999"
+       rx="2.1166666"
+       fill="#0f1117"
+       id="rect27"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <rect
+       x="124.43474"
+       y="47.625"
+       width="24.341667"
+       height="3.175"
+       rx="0.79374999"
+       fill="#a78bfa22"
+       stroke="#a78bfa55"
+       stroke-width="0.264583"
+       id="rect28"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <circle
+       cx="126.81599"
+       cy="49.212498"
+       r="0.79374999"
+       fill="#a78bfa77"
+       id="circle28"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <circle
+       cx="129.19724"
+       cy="49.212498"
+       r="0.79374999"
+       fill="#a78bfa55"
+       id="circle29"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <circle
+       cx="131.57849"
+       cy="49.212498"
+       r="0.79374999"
+       fill="#a78bfa33"
+       id="circle30"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <rect
+       x="124.43474"
+       y="51.858334"
+       width="24.341667"
+       height="12.7"
+       rx="0.79374999"
+       fill="#0d1020"
+       id="rect30"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <ellipse
+       cx="132.63683"
+       cy="58.208332"
+       rx="3.7041667"
+       ry="2.6458333"
+       fill="none"
+       stroke="#a78bfa"
+       stroke-width="0.396875"
+       opacity="0.8"
+       id="ellipse30"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <ellipse
+       cx="132.63683"
+       cy="58.208332"
+       rx="1.8520833"
+       ry="1.3229166"
+       fill="#a78bfa33"
+       id="ellipse31"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <path
+       d="m 138.72224,55.033332 q 1.85208,2.116667 0,4.233334 1.85208,2.116666 3.70416,0"
+       fill="none"
+       stroke="#fbbf24"
+       stroke-width="0.396875"
+       opacity="0.8"
+       id="path31"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <circle
+       cx="580"
+       cy="115"
+       r="11"
+       fill="#a78bfa"
+       filter="url(#glow)"
+       id="circle31"
+       style="font-family:Georgia, 'Times New Roman', serif"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.373593,15.345833)" />
+    <text
+       x="118.08474"
+       y="46.831249"
+       text-anchor="middle"
+       fill="#0f1117"
+       font-size="2.91042px"
+       font-weight="bold"
+       id="text31"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">3</text>
+    <text
+       x="136.60558"
+       y="71.4375"
+       text-anchor="middle"
+       fill="#e2e8f0"
+       font-size="3.43958px"
+       font-weight="bold"
+       id="text32"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Presentación</text>
+    <text
+       x="136.60558"
+       y="75.67083"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-size="2.64583px"
+       id="text33"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">Web + JS Animation</text>
+    <text
+       x="136.60558"
+       y="80.962502"
+       text-anchor="middle"
+       fill="#a78bfa"
+       font-size="2.38125px"
+       id="text34"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">SVG animado · HTML</text>
+    <text
+       x="136.60558"
+       y="84.666664"
+       text-anchor="middle"
+       fill="#a78bfa"
+       font-size="2.38125px"
+       id="text35"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">JavaScript · CSS</text>
+    <rect
+       x="168.35558"
+       y="52.387501"
+       width="27.78125"
+       height="23.8125"
+       rx="2.6458333"
+       fill="#1e2433"
+       stroke="#fbbf2444"
+       stroke-width="0.396875"
+       id="rect35"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <rect
+       x="168.35558"
+       y="52.387501"
+       width="27.78125"
+       height="1.0583333"
+       rx="0.52916664"
+       fill="#fbbf24"
+       id="rect36"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583" />
+    <text
+       x="182.11391"
+       y="64.293747"
+       text-anchor="middle"
+       font-size="6.87917px"
+       id="text36"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">✦</text>
+    <text
+       x="182.11391"
+       y="70.114586"
+       text-anchor="middle"
+       fill="#fbbf24"
+       font-size="2.38125px"
+       font-weight="bold"
+       id="text37"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">RESULTADO</text>
+    <text
+       x="182.11391"
+       y="73.554169"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-size="2.11667px"
+       id="text38"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583">presentación</text>
+    <line
+       x1="161.21182"
+       y1="64.293747"
+       x2="167.29724"
+       y2="64.293747"
+       stroke="#fbbf24"
+       stroke-width="0.396875"
+       marker-end="url(#arrow2)"
+       opacity="0.6"
+       id="line38"
+       style="font-family:Georgia, 'Times New Roman', serif" />
+    <text
+       x="83.688904"
+       y="97.366669"
+       text-anchor="middle"
+       fill="#334155"
+       font-size="2.64583px"
+       letter-spacing="1"
+       id="text39"
+       style="font-family:Georgia, 'Times New Roman', serif;stroke-width:0.264583"><tspan
+         style="fill:#bcc7d7;fill-opacity:1;stroke-width:0.264583"
+         id="tspan16">LLM › Inkscape › Web Presentation</tspan></text>
+  </g>
+</svg>
